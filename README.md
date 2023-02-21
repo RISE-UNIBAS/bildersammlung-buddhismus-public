@@ -1,4 +1,4 @@
-# bildersammlung-buddhismus-public-public
+# bildersammlung-buddhismus-public
  
 Dataset of University of Basel's research seminar "Indexing and Digital Processing of a Historical Image Collection on the Appropriation of Buddhism in the West" ("Erschliessung und digitale Aufbereitung einer historischen Bildersammlung zur Aneignung des Buddhismus im Westen"). See the [course description](https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243) for more details.
 
