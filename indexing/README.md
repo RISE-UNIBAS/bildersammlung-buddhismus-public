@@ -1,4 +1,4 @@
-README in `bildersammlung-buddhismus/indexing`.
+README in `bildersammlung-buddhismus-public/indexing`.
 
 ## Overview
 
@@ -42,7 +42,7 @@ This dataset is licensed under a Creative Commons Attribution 4.0 International 
 
 For illustration, assume you are assigned to index objects with IDs F0001-F0099 on January 1, 2023:
 
-1. Clone the `bildersammlung-buddhismus` repository if you have not already done so. Make sure all files are up-to-date.
+1. Clone the `bildersammlung-buddhismus-public` repository if you have not already done so. Make sure all files are up-to-date.
 2. Create a new Git branch entitled "Name 2023-01-01" where `Name` is your name.
 3. Index the objects with IDs F0001-F0099 in Tropy.
 4. Export all objects from Tropy as JSON-LD. [See Tropy documentation for instructions.](https://docs.tropy.org/other-features/export) Save it as a file called `name_2023-01-01.json` to the folder `/Erschliessung/new_imports` where `name` is your name.
