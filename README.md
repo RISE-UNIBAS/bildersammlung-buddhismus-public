@@ -1,4 +1,4 @@
-# bildersammlung-buddhismus-public
+# bildersammlung-buddhismus-public-public
  
 Dataset of University of Basel's research seminar "Indexing and Digital Processing of a Historical Image Collection on the Appropriation of Buddhism in the West" ("Erschliessung und digitale Aufbereitung einer historischen Bildersammlung zur Aneignung des Buddhismus im Westen"). See the [course description](https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243) for more details.
 
@@ -8,13 +8,13 @@ This dataset was created by the University of Basel's Research and Infrastructur
 
 ## File structure and data overview
 
-Note that there are [different versions of this dataset](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/releases).
+Note that there are [different versions of this dataset](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/releases).
 
-- digitized collection in [/digitized](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/digitized) - not publicly available due to licensing and personal rights issues
-- archival order in [/archive](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/archive)
-- indexing in [/indexing](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/indexing)
-- scripts in [/scripts](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/scripts)
-- tests in [/_tests](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/_tests)
+- digitized collection in [/digitized](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/digitized) - not publicly available due to licensing and personal rights issues
+- archival order in [/archive](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/archive)
+- indexing in [/indexing](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/indexing)
+- scripts in [/scripts](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/scripts)
+- tests in [/_tests](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/_tests)
 
 ## To dos
 
@@ -28,4 +28,4 @@ Note that there are [different versions of this dataset](https://github.com/RISE
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work - **with the exception of any and all files in [/digitized](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/digitized)** - is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work - **with the exception of any and all files in [/digitized](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/digitized)** - is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
