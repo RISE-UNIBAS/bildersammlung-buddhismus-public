@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://tropy.org/v1/tropy#",
+    "template": {
+      "@type": "@id"
+    },
+    "photo": {
+      "@id": "https://tropy.org/v1/tropy#photo",
+      "@container": "@list"
+    },
+    "note": {
+      "@id": "https://tropy.org/v1/tropy#note",
+      "@container": "@list"
+    },
+    "selection": {
+      "@id": "https://tropy.org/v1/tropy#selection",
+      "@container": "@list"
+    },
+    "type": "http://purl.org/dc/elements/1.1/type",
+    "object": "http://www.europeana.eu/schemas/edm/object",
+    "identifier": "http://purl.org/dc/elements/1.1/identifier",
+    "source": "http://purl.org/dc/elements/1.1/source",
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "date": {
+      "@id": "http://purl.org/dc/elements/1.1/date",
+      "@type": "https://tropy.org/v1/tropy#date"
+    }
+  },
+  "@graph": [
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "folder": "JM001",
+      "type": "Blatt",
+      "box": "F05",
+      "object": "AM001",
+      "identifier": "B0337",
+      "source": "F05-JM001-AM001-B0337",
+      "title": "Deutsche Buddhisten - B0337",
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "9cac556064f5f2491152ca4e25a50b8e",
+          "color": "rgb(200,200,184,1)",
+          "density": null,
+          "filename": "Context_Deutsche_Buddhisten_1253600_0003.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "C:\\Users\\deckere\\Documents\\GitHub\\bildersammlung-buddhismus\\Digitalisate\\We 8 Deutsche Buddhisten\\Context\\Context_Deutsche_Buddhisten_1253600_0003.jpg",
+          "protocol": "file",
+          "size": 1247745,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 2330,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1665,
+          "date": 1670230929000,
+          "title": "Context_Deutsche_Buddhisten_1253600_0003"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "8d7982eddc408151137558b361a4f645",
+          "color": "rgb(184,184,184,1)",
+          "density": null,
+          "filename": "Context_Deutsche_Buddhisten_1253600_0004.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "C:\\Users\\deckere\\Documents\\GitHub\\bildersammlung-buddhismus\\Digitalisate\\We 8 Deutsche Buddhisten\\Context\\Context_Deutsche_Buddhisten_1253600_0004.jpg",
+          "protocol": "file",
+          "size": 808677,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 2328,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1673,
+          "date": 1670231008000,
+          "title": "Context_Deutsche_Buddhisten_1253600_0004"
+        }
+      ]
+    }
+  ],
+  "version": "1.12.0"
+}
