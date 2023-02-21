@@ -10,7 +10,7 @@ This dataset was created by the University of Basel's Research and Infrastructur
 
 Note that there are [different versions of this dataset](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/releases).
 
-- digitized collection in [/digitized](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/digitized) - not publicly available due to licensing and personal rights issues
+- digitized collection in [/digitized](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/digitized) - not (yet?) publicly available due to licensing and personal rights issues
 - archival order in [/archive](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/archive)
 - indexing in [/indexing](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/indexing)
 - scripts in [/scripts](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/scripts)
