@@ -1,6 +1,6 @@
-# bildersammlung-buddhismus
+# bildersammlung-buddhismus-public
  
-Research project to digitize and index a collection of materials pertaining to the appropriation of buddhism in early and mid 20th century Germany.
+Dataset of University of Basel's research seminar "Indexing and Digital Processing of a Historical Image Collection on the Appropriation of Buddhism in the West" ("Erschliessung und digitale Aufbereitung einer historischen Bildersammlung zur Aneignung des Buddhismus im Westen"). See the [course description](https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243) for more details.
 
 ## Creator
 
@@ -10,7 +10,7 @@ This dataset was created by the University of Basel's Research and Infrastructur
 
 Note that there are [different versions of this dataset](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/releases).
 
-- digitized collection in [/digitized](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/digitized)
+- digitized collection in [/digitized](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/digitized) - not publicly available due to licensing and personal rights issues
 - archival order in [/archive](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/archive)
 - indexing in [/indexing](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/indexing)
 - scripts in [/scripts](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus/tree/main/scripts)

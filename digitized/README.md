@@ -1,4 +1,4 @@
-README in `bildersammlung-buddhismus/digitized`.
+README in `bildersammlung-buddhismus-public/digitized`.
 
 ## Overview
 
