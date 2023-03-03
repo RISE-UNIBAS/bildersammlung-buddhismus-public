@@ -54,8 +54,8 @@ For illustration, assume you are assigned to index objects with IDs F0001-F0099 
 
 #### Automation and branch protection
 - Students should not be able to simply push to `main`, so `main` is protected by rule requiring approved pull request from `CODEOWNERS` (i.e., course admins) before merging.
-- However, students should be able to push indexing updates to a designated folder without review (automatic ingest will run on this folder)
-- Solution: have `students` branch that is not protected, run automation on `students` and make pull request once a round of indexing is completed
+- However, students should be able to push indexing updates to a designated folder without review (automatic ingest will run on this folder).
+- Solution: have `students` branch that is not protected, run automation on `students` and make pull request once a round of indexing is completed.
 - ~~Better solution: have `students` branch that is not protected, but run automation on `main` by somehow letting the action bypass the branch protection rules (see https://github.com/community/community/discussions/13836), perhaps by running the action as member of `CODEOWNERS`?~~
 
 ## To dos
