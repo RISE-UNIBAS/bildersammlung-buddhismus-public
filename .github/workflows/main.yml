@@ -1,0 +1,28 @@
+name: Auto-Update Exports
+
+on:
+  push:
+    branches: [ students ]
+  pull_request:
+    branches: [ students ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x' 
+      - run: python3 indexing/workflow/update_master_export.py  ${{ github.actor }}
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "MHindermann"
+          git config --global user.email "maximilian.hindermann@gmail.com"
+
+          git add -A
+          git commit -m "Auto-updated master export"
+          git push
+        
+      
