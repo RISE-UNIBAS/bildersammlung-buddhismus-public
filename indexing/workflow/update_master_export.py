@@ -54,7 +54,7 @@ def write_export_json(master_data):
     # List and open each json file in the 'to_download' folder
     for ufile in os.listdir(f"{DIR}/to_download"):
         text_to_log.append(f'>> Updating {ufile}')
-        with open(f'to_download/{ufile}', 'r') as json_file:
+        with open(f"{DIR}/to_download/{ufile}", 'r') as json_file:
             data = json.load(json_file)
 
         # Loop through each item in the json file
@@ -73,7 +73,7 @@ def write_export_json(master_data):
         # Write the updated json file to the 'to_download' folder
         write_to_master_log("\n".join(text_to_log), debug=DEBUG)
 
-        with open(f'to_download/{ufile}', 'w') as json_file:
+        with open(f"{DIR}/to_download/{ufile}", 'w') as json_file:
             json.dump(data, json_file, indent=4)
 
 
@@ -101,8 +101,6 @@ if __name__ == '__main__':
         write_to_master_log(f'>> Checking {user_export_file_list[index]}', debug=DEBUG)
         update_master_export(user_data, master_export)
         # move the file to the archive folder
-        print(f'{DIR}')
-        print(f'{DIR}/user_exports/{user_export_file_list[index]}')
         os.rename(f'{DIR}/user_exports/{user_export_file_list[index]}',
                   f'{DIR}/export_archive/{user_export_file_list[index]}')
         index += 1
