@@ -60,4 +60,4 @@ For illustration, assume you are assigned to index objects with IDs F0001-F0099 
 
 ## To dos
 
-- [ ] Setup automatic ingest
+- [x] Setup automatic ingest
