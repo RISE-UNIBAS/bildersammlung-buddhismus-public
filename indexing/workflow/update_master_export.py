@@ -11,7 +11,7 @@ def write_to_master_log(line, debug=False):
     if debug:
         print(line)
 
-    with open('logs/master_log.txt', 'a') as file:
+    with open('indexing/workflow/logs/master_log.txt', 'a') as file:
         file.write(line + "\n")
 
 
@@ -77,7 +77,7 @@ def write_export_json(master_data):
 
 
 if __name__ == '__main__':
-    user_export_file_list = [f for f in os.listdir('user_exports') if f.endswith(".json")]
+    user_export_file_list = [f for f in os.listdir('indexing/workflow/user_exports') if f.endswith(".json")]
 
     if len(user_export_file_list) == 0:
         write_to_master_log('No new user exports found. Exiting...', debug=DEBUG)
