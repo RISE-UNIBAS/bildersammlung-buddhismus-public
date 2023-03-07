@@ -97,7 +97,8 @@
                     "date": 1670231008000,
                     "title": "Context_Deutsche_Buddhisten_1253600_0004"
                 }
-            ]
+            ],
+            "creator": "test person"
         },
         {
             "@type": "Item",
