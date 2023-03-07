@@ -18,7 +18,7 @@ def write_to_master_log(line, debug=False):
 def read_export_jsons(usr_export_file_list):
     usr_export_list = []
     for user_file in usr_export_file_list:
-        with open(f'user_exports/{user_file}', 'r') as file:
+        with open(f'indexing/workflow/user_exports/{user_file}', 'r') as file:
             usr_export_list.append(json.load(file))
     return usr_export_list
 
@@ -51,7 +51,7 @@ def write_export_json(master_data):
     text_to_log = []
 
     # List and open each json file in the 'to_download' folder
-    for ufile in os.listdir('to_download'):
+    for ufile in os.listdir('indexing/workflow/to_download'):
         text_to_log.append(f'>> Updating {ufile}')
         with open(f'to_download/{ufile}', 'r') as json_file:
             data = json.load(json_file)
@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
     # Load the master export
     write_to_master_log('Loading master export...', debug=DEBUG)
-    with open('export_master.json', 'r') as file:
+    with open('indexing/workflow/export_master.json', 'r') as file:
         master_export = json.load(file)
 
     # Read all user supllied export jsons into a list
@@ -100,8 +100,8 @@ if __name__ == '__main__':
         write_to_master_log(f'>> Checking {user_export_file_list[index]}', debug=DEBUG)
         update_master_export(user_data, master_export)
         # move the file to the archive folder
-        os.rename(f'user_exports/{user_export_file_list[index]}',
-                  f'export_archive/{user_export_file_list[index]}')
+        os.rename(f'indexing/workflow/user_exports/{user_export_file_list[index]}',
+                  f'indexing/workflow/export_archive/{user_export_file_list[index]}')
         index += 1
 
     # Write the master export to file
