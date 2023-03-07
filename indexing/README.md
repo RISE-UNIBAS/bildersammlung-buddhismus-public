@@ -47,7 +47,7 @@ For illustration, assume you are assigned to index objects with IDs F0001-F0099 
 2. Make sure the branch is up-to-date.
 3. Open "indexing/erschliessung.tpy" in Tropy.
 4. Index the objects with IDs F0001-F0099 in Tropy.
-5. Export all objects from Tropy as JSON-LD. See Tropy documentation for instructions: https://docs.tropy.org/other-features/export. Save it as a file called "name_2023-01-01.json" to the folder [ADD EXACT PATH] where "name" is your name.
+5. Export all objects from Tropy as JSON-LD. See Tropy documentation for instructions: https://docs.tropy.org/other-features/export. Save it as a file called "name_2023-01-01.json" to `/indexing/workflow/user_export` where "name" is your name.
 6. Commit and push your changes.
 
 ### Indexing guidelines for course admins
