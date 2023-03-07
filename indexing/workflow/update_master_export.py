@@ -101,8 +101,6 @@ if __name__ == '__main__':
         write_to_master_log(f'>> Checking {user_export_file_list[index]}', debug=DEBUG)
         update_master_export(user_data, master_export)
         # move the file to the archive folder
-        print(f'{DIR}')
-        print(f'{DIR}/user_exports/{user_export_file_list[index]}')
         os.rename(f'{DIR}/user_exports/{user_export_file_list[index]}',
                   f'{DIR}/export_archive/{user_export_file_list[index]}')
         index += 1
