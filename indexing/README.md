@@ -27,6 +27,10 @@ This dataset is licensed under a Creative Commons Attribution 4.0 International 
 
 - `/indexing/archivordnung_transformed.json`. Original data basis for Tropy project. Created by running `/scripts/Client.run_transformation` on `/archive/archivordnung.json`.
 
+### Work in progress
+
+- `/indexing/workflow`. Semi-automated workflow on `students` branch to collaborate on Tropy project to index the collection.
+
 ## How to use this Tropy project
 
 ### Indexing guidelines for students
@@ -60,4 +64,4 @@ For illustration, assume you are assigned to index objects with IDs F0001-F0099 
 
 ## To dos
 
-- [ ] Setup automatic ingest
+- [x] Setup automatic ingest
