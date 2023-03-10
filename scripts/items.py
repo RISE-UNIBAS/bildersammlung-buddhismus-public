@@ -38,9 +38,13 @@ class Item:
             if "Makulatur" in self.list:
                 return None
             else:
-                self.box = self.list[0]
-                self.folder = self.list[1]
-                self.object = self.list[2]
+                for item in self.list:
+                    if "F" in item:
+                        self.box = item
+                    elif "J" in item:
+                        self.folder = item
+                    elif "A" in item:
+                        self.object = item
         except (IndexError, TypeError):
             print(f"Warning: Invalid list in item titled '{self.title}': Missing list items or empty list!")
 
