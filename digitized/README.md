@@ -14,7 +14,7 @@ The intellectual property rights pertaining to the digital objects in this datas
 
 ## Workflow
 
-### Prequisites
+### Prerequisites
 
 - ScanTent
 - Latex gloves or similar
@@ -27,7 +27,7 @@ The intellectual property rights pertaining to the digital objects in this datas
 
 - Clean your working surface and your hands
 - Set up the ScanTent on your working surface
-- Clean the lense of your smartphone
+- Clean the lens of your smartphone
 - Open the DocScan app and log in with your Transkribus user account
 - Put on your gloves
 - Take the filings out of the binder and place them in a stack (called input stack) on the working surface with the first filing on top

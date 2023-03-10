@@ -12,7 +12,21 @@ This dataset was created by the University of Basel's Research and Infrastructur
 
 This dataset is licensed under a Creative Commons Attribution 4.0 International License.
 
-## Workflow draft for ingesting scanned folders into Tropy
+## File structure and overview
+
+### Tropy project
+
+- `/archive/archivordnung.tpy`
+- `/archive/archivordnung.json`. Export of `/archive/archivordnung.tpy` (sorted by `Title`).
+
+### Required Tropy templates
+
+- `/archive/Aneingung des Buddhismus.ttp`. Metadata template for objects.
+- `/archive/Images format.ttp`. Metadata template for images.
+
+## Ingesting scanned folders into Tropy
+
+### Workflow
 
 1. Scan folder as per the instructions in `bildersammlung-buddhismus-public/digitized/README.md`.
 2. Create a list entitled "FOLDER_ID" where `FOLDER_ID` is the ID of the folder as per https://docs.google.com/spreadsheets/d/1udfmKWExSlhcMMAeMTKuLM4DyKRJtt48XU-wDlgBuzI/edit#gid=0.
@@ -40,6 +54,34 @@ Filings have one of the following types:
 
 - Allowed values for the mandatory field `Image format`: A4, A5, A6, A7
 - Take the smallest fitting value if no exact fit is given.
+
+## Physically archiving folders
+
+Instructions are given for a single folder.
+
+### Prerequisites
+
+- Latex gloves or similar
+- Archiving materials (Archivbox, Jurismappen, Archivmappen, Fotomappen)
+- Soft pencil (B3 or higher) and eraser
+- Work station where you can put the folder, archiving materials, and you can see your PC screen
+
+### Preparation
+
+- Clean your working surface and your hands
+- Open `/archive/archivordnung.tpy` on your PC and navigate to the folder in question
+- Make ready required archiving materials
+
+### Workflow
+
+
+- For Jurismappen, Archivmappen add ID on front top right corner
+- Add item ID
+  - to the top right corner back if back is empty
+  - on top right corner
+  - elsewhere
+
+####
 
 ## To dos
 
