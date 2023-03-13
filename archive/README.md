@@ -64,24 +64,68 @@ Instructions are given for a single folder.
 - Latex gloves or similar
 - Archiving materials (Archivbox, Jurismappen, Archivmappen, Fotomappen)
 - Soft pencil (B3 or higher) and eraser
-- Work station where you can put the folder, archiving materials, and you can see your PC screen
+- PC with two screens
+- Work station where you can put the folder, archiving materials, and you can see your PC screens
 
 ### Preparation
 
 - Clean your working surface and your hands
-- Open `/archive/archivordnung.tpy` on your PC and navigate to the folder in question
+- Open `/archive/archivordnung.tpy` on one screen and navigate to the folder in question
+- Open `/indexing/indexing.tpy`, sort by `Source` and navigate to the folder in question
 - Make ready required archiving materials
 
 ### Workflow
 
+1. Add the folder's ID to the Box.
+2. Add IDs to Jurismappen and Archivmappen based on `/archive/archivordnung.tpy`.
+3. Open the folder take the first filing.
+   1. Match the filing to the item in `/indexing/indexing.tpy` (use `/archive/archivordnung.tpy` for an overview if required).
+   2. Add the item's ID.
+   3. If the item is a container:
+      1. Add the IDs of the contained items to the item and to the container.
+   4. File the item(s) in the Archivmappe.
+   5. If the Archivmappe is complete, file it in the Jurismappe.
+   6. If the Jurismappe is complete, file it in the Box.
+4. Repeat for the next filing in the folder
 
-- For Jurismappen, Archivmappen add ID on front top right corner
-- Add item ID
-  - to the top right corner back if back is empty
-  - on top right corner
-  - elsewhere
+### Where to add IDs?
 
-####
+Locations in descending order of priority. Always make sure the ID is legible and does not obscure or impinge on the item.
+
+#### Box
+
+- Front top right corner, optional top right on sides
+
+#### Jurismappen, Archivmappen
+
+- Front top right corner, optional complete signature
+
+#### Fotoblätter
+
+- Front top right corner
+
+#### Fotos
+
+- On the Foto: back top right corner
+- On the Fotoblatt: exactly where the Foto was taken from
+
+#### Blätter, Aufgeklebt
+
+- Back top right corner if back is empty
+- Front top right corner
+
+### Record of manual changes to IDs
+
+Note that items classified as `Dubletten` in `/archive/archivordnung.tpy` do not have an ID and are not included in `/indexing/indexing.tpy`.
+
+- `F01-JM003-AM002-B0013` misclassified (`Blatt` instead of `Foto`), new `F01-JM003-AM002-F0247`
+- `F02-JM001-AM005-B0316` deleted (`Makulatur`)
+- `F02-JM001-AM006-B0325` deleted (back side of `F02-JM001-AM006-B0324`)
+- `F02-JM001-AM006-B0327` deleted (back side of `F02-JM001-AM006-B0326`)
+- `F02-JM001-AM006-B0329` deleted (back side of `F02-JM001-AM006-B0328`)
+- `F02-JM001-AM006-B0331` deleted (back side of `F02-JM001-AM006-B0330`)
+- `F02-JM001-AM007-F0163` misclassified (`Foto` instead of `Blatt`), new `F02-JM001-AM007-B0340`
+- `F02-JM001-AM008-B0334` misclassified (`Blatt` instead of `Foto`), new `F01-JM003-AM002-F0248`
 
 ## To dos
 

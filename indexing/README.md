@@ -25,7 +25,7 @@ This dataset is licensed under a Creative Commons Attribution 4.0 International 
 
 ### Data basis
 
-- `/indexing/archivordnung_transformed.json`. Original data basis for Tropy project. Created by running `/scripts/Client.run_transformation` on `/archive/archivordnung.json`.
+- `/indexing/archivordnung_transformed.json`. Original data basis for Tropy project. Created by running `/scripts/Client.run_transformation` on `/archive/archivordnung.json`. Note that items classified as `Dubletten` in `/archive/archivordnung.tpy` do not have an ID and are not included in `/indexing/indexing.tpy`.
 
 ### Work in progress
 
