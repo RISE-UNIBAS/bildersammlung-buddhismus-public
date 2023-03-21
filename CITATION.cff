@@ -17,6 +17,13 @@ authors:
   - given-names: Pema
     family-names: Frick
     orcid: 'https://orcid.org/0000-0002-8733-7161'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7757208
+    description: All versions
+  - type: doi
+    value: 10.5281/zenodo.7757209
+    description: Version 0.1.0
 url: >-
   https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public
 repository: 'https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243'
