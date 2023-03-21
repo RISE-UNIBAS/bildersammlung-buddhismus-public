@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: RISE-UNIBAS/bildersammlung-buddhismus-public
+message: 'If you use this dataset, please cite it as below.'
+type: dataset
+authors:
+  - family-names: Hindermann
+    given-names: Maximilian
+    orcid: 'https://orcid.org/0000-0002-9337-4655'
+  - family-names: Decker
+    given-names: Eric
+  - family-names: Marti
+    given-names: Sorin
+    orcid: 'https://orcid.org/0000-0002-9541-1202'
+url: >-
+  https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public
+repository: 'https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243'
+abstract: >-
+  Dataset of the University of Basel's research seminar
+  "Indexing and Digital Processing of a Historical Image
+  Collection on the Appropriation of Buddhism in the West"
+  ("Erschliessung und digitale Aufbereitung einer
+  historischen Bildersammlung zur Aneignung des Buddhismus
+  im Westen").
+keywords:
+  - Tropy
+  - Transkribus
+  - Python
+  - SSH
+  - indexing
+  - digitization
+  - photographic archive
+  - documentation
+license: CC-BY-4.0
+version: 0.1.0
+date-released: '2023-03-21'
