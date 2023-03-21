@@ -2,7 +2,7 @@
 
 Dataset of the University of Basel's research seminar "Indexing and Digital Processing of a Historical Image Collection on the Appropriation of Buddhism in the West" ("Erschliessung und digitale Aufbereitung einer historischen Bildersammlung zur Aneignung des Buddhismus im Westen"). See the [course description](https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243) for more details.
 
-![Auto-Update Exports](https://github.com/sorinmarti/tropy_test/actions/workflows/main.yml/badge.svg)
+[![DOI](https://zenodo.org/badge/604514835.svg)](https://zenodo.org/badge/latestdoi/604514835) ![Auto-Update Exports](https://github.com/sorinmarti/tropy_test/actions/workflows/main.yml/badge.svg)
 
 ## Creator
 
