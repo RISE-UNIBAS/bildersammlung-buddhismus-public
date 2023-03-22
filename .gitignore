@@ -1,3 +1,7 @@
+# MAC specific
+*.DS_Store
+indexing/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
