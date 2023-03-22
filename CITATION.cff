@@ -11,6 +11,7 @@ authors:
     orcid: 'https://orcid.org/0000-0002-8726-7124'
   - family-names: Decker
     given-names: Eric
+    orcid: 'https://orcid.org/0000-0003-3035-2413'
   - family-names: Marti
     given-names: Sorin
     orcid: 'https://orcid.org/0000-0002-9541-1202'
@@ -28,12 +29,12 @@ url: >-
   https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public
 repository: 'https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243'
 abstract: >-
-  Dataset of the University of Basel's research seminar
+  Dataset of the University of Basel's research seminar 67860-01
   "Indexing and Digital Processing of a Historical Image
   Collection on the Appropriation of Buddhism in the West"
   ("Erschliessung und digitale Aufbereitung einer
   historischen Bildersammlung zur Aneignung des Buddhismus
-  im Westen").
+  im Westen", see https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243).
 keywords:
   - Tropy
   - Transkribus
