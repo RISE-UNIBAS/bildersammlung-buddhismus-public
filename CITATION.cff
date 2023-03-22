@@ -32,9 +32,7 @@ abstract: >-
   Dataset of the University of Basel's research seminar 67860-01
   "Indexing and Digital Processing of a Historical Image
   Collection on the Appropriation of Buddhism in the West"
-  ("Erschliessung und digitale Aufbereitung einer
-  historischen Bildersammlung zur Aneignung des Buddhismus
-  im Westen", see https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243).
+  (see https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243).
 keywords:
   - Tropy
   - Transkribus
