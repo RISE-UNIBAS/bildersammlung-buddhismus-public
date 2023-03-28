@@ -15,7 +15,7 @@ Note that there are [different versions of this dataset](https://github.com/RISE
 - digitized collection in [/digitized](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/digitized) - not (yet?) publicly available due to licensing and personal rights issues
 - archival order in [/archive](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/archive)
 - indexing in [/indexing](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/indexing)
-- scripts in [/scripts](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/scripts)
+- scripts in [/scripts](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/scripts), documentation [here](https://rise-unibas.github.io/bildersammlung-buddhismus-public/) and in [/docs](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/docs)
 - tests in [/_tests](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/_tests)
 
 ## To dos
@@ -23,7 +23,7 @@ Note that there are [different versions of this dataset](https://github.com/RISE
 - [ ] Add readme files to `/scripts`, `/_tests`
 - [ ] In Tropy, add metadata size field to objects of type "Foto"
 - [ ] In Tropy, create metadata schema for images that includes quality of resolution
-- [ ] Add docs to pages
+- [ ] Add .MD docs to pages
 
 ## License
 
