@@ -1,5 +1,5 @@
 """ items.py
-
+=============
 Item classes. """
 
 from __future__ import annotations
@@ -10,7 +10,27 @@ from typing import List, Dict
 
 @dataclass
 class Item:
-    """ A representation of a Tropy item. """
+    """ A representation of a Tropy item.
+
+    :param template: http://purl.org/dc/elements/1.1/type
+    :param title: http://purl.org/dc/elements/1.1/title
+    :param creator: http://purl.org/dc/elements/1.1/creator
+    :param date: http://purl.org/dc/elements/1.1/date
+    :param type: http://purl.org/dc/elements/1.1/type
+    :param source: http://purl.org/dc/elements/1.1/source
+    :param collection: https://tropy.org/v1/tropy#collection
+    :param box: https://tropy.org/v1/tropy#box
+    :param folder: https://tropy.org/v1/tropy#folder
+    :param object: http://www.europeana.eu/schemas/edm/object
+    :param identifier: http://purl.org/dc/elements/1.1/identifier
+    :param rights: http://purl.org/dc/elements/1.1/rights
+    :param hasPart: http://purl.org/dc/terms/hasPart
+    :param isPartOf: http://purl.org/dc/terms/isPartOf
+    :param isRelatedTo: http://www.europeana.eu/schemas/edm/isRelatedTo
+    :param list: Tropy list
+    :param photo: https://tropy.org/v1/tropy#photo
+    :param tag: Tropy tag
+    """
 
     template: str = "https://tropy.org/v1/templates/id#iTbU0YBP"
     title: str = None

@@ -1,5 +1,5 @@
 """ tropy.py
-
+=============
  Tropy class. """
 
 from __future__ import annotations

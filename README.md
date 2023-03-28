@@ -1,8 +1,9 @@
 # bildersammlung-buddhismus-public
 
-![Auto-Update Exports](https://github.com/sorinmarti/tropy_test/actions/workflows/main.yml/badge.svg)
-
 Dataset of the University of Basel's research seminar "Indexing and Digital Processing of a Historical Image Collection on the Appropriation of Buddhism in the West" ("Erschliessung und digitale Aufbereitung einer historischen Bildersammlung zur Aneignung des Buddhismus im Westen"). See the [course description](https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243) for more details.
+
+[![DOI](https://zenodo.org/badge/604514835.svg)](https://zenodo.org/badge/latestdoi/604514835) ![Auto-Update Exports](https://github.com/sorinmarti/tropy_test/actions/workflows/main.yml/badge.svg)
+
 ## Creator
 
 This dataset was created by the University of Basel's Research and Infrastructure Support RISE (rise@unibas.ch) in 2022 and 2023.
@@ -14,7 +15,7 @@ Note that there are [different versions of this dataset](https://github.com/RISE
 - digitized collection in [/digitized](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/digitized) - not (yet?) publicly available due to licensing and personal rights issues
 - archival order in [/archive](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/archive)
 - indexing in [/indexing](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/indexing)
-- scripts in [/scripts](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/scripts)
+- scripts in [/scripts](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/scripts), documentation [here](https://rise-unibas.github.io/bildersammlung-buddhismus-public/) and in [/docs](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/docs)
 - tests in [/_tests](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/_tests)
 
 ## To dos
@@ -22,10 +23,7 @@ Note that there are [different versions of this dataset](https://github.com/RISE
 - [ ] Add readme files to `/scripts`, `/_tests`
 - [ ] In Tropy, add metadata size field to objects of type "Foto"
 - [ ] In Tropy, create metadata schema for images that includes quality of resolution
-
-### Wishlist of convenience functions for Tropy
-
-- [ ] Bulk renaming of fields with patterns.
+- [ ] Add .MD docs to pages
 
 ## License
 
