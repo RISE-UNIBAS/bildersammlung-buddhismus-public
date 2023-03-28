@@ -23,6 +23,7 @@ Note that there are [different versions of this dataset](https://github.com/RISE
 - [ ] Add readme files to `/scripts`, `/_tests`
 - [ ] In Tropy, add metadata size field to objects of type "Foto"
 - [ ] In Tropy, create metadata schema for images that includes quality of resolution
+- [ ] Add docs to pages
 
 ## License
 
