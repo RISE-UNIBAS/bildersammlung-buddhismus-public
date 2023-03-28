@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentation of bildersammlung-buddhismus-public/scripts &mdash; bildersammlung-buddhismus-public/scripts  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            bildersammlung-buddhismus-public/scripts
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Documentation of bildersammlung-buddhismus-public/scripts</a><ul>
+<li><a class="reference internal" href="#client-py">client.py</a></li>
+<li><a class="reference internal" href="#scripts.client.Client"><code class="docutils literal notranslate"><span class="pre">Client</span></code></a><ul>
+<li><a class="reference internal" href="#scripts.client.Client.run_transformation"><code class="docutils literal notranslate"><span class="pre">Client.run_transformation()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#items-py">items.py</a></li>
+<li><a class="reference internal" href="#scripts.items.Aufgeklebt"><code class="docutils literal notranslate"><span class="pre">Aufgeklebt</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Blatt"><code class="docutils literal notranslate"><span class="pre">Blatt</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Foto"><code class="docutils literal notranslate"><span class="pre">Foto</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Fotoblatt"><code class="docutils literal notranslate"><span class="pre">Fotoblatt</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Item"><code class="docutils literal notranslate"><span class="pre">Item</span></code></a><ul>
+<li><a class="reference internal" href="#scripts.items.Item.copy_metadata_from_dict"><code class="docutils literal notranslate"><span class="pre">Item.copy_metadata_from_dict()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Item.copy_metadata_from_item"><code class="docutils literal notranslate"><span class="pre">Item.copy_metadata_from_item()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Item.get_str_mapping"><code class="docutils literal notranslate"><span class="pre">Item.get_str_mapping()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Item.list2metadata"><code class="docutils literal notranslate"><span class="pre">Item.list2metadata()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Item.make_signature"><code class="docutils literal notranslate"><span class="pre">Item.make_signature()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Item.make_title"><code class="docutils literal notranslate"><span class="pre">Item.make_title()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Item.serialize"><code class="docutils literal notranslate"><span class="pre">Item.serialize()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.items.Item.transform"><code class="docutils literal notranslate"><span class="pre">Item.transform()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#metadata-py">metadata.py</a></li>
+<li><a class="reference internal" href="#scripts.metadata.Metadata"><code class="docutils literal notranslate"><span class="pre">Metadata</span></code></a><ul>
+<li><a class="reference internal" href="#scripts.metadata.Metadata.get_folder_mapping"><code class="docutils literal notranslate"><span class="pre">Metadata.get_folder_mapping()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.metadata.Metadata.get_serialized_id"><code class="docutils literal notranslate"><span class="pre">Metadata.get_serialized_id()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.metadata.Metadata.get_transformation_mapping"><code class="docutils literal notranslate"><span class="pre">Metadata.get_transformation_mapping()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.metadata.Metadata.get_type_mapping"><code class="docutils literal notranslate"><span class="pre">Metadata.get_type_mapping()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.metadata.Metadata.increment_id"><code class="docutils literal notranslate"><span class="pre">Metadata.increment_id()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#transform-py">transform.py</a></li>
+<li><a class="reference internal" href="#scripts.transform.Transform"><code class="docutils literal notranslate"><span class="pre">Transform</span></code></a><ul>
+<li><a class="reference internal" href="#scripts.transform.Transform.run"><code class="docutils literal notranslate"><span class="pre">Transform.run()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.transform.Transform.serialize"><code class="docutils literal notranslate"><span class="pre">Transform.serialize()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.transform.Transform.transform"><code class="docutils literal notranslate"><span class="pre">Transform.transform()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.transform.Transform.validate"><code class="docutils literal notranslate"><span class="pre">Transform.validate()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#scripts.transform.TransformContainer"><code class="docutils literal notranslate"><span class="pre">TransformContainer</span></code></a><ul>
+<li><a class="reference internal" href="#scripts.transform.TransformContainer.serialize"><code class="docutils literal notranslate"><span class="pre">TransformContainer.serialize()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.transform.TransformContainer.transform"><code class="docutils literal notranslate"><span class="pre">TransformContainer.transform()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.transform.TransformContainer.validate"><code class="docutils literal notranslate"><span class="pre">TransformContainer.validate()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#scripts.transform.TransformContainerVerso"><code class="docutils literal notranslate"><span class="pre">TransformContainerVerso</span></code></a><ul>
+<li><a class="reference internal" href="#scripts.transform.TransformContainerVerso.transform"><code class="docutils literal notranslate"><span class="pre">TransformContainerVerso.transform()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.transform.TransformContainerVerso.validate"><code class="docutils literal notranslate"><span class="pre">TransformContainerVerso.validate()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#scripts.transform.TransformFotoblatt"><code class="docutils literal notranslate"><span class="pre">TransformFotoblatt</span></code></a><ul>
+<li><a class="reference internal" href="#scripts.transform.TransformFotoblatt.serialize"><code class="docutils literal notranslate"><span class="pre">TransformFotoblatt.serialize()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.transform.TransformFotoblatt.transform"><code class="docutils literal notranslate"><span class="pre">TransformFotoblatt.transform()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.transform.TransformFotoblatt.validate"><code class="docutils literal notranslate"><span class="pre">TransformFotoblatt.validate()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#tropy-py">tropy.py</a></li>
+<li><a class="reference internal" href="#scripts.tropy.Tropy"><code class="docutils literal notranslate"><span class="pre">Tropy</span></code></a><ul>
+<li><a class="reference internal" href="#scripts.tropy.Tropy.get_image_sizes"><code class="docutils literal notranslate"><span class="pre">Tropy.get_image_sizes()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.tropy.Tropy.save"><code class="docutils literal notranslate"><span class="pre">Tropy.save()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.tropy.Tropy.validate"><code class="docutils literal notranslate"><span class="pre">Tropy.validate()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.tropy.Tropy.validate_list"><code class="docutils literal notranslate"><span class="pre">Tropy.validate_list()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.tropy.Tropy.validate_photo"><code class="docutils literal notranslate"><span class="pre">Tropy.validate_photo()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.tropy.Tropy.validate_type"><code class="docutils literal notranslate"><span class="pre">Tropy.validate_type()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#utility-py">utility.py</a></li>
+<li><a class="reference internal" href="#scripts.utility.Utility"><code class="docutils literal notranslate"><span class="pre">Utility</span></code></a><ul>
+<li><a class="reference internal" href="#scripts.utility.Utility.load_json"><code class="docutils literal notranslate"><span class="pre">Utility.load_json()</span></code></a></li>
+<li><a class="reference internal" href="#scripts.utility.Utility.save_json"><code class="docutils literal notranslate"><span class="pre">Utility.save_json()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">bildersammlung-buddhismus-public/scripts</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Documentation of bildersammlung-buddhismus-public/scripts</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="documentation-of-bildersammlung-buddhismus-public-scripts">
+<h1>Documentation of bildersammlung-buddhismus-public/scripts<a class="headerlink" href="#documentation-of-bildersammlung-buddhismus-public-scripts" title="Permalink to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<span class="target" id="module-scripts.client"></span><section id="client-py">
+<h2>client.py<a class="headerlink" href="#client-py" title="Permalink to this heading"></a></h2>
+<p>Client class.</p>
+</section>
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.client.Client">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.client.</span></span><span class="sig-name descname"><span class="pre">Client</span></span><a class="headerlink" href="#scripts.client.Client" title="Permalink to this definition"></a></dt>
+<dd><p>Client to transform a loaded Tropy JSON export file.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.client.Client.run_transformation">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">run_transformation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">json_export</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.client.Client.run_transformation" title="Permalink to this definition"></a></dt>
+<dd><p>Transform a loaded Tropy JSON export file.</p>
+<p>‘Makulatur’ and ‘Dubletten’ items are skipped.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>json_export</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code>) – loaded Tropy JSON export file</p></li>
+<li><p><strong>save_path</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – complete path to save file including file extension</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-scripts.items"></span><section id="items-py">
+<h2>items.py<a class="headerlink" href="#items-py" title="Permalink to this heading"></a></h2>
+<p>Item classes.</p>
+</section>
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.items.Aufgeklebt">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.items.</span></span><span class="sig-name descname"><span class="pre">Aufgeklebt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">template</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://tropy.org/v1/templates/id#iTbU0YBP'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">creator</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Aufgeklebt'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collection</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">box</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">identifier</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rights</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">hasPart</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isPartOf</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isRelatedTo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">list</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">photo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tag</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Aufgeklebt" title="Permalink to this definition"></a></dt>
+<dd><p>A representation of a Tropy item with the ‘Aufgeklebt’ type.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.items.Blatt">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.items.</span></span><span class="sig-name descname"><span class="pre">Blatt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">template</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://tropy.org/v1/templates/id#iTbU0YBP'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">creator</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Blatt'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collection</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">box</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">identifier</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rights</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">hasPart</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isPartOf</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isRelatedTo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">list</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">photo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tag</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Blatt" title="Permalink to this definition"></a></dt>
+<dd><p>A representation of a Tropy item with the ‘Blatt’ type.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.items.Foto">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.items.</span></span><span class="sig-name descname"><span class="pre">Foto</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">template</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://tropy.org/v1/templates/id#iTbU0YBP'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">creator</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Foto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collection</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">box</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">identifier</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rights</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">hasPart</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isPartOf</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isRelatedTo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">list</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">photo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tag</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Foto" title="Permalink to this definition"></a></dt>
+<dd><p>A representation of a Tropy item with the ‘Foto’ type.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.items.Fotoblatt">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.items.</span></span><span class="sig-name descname"><span class="pre">Fotoblatt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">template</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://tropy.org/v1/templates/id#iTbU0YBP'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">creator</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Fotoblatt'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collection</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">box</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">identifier</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rights</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">hasPart</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isPartOf</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isRelatedTo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">list</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">photo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tag</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Fotoblatt" title="Permalink to this definition"></a></dt>
+<dd><p>A representation of a Tropy item with the ‘Fotoblatt’ type.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.items.Item">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.items.</span></span><span class="sig-name descname"><span class="pre">Item</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">template</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://tropy.org/v1/templates/id#iTbU0YBP'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">creator</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collection</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">box</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">identifier</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rights</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">hasPart</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isPartOf</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isRelatedTo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">list</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">photo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tag</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Item" title="Permalink to this definition"></a></dt>
+<dd><p>A representation of a Tropy item.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>template</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – <a class="reference external" href="http://purl.org/dc/elements/1.1/type">http://purl.org/dc/elements/1.1/type</a></p></li>
+<li><p><strong>title</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://purl.org/dc/elements/1.1/title">http://purl.org/dc/elements/1.1/title</a></p></li>
+<li><p><strong>creator</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://purl.org/dc/elements/1.1/creator">http://purl.org/dc/elements/1.1/creator</a></p></li>
+<li><p><strong>date</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://purl.org/dc/elements/1.1/date">http://purl.org/dc/elements/1.1/date</a></p></li>
+<li><p><strong>type</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://purl.org/dc/elements/1.1/type">http://purl.org/dc/elements/1.1/type</a></p></li>
+<li><p><strong>source</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://purl.org/dc/elements/1.1/source">http://purl.org/dc/elements/1.1/source</a></p></li>
+<li><p><strong>collection</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="https://tropy.org/v1/tropy#collection">https://tropy.org/v1/tropy#collection</a></p></li>
+<li><p><strong>box</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="https://tropy.org/v1/tropy#box">https://tropy.org/v1/tropy#box</a></p></li>
+<li><p><strong>folder</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="https://tropy.org/v1/tropy#folder">https://tropy.org/v1/tropy#folder</a></p></li>
+<li><p><strong>object</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://www.europeana.eu/schemas/edm/object">http://www.europeana.eu/schemas/edm/object</a></p></li>
+<li><p><strong>identifier</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://purl.org/dc/elements/1.1/identifier">http://purl.org/dc/elements/1.1/identifier</a></p></li>
+<li><p><strong>rights</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://purl.org/dc/elements/1.1/rights">http://purl.org/dc/elements/1.1/rights</a></p></li>
+<li><p><strong>hasPart</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://purl.org/dc/terms/hasPart">http://purl.org/dc/terms/hasPart</a></p></li>
+<li><p><strong>isPartOf</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://purl.org/dc/terms/isPartOf">http://purl.org/dc/terms/isPartOf</a></p></li>
+<li><p><strong>isRelatedTo</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – <a class="reference external" href="http://www.europeana.eu/schemas/edm/isRelatedTo">http://www.europeana.eu/schemas/edm/isRelatedTo</a></p></li>
+<li><p><strong>list</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]]) – Tropy list</p></li>
+<li><p><strong>photo</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>]]) – <a class="reference external" href="https://tropy.org/v1/tropy#photo">https://tropy.org/v1/tropy#photo</a></p></li>
+<li><p><strong>tag</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>]) – Tropy tag</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.items.Item.copy_metadata_from_dict">
+<span class="sig-name descname"><span class="pre">copy_metadata_from_dict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dictionary</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Item.copy_metadata_from_dict" title="Permalink to this definition"></a></dt>
+<dd><p>Copy metadata from dictionary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.items.Item.copy_metadata_from_item">
+<span class="sig-name descname"><span class="pre">copy_metadata_from_item</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Item.copy_metadata_from_item" title="Permalink to this definition"></a></dt>
+<dd><p>Copy metadata from item.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>item</strong> (<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>) – the item from which metadata is copied</p></li>
+<li><p><strong>args</strong> – deselected attributes (values not copied)</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.items.Item.get_str_mapping">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_str_mapping</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Item.get_str_mapping" title="Permalink to this definition"></a></dt>
+<dd><p>Get mapping from item string name to class.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.items.Item.list2metadata">
+<span class="sig-name descname"><span class="pre">list2metadata</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Item.list2metadata" title="Permalink to this definition"></a></dt>
+<dd><p>Map (validated) list content to metadata fields.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.items.Item.make_signature">
+<span class="sig-name descname"><span class="pre">make_signature</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Item.make_signature" title="Permalink to this definition"></a></dt>
+<dd><p>Write to self.source signature.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.items.Item.make_title">
+<span class="sig-name descname"><span class="pre">make_title</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Item.make_title" title="Permalink to this definition"></a></dt>
+<dd><p>Write to self.title title.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.items.Item.serialize">
+<span class="sig-name descname"><span class="pre">serialize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Item.serialize" title="Permalink to this definition"></a></dt>
+<dd><p>Serialize item as dictionary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.items.Item.transform">
+<span class="sig-name descname"><span class="pre">transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">photo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">identifier</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.items.Item.transform" title="Permalink to this definition"></a></dt>
+<dd><p>Transform item.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-scripts.metadata"></span><section id="metadata-py">
+<h2>metadata.py<a class="headerlink" href="#metadata-py" title="Permalink to this heading"></a></h2>
+<p>Metadata class.</p>
+</section>
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.metadata.Metadata">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.metadata.</span></span><span class="sig-name descname"><span class="pre">Metadata</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">aufgeklebt_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">blatt_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">foto_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fotoblatt_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.metadata.Metadata" title="Permalink to this definition"></a></dt>
+<dd><p>A representation of project metadata.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>aufgeklebt_id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – running identifier of type “Aufgeklebt”</p></li>
+<li><p><strong>blatt_id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – running identifier of type “Blatt”</p></li>
+<li><p><strong>foto_id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – running identifier of type “Foto”</p></li>
+<li><p><strong>fotoblatt_id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – running identifier of type “Fotoblatt”</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.metadata.Metadata.get_folder_mapping">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_folder_mapping</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.metadata.Metadata.get_folder_mapping" title="Permalink to this definition"></a></dt>
+<dd><p>Get mapping of folder ID to short name.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.metadata.Metadata.get_serialized_id">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_serialized_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">identifier</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.metadata.Metadata.get_serialized_id" title="Permalink to this definition"></a></dt>
+<dd><p>Get serialized identifier.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>identifier</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – the identifier</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.metadata.Metadata.get_transformation_mapping">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_transformation_mapping</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.metadata.Metadata.get_transformation_mapping" title="Permalink to this definition"></a></dt>
+<dd><p>Get mapping of Tropy archival order to Tropy enrichment projects.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.metadata.Metadata.get_type_mapping">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_type_mapping</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.metadata.Metadata.get_type_mapping" title="Permalink to this definition"></a></dt>
+<dd><p>Get mapping of type qua attribute to short attribute name.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.metadata.Metadata.increment_id">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">increment_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">identifier</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.metadata.Metadata.increment_id" title="Permalink to this definition"></a></dt>
+<dd><p>Increment identifier by 1.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>identifier</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – the identifier</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-scripts.transform"></span><section id="transform-py">
+<h2>transform.py<a class="headerlink" href="#transform-py" title="Permalink to this heading"></a></h2>
+<p>Transform class.</p>
+</section>
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.transform.Transform">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.transform.</span></span><span class="sig-name descname"><span class="pre">Transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_class</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.Transform" title="Permalink to this definition"></a></dt>
+<dd><p>Transform Tropy item.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>target_class</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Type</span></code>[<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>]) – the target class of the transformed item</p></li>
+<li><p><strong>target</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>]) – the instantiated target class</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.Transform.run">
+<span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.Transform.run" title="Permalink to this definition"></a></dt>
+<dd><p>Run transformation, validation, etc. on Tropy item.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>item</strong> (<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>) – item to be transformed</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.Transform.serialize">
+<span class="sig-name descname"><span class="pre">serialize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.Transform.serialize" title="Permalink to this definition"></a></dt>
+<dd><p>Serialize transformed item(s).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.Transform.transform">
+<span class="sig-name descname"><span class="pre">transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.Transform.transform" title="Permalink to this definition"></a></dt>
+<dd><p>Transform Tropy item.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>item</strong> (<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>) – item to be transformed</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.Transform.validate">
+<span class="sig-name descname"><span class="pre">validate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.Transform.validate" title="Permalink to this definition"></a></dt>
+<dd><p>Validate transformation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>item</strong> (<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>) – item to be transformed</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.transform.TransformContainer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.transform.</span></span><span class="sig-name descname"><span class="pre">TransformContainer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_class</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">contents</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">content_counter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformContainer" title="Permalink to this definition"></a></dt>
+<dd><p>Transform Tropy item that are opaque containers.</p>
+<p>Examples of opaque containers are items with type ‘Klarsichtmappe’ or ‘Geheftete Blätter’ type.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>target_class</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Type</span></code>[<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>]) – the target Fotoblatt class of the transformed item</p></li>
+<li><p><strong>contents</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>]) – content items</p></li>
+<li><p><strong>content_counter</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – content items seen</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.TransformContainer.serialize">
+<span class="sig-name descname"><span class="pre">serialize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformContainer.serialize" title="Permalink to this definition"></a></dt>
+<dd><p>Serialize transformed item(s).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.TransformContainer.transform">
+<span class="sig-name descname"><span class="pre">transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformContainer.transform" title="Permalink to this definition"></a></dt>
+<dd><p>Transform an opaque container Tropy item.</p>
+<p>Item is split into multiple content items typed by the target class class parameter.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>item</strong> (<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>) – item to be transformed</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.TransformContainer.validate">
+<span class="sig-name descname"><span class="pre">validate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformContainer.validate" title="Permalink to this definition"></a></dt>
+<dd><p>Validate transformation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>item</strong> (<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>) – item to be transformed</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.transform.TransformContainerVerso">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.transform.</span></span><span class="sig-name descname"><span class="pre">TransformContainerVerso</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_class</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">contents</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformContainerVerso" title="Permalink to this definition"></a></dt>
+<dd><p>TransfromContainer for item with only verso photos.</p>
+<p>Item is split into multiple content items typed by the target class attribute.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>target_class</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Type</span></code>[<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>]) – the target Fotoblatt class of the transformed item</p></li>
+<li><p><strong>contents</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>]) – content items</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.TransformContainerVerso.transform">
+<span class="sig-name descname"><span class="pre">transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformContainerVerso.transform" title="Permalink to this definition"></a></dt>
+<dd><p>TransfromContainer for items with only verso photos.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>item</strong> (<a class="reference internal" href="#scripts.items.Item" title="scripts.items.Item"><code class="xref py py-class docutils literal notranslate"><span class="pre">Item</span></code></a>) – item to be transformed</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.TransformContainerVerso.validate">
+<span class="sig-name descname"><span class="pre">validate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformContainerVerso.validate" title="Permalink to this definition"></a></dt>
+<dd><p>Validate transformation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>item</strong> (<a class="reference internal" href="#scripts.items.Fotoblatt" title="scripts.items.Fotoblatt"><code class="xref py py-class docutils literal notranslate"><span class="pre">Fotoblatt</span></code></a>) – item to be transformed</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.transform.TransformFotoblatt">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.transform.</span></span><span class="sig-name descname"><span class="pre">TransformFotoblatt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_class</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fotos</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">foto_counter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformFotoblatt" title="Permalink to this definition"></a></dt>
+<dd><p>Transform Tropy item with ‘Fotoblatt’ type.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>target</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<a class="reference internal" href="#scripts.items.Fotoblatt" title="scripts.items.Fotoblatt"><code class="xref py py-class docutils literal notranslate"><span class="pre">Fotoblatt</span></code></a>]) – the target Fotoblatt class of the transformed item</p></li>
+<li><p><strong>target</strong> – the instantiated Fotoblatt class</p></li>
+<li><p><strong>fotos</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>]) – ‘Foto’ items</p></li>
+<li><p><strong>foto_counter</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – items of type ‘Foto’ seen</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.TransformFotoblatt.serialize">
+<span class="sig-name descname"><span class="pre">serialize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformFotoblatt.serialize" title="Permalink to this definition"></a></dt>
+<dd><p>Serialize transformed item(s).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.TransformFotoblatt.transform">
+<span class="sig-name descname"><span class="pre">transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformFotoblatt.transform" title="Permalink to this definition"></a></dt>
+<dd><p>Transform Tropy item with ‘Fotoblatt’ type.</p>
+<p>Item is split into one item of type ‘Fotoblatt’ and multiple items of type ‘Foto’.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>item</strong> (<a class="reference internal" href="#scripts.items.Fotoblatt" title="scripts.items.Fotoblatt"><code class="xref py py-class docutils literal notranslate"><span class="pre">Fotoblatt</span></code></a>) – item to be transformed</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.transform.TransformFotoblatt.validate">
+<span class="sig-name descname"><span class="pre">validate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.transform.TransformFotoblatt.validate" title="Permalink to this definition"></a></dt>
+<dd><p>Validate transformation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>item</strong> (<a class="reference internal" href="#scripts.items.Fotoblatt" title="scripts.items.Fotoblatt"><code class="xref py py-class docutils literal notranslate"><span class="pre">Fotoblatt</span></code></a>) – item to be transformed</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-scripts.tropy"></span><section id="tropy-py">
+<h2>tropy.py<a class="headerlink" href="#tropy-py" title="Permalink to this heading"></a></h2>
+<blockquote>
+<div><p>Tropy class.</p>
+</div></blockquote>
+</section>
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.tropy.Tropy">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.tropy.</span></span><span class="sig-name descname"><span class="pre">Tropy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">json_export</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.tropy.Tropy" title="Permalink to this definition"></a></dt>
+<dd><p>A representation of a Tropy export.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>json_export</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code>) – loaded Tropy JSON export file</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.tropy.Tropy.get_image_sizes">
+<span class="sig-name descname"><span class="pre">get_image_sizes</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.tropy.Tropy.get_image_sizes" title="Permalink to this definition"></a></dt>
+<dd><p>Return images sizes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.tropy.Tropy.save">
+<span class="sig-name descname"><span class="pre">save</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.tropy.Tropy.save" title="Permalink to this definition"></a></dt>
+<dd><p>Save Tropy export to file path.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>file_path</strong> – complete path to file including filename and extension</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.tropy.Tropy.validate">
+<span class="sig-name descname"><span class="pre">validate</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.tropy.Tropy.validate" title="Permalink to this definition"></a></dt>
+<dd><p>Validate items.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.tropy.Tropy.validate_list">
+<span class="sig-name descname"><span class="pre">validate_list</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.tropy.Tropy.validate_list" title="Permalink to this definition"></a></dt>
+<dd><p>Validate item list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.tropy.Tropy.validate_photo">
+<span class="sig-name descname"><span class="pre">validate_photo</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.tropy.Tropy.validate_photo" title="Permalink to this definition"></a></dt>
+<dd><p>Validate item photo.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.tropy.Tropy.validate_type">
+<span class="sig-name descname"><span class="pre">validate_type</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#scripts.tropy.Tropy.validate_type" title="Permalink to this definition"></a></dt>
+<dd><p>Validate item type.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-scripts.utility"></span><section id="utility-py">
+<h2>utility.py<a class="headerlink" href="#utility-py" title="Permalink to this heading"></a></h2>
+<p>Utility class.</p>
+</section>
+<dl class="py class">
+<dt class="sig sig-object py" id="scripts.utility.Utility">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">scripts.utility.</span></span><span class="sig-name descname"><span class="pre">Utility</span></span><a class="headerlink" href="#scripts.utility.Utility" title="Permalink to this definition"></a></dt>
+<dd><p>A collection of utility functions.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.utility.Utility.load_json">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">load_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.utility.Utility.load_json" title="Permalink to this definition"></a></dt>
+<dd><p>Load a JSON object from file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>file_path</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – complete path to file including filename and extension</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="scripts.utility.Utility.save_json">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">save_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#scripts.utility.Utility.save_json" title="Permalink to this definition"></a></dt>
+<dd><p>Save data as JSON file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>]) – the data to be saved</p></li>
+<li><p><strong>file_path</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – complete path to file including filename and extension</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Maximilian Hindermann (rise@unibas.ch).</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

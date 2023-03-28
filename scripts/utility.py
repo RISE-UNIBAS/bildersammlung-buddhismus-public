@@ -1,5 +1,5 @@
 """ utility.py
-
+=============
 Utility class. """
 
 from __future__ import annotations

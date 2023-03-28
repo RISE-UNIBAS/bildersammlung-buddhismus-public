@@ -1,5 +1,5 @@
 """ transform.py
-
+=============
 Transform class. """
 
 from __future__ import annotations
@@ -73,7 +73,8 @@ class TransformContainer(Transform):
 
     :param target_class: the target Fotoblatt class of the transformed item
     :param contents: content items
-    :param content_counter: content items seen """
+    :param content_counter: content items seen
+    """
 
     def __init__(self,
                  target_class: Type[Item],

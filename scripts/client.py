@@ -1,5 +1,5 @@
 """ client.py
-
+=============
 Client class. """
 
 from __future__ import annotations
@@ -23,7 +23,7 @@ class Client:
         :param save_path: complete path to save file including file extension
         """
 
-        # TODO: add kwargs for properties to be skipped, {"Makulatur": list, "Dubletteb: "tag"})
+        # TODO: add kwargs for properties to be skipped, {"Makulatur": list, "Dubletten": "tag"})
 
         # load/validate/clone Tropy:
         original_tropy = Tropy(json_export=json_export)

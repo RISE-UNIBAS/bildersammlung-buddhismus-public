@@ -1,5 +1,5 @@
-""" items.py
-
+""" metadata.py
+=============
 Metadata class. """
 
 from __future__ import annotations
@@ -8,12 +8,18 @@ from dataclasses import dataclass
 
 @dataclass
 class Metadata:
-    """ A representation of project metadata. """
+    """ A representation of project metadata.
 
-    aufgeklebt_id = 1
-    blatt_id = 1
-    foto_id = 1
-    fotoblatt_id = 1
+    :param aufgeklebt_id: running identifier of type "Aufgeklebt"
+    :param blatt_id: running identifier of type "Blatt"
+    :param foto_id: running identifier of type "Foto"
+    :param fotoblatt_id: running identifier of type "Fotoblatt"
+    """
+
+    aufgeklebt_id: int = 1
+    blatt_id: int = 1
+    foto_id: int = 1
+    fotoblatt_id: int = 1
 
     @classmethod
     def get_type_mapping(cls):
