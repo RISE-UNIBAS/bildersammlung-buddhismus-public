@@ -1,6 +1,7 @@
 .. bildersammlung-buddhismus-public documentation master file, created by
    sphinx-quickstart on Tue Mar 28 08:48:27 2023.
 
+
 Documentation of bildersammlung-buddhismus-public/scripts
 ============================================================
 
@@ -25,6 +26,7 @@ Documentation of bildersammlung-buddhismus-public/scripts
 
 .. automodule:: scripts.utility
    :members:
+
 
 Indices and tables
 ==================
