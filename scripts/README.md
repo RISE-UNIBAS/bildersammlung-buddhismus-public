@@ -2,7 +2,7 @@ README in `bildersammlung-buddhismus/scripts`.
 
 ## Overview
 
-Scripts.
+Transformation scripts, documentation [here](https://rise-unibas.github.io/bildersammlung-buddhismus-public/) and in [/docs](https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public/tree/main/docs).
 
 ## Creator
 
@@ -14,6 +14,5 @@ This dataset is licensed under a Creative Commons Attribution 4.0 International 
 
 ## To dos
 
-- [ ] Write readme
 - [ ] integrate https://www.loc.gov/standards/vracore/
 - [ ] add metadatafield for img quality
