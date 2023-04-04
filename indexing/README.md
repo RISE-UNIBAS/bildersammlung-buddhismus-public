@@ -37,7 +37,7 @@ Note that specific guidelines (e.g., Round 1) trump general guidelines!
 
 ### Round 1 (2023-04-05)
 
-1. Make sure the `students` branch is up-to-date.
+1. Checkout the `students` branch and make sure it is up-to-date.
 2. Make a copy of `/indexing/indexing.tpy` entitled `/indexing/indexing_name.tpy` where "name" is your name.
 3. Open `/indexing/indexing_name.tpy` with Tropy and import the required templates `/indexing/AneingungBuddhismus.ttp` and `/indexing/ImagesFormat.ttp`. The metadata section should look like this (here for object `F0001`):
 ![](https://raw.githubusercontent.com/RISE-UNIBAS/bildersammlung-buddhismus-public/main/docs/images/round_1_meta.png)
@@ -49,7 +49,9 @@ Note that specific guidelines (e.g., Round 1) trump general guidelines!
    2. Add the tag `rescan` if one of the object's images is too blurry to read.
    3. Add the tag `rights_inscribed` if there is inscribed information about the copy rights of the object.
    4. Add the tag `done_round_1`.
-6. TODO: add instruction for exporting and pushing.
+6. Export all objects from Tropy as JSON-LD. See Tropy documentation for instructions: https://docs.tropy.org/other-features/export. Save it as a file called `name_round_1.json` to `/indexing/workflow/user_export` where "name" is your name.
+7. In GitHub Desktop, deselect all files/changes excluding `/indexing/workflow/user_export/name_round_1.json` before committing to the `students`-branch.
+8. Push your changes.
 
 ### General indexing guidelines for students
 
@@ -69,7 +71,7 @@ For illustration, assume you are assigned to index objects with IDs F0001-F0099 
 2. Make sure the branch is up-to-date.
 3. Open "indexing/indexing.tpy" in Tropy.
 4. Index the objects with IDs F0001-F0099 in Tropy.
-5. Export all objects from Tropy as JSON-LD. See Tropy documentation for instructions: https://docs.tropy.org/other-features/export. Save it as a file called "name_2023-01-01.json" to `/indexing/workflow/user_export` where "name" is your name.
+5. Export all objects from Tropy as JSON-LD. See Tropy documentation for instructions: https://docs.tropy.org/other-features/export. Save it as a file called `name_2023-01-01.json` to `/indexing/workflow/user_export` where "name" is your name.
 6. Commit and push your changes.
 
 ### Indexing guidelines for course admins
