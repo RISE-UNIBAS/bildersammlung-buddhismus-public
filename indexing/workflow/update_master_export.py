@@ -5,7 +5,16 @@ import sys
 
 DIR = os.path.dirname(__file__)
 DEBUG = True
-INDEXES_TO_UPDATE = ["title", "creator", "folder", "rights", "tag"]
+INDEXES_TO_UPDATE = ["date",
+                     "creator",
+                     "dcterms:creator",
+                     "PersonInImage",
+                     "PersonInImageWDetails",
+                     "dcterms:date",
+                     "LocationShown",
+                     "LocationCreated"
+                     "tag",
+                     ]
 
 
 def write_to_master_log(line, debug=False):

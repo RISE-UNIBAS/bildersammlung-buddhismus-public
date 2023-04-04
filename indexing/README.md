@@ -20,8 +20,8 @@ This dataset is licensed under a Creative Commons Attribution 4.0 International 
 
 ### Required Tropy templates
 
-- `/indexing/Aneingung des Buddhismus.ttp`. Metadata template for objects.
-- `/indexing/Images format.ttp`. Metadata template for images.
+- `/indexing/AneingungBuddhismus.ttp`. Metadata template for objects.
+- `/indexing/ImagesFormat.ttp`. Metadata template for images.
 
 ### Data basis
 
@@ -33,14 +33,32 @@ This dataset is licensed under a Creative Commons Attribution 4.0 International 
 
 ## How to use this Tropy project
 
-### Indexing guidelines for students
+Note that specific guidelines (e.g., Round 1) trump general guidelines!
+
+### Round 1 (2023-04-05)
+
+1. Make sure the `students` branch is up-to-date.
+2. Make a copy of `/indexing/indexing.tpy` entitled `/indexing/indexing_name.tpy` where "name" is your name.
+3. Open `/indexing/indexing_name.tpy` with Tropy and import the required templates `/indexing/AneingungBuddhismus.ttp` and `/indexing/ImagesFormat.ttp`. The metadata section should look like this (here for object `F0001`):
+![](https://raw.githubusercontent.com/RISE-UNIBAS/bildersammlung-buddhismus-public/main/docs/images/round_1_meta.png)
+4. In Tropy, select the objects assigned to you via your name tag.
+5. For each object assigned to you:
+   1. If possible fill in the fields `Inscribed creator`, `Inscribed date`, `Inscribed person shown`, and `Inscribed location shown`.
+      1. Each field has a corresponding field without the "inscribed"-part. Use this field only if you know the value of the field but the value is not inscribed anywhere.
+      2. Be sure to take into account an object's `Is Part Of`-field. For example, some metadata about a Foto object might only be found on the corresponding Fotoblatt object.
+   2. Add the tag `rescan` if one of the object's images is too blurry to read.
+   3. Add the tag `rights_inscribed` if there is inscribed information about the copy rights of the object.
+   4. Add the tag `done_round_1`.
+6. TODO: add instruction for exporting and pushing.
+
+### General indexing guidelines for students
 
 #### Setup
 
 1. Create a GitHub account, get write access to this repo from the course admins, download and install GitHub Desktop (or similar).
 2. Clone this repo. Since this repo does not contain the image folders/files in `/digitized`, download `bildersammlung-buddhismus-0.2.0.zip` from the private URL provided on ADAM and replace `/digitized` in this repo with `/digitized` from the unzipped download.
 3. Open `/indexing/indexing.tpy` with Tropy.
-4. Import the required Tropy templates `/indexing/Aneingung des Buddhismus.ttp` and `/indexing/Images format.ttp`. [See Tropy documentation for instructions](https://docs.tropy.org/in-the-template-editor/export-import-templates).
+4. Import the required Tropy templates `/indexing/AneingungBuddhismus.ttp` and `/indexing/ImagesFormat.ttp`. [See Tropy documentation for instructions](https://docs.tropy.org/in-the-template-editor/export-import-templates).
 5. Consolidate the photo library. [See Tropy documentation for instructions](https://docs.tropy.org/using-tropy/add_files#consolidate-your-photo-library.). If it does not work out of the box, in Tropy go to `Edit\Preferences\Link phtos` and set the value to `Relative to the project file`.
 
 #### Indexing
@@ -49,7 +67,7 @@ For illustration, assume you are assigned to index objects with IDs F0001-F0099 
 
 1. In GitHub Desktop (or similar), checkout branch `students`.
 2. Make sure the branch is up-to-date.
-3. Open "indexing/erschliessung.tpy" in Tropy.
+3. Open "indexing/indexing.tpy" in Tropy.
 4. Index the objects with IDs F0001-F0099 in Tropy.
 5. Export all objects from Tropy as JSON-LD. See Tropy documentation for instructions: https://docs.tropy.org/other-features/export. Save it as a file called "name_2023-01-01.json" to `/indexing/workflow/user_export` where "name" is your name.
 6. Commit and push your changes.
