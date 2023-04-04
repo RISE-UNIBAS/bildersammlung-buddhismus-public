@@ -39,8 +39,8 @@ Note that specific guidelines (e.g., Round 1) trump general guidelines!
 
 1. Make sure the `students` branch is up-to-date.
 2. Make a copy of `/indexing/indexing.tpy` entitled `/indexing/indexing_name.tpy` where "name" is your name.
-3. Open `/indexing/indexing_name.tpy` with Tropy and import the required templates `/indexing/AneingungBuddhismus.ttp` and `/indexing/ImagesFormat.ttp`.
-[ADD image round_1_meta.png]
+3. Open `/indexing/indexing_name.tpy` with Tropy and import the required templates `/indexing/AneingungBuddhismus.ttp` and `/indexing/ImagesFormat.ttp`. The metadata section should look like this (here for object `F0001`):
+![](https://raw.githubusercontent.com/RISE-UNIBAS/bildersammlung-buddhismus-public/main/docs/images/round_1_meta.png)
 4. In Tropy, select the objects assigned to you via your name tag.
 5. For each object assigned to you:
    1. If possible fill in the fields `Inscribed creator`, `Inscribed date`, `Inscribed person shown`, and `Inscribed location shown`.
