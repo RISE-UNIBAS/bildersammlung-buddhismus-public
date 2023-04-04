@@ -38,17 +38,18 @@ Note that specific guidelines (e.g., Round 1) trump general guidelines!
 ### Round 1 (2023-04-05)
 
 1. Make sure the `students` branch is up-to-date.
-2. Open `/indexing/indexing.tpy` and import the required Tropy templates `/indexing/AneingungBuddhismus.ttp` and `/indexing/ImagesFormat.ttp`.
-3. Select the objects assigned to you via your name tag.
-4. For each object assigned to you:
+2. Make a copy of `/indexing/indexing.tpy` entitled `/indexing/indexing_name.tpy` where "name" is your name.
+3. Open `/indexing/indexing_name.tpy` with Tropy and import the required templates `/indexing/AneingungBuddhismus.ttp` and `/indexing/ImagesFormat.ttp`.
+[ADD image round_1_meta.png]
+4. In Tropy, select the objects assigned to you via your name tag.
+5. For each object assigned to you:
    1. If possible fill in the fields `Inscribed creator`, `Inscribed date`, `Inscribed person shown`, and `Inscribed location shown`.
       1. Each field has a corresponding field without the "inscribed"-part. Use this field only if you know the value of the field but the value is not inscribed anywhere.
       2. Be sure to take into account an object's `Is Part Of`-field. For example, some metadata about a Foto object might only be found on the corresponding Fotoblatt object.
    2. Add the tag `rescan` if one of the object's images is too blurry to read.
-   3. Add the tag `rights_inscribed` if there is inscribed information about the copr< rights of the object.
+   3. Add the tag `rights_inscribed` if there is inscribed information about the copy rights of the object.
    4. Add the tag `done_round_1`.
-5. TODO: add instruction for exporting and pushing.
-
+6. TODO: add instruction for exporting and pushing.
 
 ### General indexing guidelines for students
 
