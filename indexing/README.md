@@ -45,10 +45,12 @@ Note that specific guidelines (e.g., Round 1) trump general guidelines!
 5. For each object assigned to you:
    1. If possible fill in the fields `Inscribed creator`, `Inscribed date`, `Inscribed person shown`, and `Inscribed location shown`.
       1. Each field has a corresponding field without the "inscribed"-part. Use this field only if you know the value of the field but the value is not inscribed anywhere.
-      2. Be sure to take into account an object's `Is Part Of`-field. For example, some metadata about a Foto object might only be found on the corresponding Fotoblatt object.
+      2. If a field has multiple values (e.g., a `Foto`-object with multiple persons shown), use semicolon `;` to separate values (e.g., "name one; name two; name three").
+      3. Be sure to take into account an object's `Is Part Of`-field. For example, some metadata about a Foto object might only be found on the corresponding Fotoblatt object.
    2. Add the tag `rescan` if one of the object's images is too blurry to read.
    3. Add the tag `rights_inscribed` if there is inscribed information about the copy rights of the object.
-   4. Add the tag `done_round_1`.
+   4. Add the tag `problem` you have problems with filling in the fields and want to discuss the case in class.
+   5. Add the tag `done_round_1`.
 6. Export all objects from Tropy as JSON-LD. See Tropy documentation for instructions: https://docs.tropy.org/other-features/export. Save it as a file called `name_round_1.json` to `/indexing/workflow/user_export` where "name" is your name.
 7. In GitHub Desktop, deselect all files/changes excluding `/indexing/workflow/user_export/name_round_1.json` before committing to the `students`-branch.
 8. Push your changes.
