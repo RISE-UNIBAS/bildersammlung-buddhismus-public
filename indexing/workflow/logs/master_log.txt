@@ -166,3 +166,33 @@ No new user exports found. Exiting...
 No new user exports found. Exiting...
 No new user exports found. Exiting...
 No new user exports found. Exiting...
+Loading master export...
+Loading user exports...
+Updating master export with 1 changed files...
+>> Checking max_round_1.json
+>>>> Adding F0237: PersonInImageWDetails
+>>>> Adding F0237: dcterms:date
+>>>> Adding F0238: PersonInImageWDetails
+>>>> Adding F0238: dcterms:date
+>>>> Adding F0239: PersonInImageWDetails
+>>>> Adding F0239: dcterms:date
+>>>> Adding F0240: PersonInImageWDetails
+>>>> Adding F0241: PersonInImageWDetails
+>>>> Adding F0242: PersonInImageWDetails
+>>>> Adding F0243: PersonInImageWDetails
+>>>> Adding F0244: PersonInImageWDetails
+>>>> Adding F0244: dcterms:date
+>>>> Adding F0245: PersonInImageWDetails
+>>>> Adding F0245: dcterms:date
+>>>> Adding F0246: PersonInImageWDetails
+>>>> test identifier: date is up to date
+>>>> test identifier: creator is up to date
+>>>> test identifier: dcterms:creator is up to date
+>>>> test identifier: PersonInImage is up to date
+>>>> test identifier: PersonInImageWDetails is up to date
+>>>> test identifier: dcterms:date is up to date
+>>>> test identifier: LocationShown is up to date
+Writing master export to file...
+Writing user exports to file...
+>> Updating mh_export_dummy.json
+The last update was made on 2023-04-17 07:40:29.107023 by indexing/workflow/update_master_export.py
