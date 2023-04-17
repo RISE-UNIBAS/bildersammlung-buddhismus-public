@@ -14,6 +14,7 @@ INDEXES_TO_UPDATE = ["date",
                      "LocationShown",
                      "LocationCreated"
                      "tag",
+                     "note"
                      ]
 
 
