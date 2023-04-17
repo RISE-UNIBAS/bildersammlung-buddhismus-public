@@ -37418,7 +37418,9 @@
             "source": "F05-JM001-AM004-F0237",
             "title": "Deutsche Buddhisten - F0237",
             "tag": [
-                "max"
+                "max",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37475,7 +37477,8 @@
                 }
             ],
             "PersonInImageWDetails": "Maungg Maungg Hwin; U Kyaw Hla; Lama Anagarika Govina | Ernst Lothar Hoffmann; Ny\u0101natiloka | Anton W.F. Gueth; Adinavaysa Thera",
-            "dcterms:date": "April 1929"
+            "dcterms:date": "April 1929",
+            "LocationCreated": "Mandalay, Burma"
         },
         {
             "@type": "Item",
@@ -37489,7 +37492,10 @@
             "source": "F05-JM001-AM004-F0238",
             "title": "Deutsche Buddhisten - F0238",
             "tag": [
-                "max"
+                "max",
+                "problem",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -37547,7 +37553,8 @@
                 }
             ],
             "PersonInImageWDetails": "Ny\u0101naloka | Rajasinghe, Singh; Ny\u0101natiloka | Anton W. F. Gueth; Ny\u0101nasumedha; Ny\u0101naponika | Siegmund Feniger",
-            "dcterms:date": "6.5.1935"
+            "dcterms:date": "6.5.1935",
+            "LocationCreated": "Studio in Shri Lanka"
         },
         {
             "@type": "Item",
@@ -37561,7 +37568,9 @@
             "source": "F05-JM001-AM004-F0239",
             "title": "Deutsche Buddhisten - F0239",
             "tag": [
-                "max"
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -37619,7 +37628,8 @@
                 }
             ],
             "PersonInImageWDetails": "Ny\u0101natiloka | Anton W. F. Gueth",
-            "dcterms:date": "1935"
+            "dcterms:date": "1935",
+            "LocationCreated": "vor einem privaten Landhaus bei Morawaka, Shri Lanka"
         },
         {
             "@type": "Item",
@@ -37633,7 +37643,9 @@
             "source": "F05-JM001-AM004-F0240",
             "title": "Deutsche Buddhisten - F0240",
             "tag": [
-                "max"
+                "max",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37704,7 +37716,10 @@
             "source": "F05-JM001-AM004-F0241",
             "title": "Deutsche Buddhisten - F0241",
             "tag": [
-                "max"
+                "max",
+                "rights_inscribed",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37761,7 +37776,8 @@
                     "title": "Images_Deutsche_Buddhisten_1253604_0020"
                 }
             ],
-            "PersonInImageWDetails": "NY\u0100NAPONIKA | Siegmund Feniger; VAPPO | Ludwig Stolz; Ny\u0101nakhetto | Peter Schoenfeldt | Swami Gauribala | NYANAKHETTO; NYANAPIYA | Julius Pistor; NYANAMALITO | Malte Schoenfeldt"
+            "PersonInImageWDetails": "NY\u0100NAPONIKA | Siegmund Feniger; VAPPO | Ludwig Stolz; Ny\u0101nakhetto | Peter Schoenfeldt | Swami Gauribala | NYANAKHETTO; NYANAPIYA | Julius Pistor; NYANAMALITO | Malte Schoenfeldt",
+            "LocationCreated": "'Island Hermitage Polgasduwa' in Dodanduwa, Shri Lanka"
         },
         {
             "@type": "Item",
@@ -37775,7 +37791,8 @@
             "source": "F05-JM001-AM005-F0242",
             "title": "Deutsche Buddhisten - F0242",
             "tag": [
-                "max"
+                "max",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37846,7 +37863,8 @@
             "source": "F05-JM001-AM005-F0243",
             "title": "Deutsche Buddhisten - F0243",
             "tag": [
-                "max"
+                "max",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37917,7 +37935,8 @@
             "source": "F05-JM001-AM005-F0244",
             "title": "Deutsche Buddhisten - F0244",
             "tag": [
-                "max"
+                "max",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37975,7 +37994,8 @@
                 }
             ],
             "PersonInImageWDetails": "Dr. med. Wolfgang Schumacher; Ilse",
-            "dcterms:date": "1952"
+            "dcterms:date": "1952",
+            "LocationCreated": "Heilst\u00e4tte Ganz"
         },
         {
             "@type": "Item",
@@ -37989,7 +38009,9 @@
             "source": "F05-JM001-AM005-F0245",
             "title": "Deutsche Buddhisten - F0245",
             "tag": [
-                "max"
+                "max",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -38061,7 +38083,9 @@
             "source": "F05-JM001-AM006-F0246",
             "title": "Deutsche Buddhisten - F0246",
             "tag": [
-                "max"
+                "max",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {

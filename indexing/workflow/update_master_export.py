@@ -12,7 +12,7 @@ INDEXES_TO_UPDATE = ["date",
                      "PersonInImageWDetails",
                      "dcterms:date",
                      "LocationShown",
-                     "LocationCreated"
+                     "LocationCreated",
                      "tag",
                      "note"
                      ]
@@ -29,7 +29,7 @@ def write_to_master_log(line, debug=False):
 def read_export_jsons(usr_export_file_list):
     usr_export_list = []
     for user_file in usr_export_file_list:
-        with open(f"{DIR}/user_exports/{user_file}", 'r') as file:
+        with open(f"{DIR}/user_exports/{user_file}", 'r', encoding="utf8") as file:
             usr_export_list.append(json.load(file))
     return usr_export_list
 
@@ -64,7 +64,7 @@ def write_export_json(master_data):
     # List and open each json file in the 'to_download' folder
     for ufile in os.listdir(f"{DIR}/to_download"):
         text_to_log.append(f'>> Updating {ufile}')
-        with open(f"{DIR}/to_download/{ufile}", 'r') as json_file:
+        with open(f"{DIR}/to_download/{ufile}", 'r', encoding="utf8") as json_file:
             data = json.load(json_file)
 
         # Loop through each item in the json file
@@ -83,7 +83,7 @@ def write_export_json(master_data):
         # Write the updated json file to the 'to_download' folder
         write_to_master_log("\n".join(text_to_log), debug=DEBUG)
 
-        with open(f"{DIR}/to_download/{ufile}", 'w') as json_file:
+        with open(f"{DIR}/to_download/{ufile}", 'w', encoding="utf8") as json_file:
             json.dump(data, json_file, indent=4)
 
 
@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
     # Load the master export
     write_to_master_log('Loading master export...', debug=DEBUG)
-    with open(f"{DIR}/export_master.json", 'r') as file:
+    with open(f"{DIR}/export_master.json", 'r', encoding="utf8") as file:
         master_export = json.load(file)
 
     # Read all user supllied export jsons into a list
@@ -117,7 +117,7 @@ if __name__ == '__main__':
 
     # Write the master export to file
     write_to_master_log('Writing master export to file...', debug=DEBUG)
-    with open(f'{DIR}/export_master.json', 'w') as file:
+    with open(f'{DIR}/export_master.json', 'w', encoding="utf8") as file:
         json.dump(master_export, file, indent=4)
 
     # Write the data back to the user supplied jsons
