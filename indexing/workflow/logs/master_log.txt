@@ -678,3 +678,117 @@ The last update was made on 2023-04-17 10:10:02.044320 by C:\Users\hinder0000\Py
 No new user exports found. Exiting...
 No new user exports found. Exiting...
 No new user exports found. Exiting...
+Loading master export...
+Loading user exports...
+Updating master export with 1 changed files...
+>> Checking Datei_Lewin.json
+>>>> Adding F0110: date
+>>>> Adding F0110: creator
+>>>> Adding F0110: LocationCreated
+>>>> Updating F0110: tag
+>>>> Adding F0111: date
+>>>> Adding F0111: creator
+>>>> Adding F0111: LocationCreated
+>>>> Updating F0111: tag
+>>>> Adding F0112: date
+>>>> Adding F0112: creator
+>>>> Adding F0112: LocationCreated
+>>>> Updating F0112: tag
+>>>> Adding F0113: PersonInImageWDetails
+>>>> Updating F0113: tag
+>>>> Adding F0114: PersonInImageWDetails
+>>>> Updating F0114: tag
+>>>> Adding F0115: PersonInImageWDetails
+>>>> Updating F0115: tag
+>>>> Adding F0116: PersonInImageWDetails
+>>>> Updating F0116: tag
+>>>> Adding F0117: PersonInImageWDetails
+>>>> Updating F0117: tag
+>>>> Adding F0118: PersonInImageWDetails
+>>>> Updating F0118: tag
+>>>> Adding F0119: PersonInImageWDetails
+>>>> Updating F0119: tag
+>>>> Adding F0120: PersonInImageWDetails
+>>>> Updating F0120: tag
+>>>> Adding F0121: PersonInImageWDetails
+>>>> Updating F0121: tag
+>>>> Adding F0122: PersonInImageWDetails
+>>>> Updating F0122: tag
+>>>> Adding F0123: date
+>>>> Adding F0123: PersonInImageWDetails
+>>>> Adding F0123: LocationCreated
+>>>> Updating F0123: tag
+>>>> Adding F0124: date
+>>>> Adding F0124: PersonInImageWDetails
+>>>> Adding F0124: LocationCreated
+>>>> Updating F0124: tag
+>>>> Adding F0125: date
+>>>> Adding F0125: PersonInImageWDetails
+>>>> Adding F0125: LocationCreated
+>>>> Updating F0125: tag
+>>>> Adding F0126: date
+>>>> Adding F0126: PersonInImageWDetails
+>>>> Adding F0126: LocationCreated
+>>>> Updating F0126: tag
+>>>> Adding F0127: PersonInImageWDetails
+>>>> Updating F0127: tag
+>>>> Adding F0128: PersonInImageWDetails
+>>>> Updating F0128: tag
+>>>> Adding F0129: PersonInImageWDetails
+>>>> Updating F0129: tag
+>>>> Adding F0130: date
+>>>> Adding F0130: PersonInImageWDetails
+>>>> Updating F0130: tag
+>>>> Adding F0131: date
+>>>> Adding F0131: PersonInImageWDetails
+>>>> Updating F0131: tag
+>>>> Adding F0132: date
+>>>> Adding F0132: PersonInImageWDetails
+>>>> Updating F0132: tag
+>>>> Adding F0133: PersonInImageWDetails
+>>>> Updating F0133: tag
+>>>> Adding F0134: date
+>>>> Adding F0134: PersonInImageWDetails
+>>>> Updating F0134: tag
+>>>> Adding F0135: date
+>>>> Adding F0135: PersonInImageWDetails
+>>>> Updating F0135: tag
+>>>> Adding F0136: date
+>>>> Adding F0136: PersonInImageWDetails
+>>>> Updating F0136: tag
+>>>> Adding F0137: date
+>>>> Adding F0137: PersonInImageWDetails
+>>>> Updating F0137: tag
+>>>> Adding F0138: PersonInImageWDetails
+>>>> Updating F0138: tag
+>>>> Adding F0139: date
+>>>> Adding F0139: PersonInImageWDetails
+>>>> Updating F0139: tag
+>>>> Adding F0140: date
+>>>> Adding F0140: PersonInImageWDetails
+>>>> Updating F0140: tag
+>>>> Adding F0141: date
+>>>> Adding F0141: creator
+>>>> Adding F0141: PersonInImageWDetails
+>>>> Adding F0141: LocationCreated
+>>>> Updating F0141: tag
+>>>> Adding F0142: date
+>>>> Adding F0142: creator
+>>>> Adding F0142: PersonInImageWDetails
+>>>> Adding F0142: LocationCreated
+>>>> Updating F0142: tag
+>>>> Adding F0143: date
+>>>> Adding F0143: creator
+>>>> Adding F0143: PersonInImageWDetails
+>>>> Adding F0143: LocationCreated
+>>>> Updating F0143: tag
+>>>> Adding F0144: date
+>>>> Adding F0144: PersonInImageWDetails
+>>>> Updating F0144: tag
+>>>> Adding F0145: date
+>>>> Adding F0145: PersonInImageWDetails
+>>>> Updating F0145: tag
+Writing master export to file...
+Writing user exports to file...
+>> Updating mh_export_dummy.json
+The last update was made on 2023-04-19 09:05:28.386896 by indexing/workflow/update_master_export.py

@@ -28450,6 +28450,8 @@
             "source": "F06-JM005-AM001-F0110",
             "title": "Moderner Buddhismus - F0110",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -28506,7 +28508,10 @@
                     "date": 1673967952000,
                     "title": "Images_Moderner_Buddhismus_1296047_0090"
                 }
-            ]
+            ],
+            "date": "24th July 1980",
+            "creator": "Hermann Schiewe",
+            "LocationCreated": "in one of the caves of the rock-temple of Dambulla in Sri Lanka"
         },
         {
             "@type": "Item",
@@ -28520,6 +28525,8 @@
             "source": "F06-JM005-AM001-F0111",
             "title": "Moderner Buddhismus - F0111",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -28576,7 +28583,10 @@
                     "date": 1673967997000,
                     "title": "Images_Moderner_Buddhismus_1296047_0092"
                 }
-            ]
+            ],
+            "date": "25th July 1980",
+            "creator": "Hermann Schiewe",
+            "LocationCreated": "Polonnaruwa, Sri Lanka"
         },
         {
             "@type": "Item",
@@ -28590,6 +28600,8 @@
             "source": "F06-JM005-AM001-F0112",
             "title": "Moderner Buddhismus - F0112",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -28646,7 +28658,10 @@
                     "date": 1673968046000,
                     "title": "Images_Moderner_Buddhismus_1296047_0094"
                 }
-            ]
+            ],
+            "date": "1956",
+            "creator": "Pius Rast",
+            "LocationCreated": "Kambodscha"
         },
         {
             "@type": "Item",
@@ -28660,7 +28675,9 @@
             "source": "F07-JM002-AM001-F0113",
             "title": "Moderner Buddhismus 3 - F0113",
             "tag": [
-                "lewin"
+                "done_round_1",
+                "lewin",
+                "problem"
             ],
             "photo": [
                 {
@@ -28716,7 +28733,8 @@
                     "date": 1670852157000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0002"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Bartholom\u00e4us Bauer | Bartel Bauer | Konda\u00f1\u00f1o"
         },
         {
             "@type": "Item",
@@ -28730,6 +28748,7 @@
             "type": "Foto",
             "title": "Moderner Buddhismus 3 - F0114",
             "tag": [
+                "done_round_1",
                 "lewin"
             ],
             "photo": [
@@ -28786,7 +28805,8 @@
                     "date": 1670852235000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0004"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Franz Josef Bauer | Novize und M\u00f6nch unter dem Namen Vimalo"
         },
         {
             "@type": "Item",
@@ -28800,6 +28820,7 @@
             "source": "F07-JM002-AM001-F0115",
             "title": "Moderner Buddhismus 3 - F0115",
             "tag": [
+                "done_round_1",
                 "lewin"
             ],
             "photo": [
@@ -28856,7 +28877,8 @@
                     "date": 1670852284000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0006"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Victor Stomps aus Finnentrop |\u00a0Mah\u00e2n\u00e2mo"
         },
         {
             "@type": "Item",
@@ -28870,6 +28892,7 @@
             "source": "F07-JM002-AM001-F0116",
             "title": "Moderner Buddhismus 3 - F0116",
             "tag": [
+                "done_round_1",
                 "lewin"
             ],
             "photo": [
@@ -28926,7 +28949,8 @@
                     "date": 1670852370000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0008"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ludwig Stolz aus Elberfeld | Vappo"
         },
         {
             "@type": "Item",
@@ -28940,6 +28964,7 @@
             "source": "F07-JM002-AM001-F0117",
             "title": "Moderner Buddhismus 3 - F0117",
             "tag": [
+                "done_round_1",
                 "lewin"
             ],
             "photo": [
@@ -28996,7 +29021,8 @@
                     "date": 1670852464000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0010"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ludwig Ankenbrand aus N\u00fcrnberg"
         },
         {
             "@type": "Item",
@@ -29010,6 +29036,8 @@
             "source": "F07-JM002-AM001-F0118",
             "title": "Moderner Buddhismus 3 - F0118",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29066,7 +29094,8 @@
                     "date": 1670852569000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0012"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Friedrich Zimmermann |\u00a0Subhadra Bhikshu"
         },
         {
             "@type": "Item",
@@ -29080,6 +29109,8 @@
             "source": "F07-JM002-AM001-F0119",
             "title": "Moderner Buddhismus 3 - F0119",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29136,7 +29167,8 @@
                     "date": 1670852632000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0014"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. HANS MUCH"
         },
         {
             "@type": "Item",
@@ -29150,6 +29182,8 @@
             "source": "F07-JM002-AM001-F0120",
             "title": "Moderner Buddhismus 3 - F0120",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29206,7 +29240,8 @@
                     "date": 1670852737000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0016"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Max HOPPE | Anag\u0101rika Dhammap\u0101la"
         },
         {
             "@type": "Item",
@@ -29220,6 +29255,8 @@
             "source": "F07-JM002-AM001-F0121",
             "title": "Moderner Buddhismus 3 - F0121",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29276,7 +29313,8 @@
                     "date": 1670852794000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0018"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. KARL SEIDENST\u00dcCKER |\u00a0Girimananda"
         },
         {
             "@type": "Item",
@@ -29290,6 +29328,8 @@
             "source": "F07-JM002-AM001-F0122",
             "title": "Moderner Buddhismus 3 - F0122",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29346,7 +29386,8 @@
                     "date": 1670852937000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0020"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. KARL SEIDENST\u00dcCKER |\u00a0Girimananda"
         },
         {
             "@type": "Item",
@@ -29360,6 +29401,8 @@
             "source": "F07-JM002-AM002-F0123",
             "title": "Moderner Buddhismus 3 - F0123",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29416,7 +29459,10 @@
                     "date": 1670853019000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0022"
                 }
-            ]
+            ],
+            "date": "19. Februar 1937 oder 1938",
+            "PersonInImageWDetails": "NY\u0100NAPONIKA |\u00a0Siegmund Feniger",
+            "LocationCreated": "Galle (SL)"
         },
         {
             "@type": "Item",
@@ -29430,6 +29476,8 @@
             "source": "F07-JM002-AM002-F0124",
             "title": "Moderner Buddhismus 3 - F0124",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29486,7 +29534,10 @@
                     "date": 1670853073000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0024"
                 }
-            ]
+            ],
+            "date": "19. Februar 1937 oder 1938",
+            "PersonInImageWDetails": "NY\u0100NATILOKA | Anton W. F. Gueth",
+            "LocationCreated": "Galle (SL)"
         },
         {
             "@type": "Item",
@@ -29500,6 +29551,8 @@
             "source": "F07-JM002-AM002-F0125",
             "title": "Moderner Buddhismus 3 - F0125",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29556,7 +29609,10 @@
                     "date": 1670853123000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0026"
                 }
-            ]
+            ],
+            "date": "19. Februar 1937 oder 1938",
+            "PersonInImageWDetails": "NY\u0100NAMALITO | Malte Schoenfeldt",
+            "LocationCreated": "Galle (SL)"
         },
         {
             "@type": "Item",
@@ -29570,6 +29626,8 @@
             "source": "F07-JM002-AM002-F0126",
             "title": "Moderner Buddhismus 3 - F0126",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29626,7 +29684,10 @@
                     "date": 1670853202000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0028"
                 }
-            ]
+            ],
+            "date": "19. Februar 1937 oder 1938",
+            "PersonInImageWDetails": "NY\u0100NATILOKA | Anton W. F. Gueth (mitte); NY\u0100NAMALITO | Malte Schoenfeldt (links); NY\u0100NAPONIKA | Siegmund Feniger (rechts)",
+            "LocationCreated": "Galle (SL)"
         },
         {
             "@type": "Item",
@@ -29640,6 +29701,8 @@
             "source": "F07-JM002-AM002-F0127",
             "title": "Moderner Buddhismus 3 - F0127",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29696,7 +29759,8 @@
                     "date": 1670853254000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0030"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "MAYA KELLER-GRIMM"
         },
         {
             "@type": "Item",
@@ -29710,6 +29774,8 @@
             "source": "F07-JM002-AM002-F0128",
             "title": "Moderner Buddhismus 3 - F0128",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29766,7 +29832,8 @@
                     "date": 1670853332000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0032"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "KARL EUGEN NEUMANN"
         },
         {
             "@type": "Item",
@@ -29780,6 +29847,8 @@
             "source": "F07-JM002-AM002-F0129",
             "title": "Moderner Buddhismus 3 - F0129",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29836,7 +29905,8 @@
                     "date": 1670853426000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0034"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. HANS MUCH"
         },
         {
             "@type": "Item",
@@ -29850,6 +29920,8 @@
             "source": "F07-JM002-AM002-F0130",
             "title": "Moderner Buddhismus 3 - F0130",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29906,7 +29978,9 @@
                     "date": 1670853467000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0036"
                 }
-            ]
+            ],
+            "date": "19.2.38",
+            "PersonInImageWDetails": "NY\u0100NATILOKA | Anton W. F. Gueth"
         },
         {
             "@type": "Item",
@@ -29920,6 +29994,8 @@
             "source": "F07-JM002-AM002-F0131",
             "title": "Moderner Buddhismus 3 - F0131",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29976,7 +30052,9 @@
                     "date": 1670853535000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0038"
                 }
-            ]
+            ],
+            "date": "July 1991",
+            "PersonInImageWDetails": "NYANASUMANA | Olivier MAILLEBUAU; SADDHANANDA |\u00a0ANURUDDHA | K. HEMARATNE; DHAMMAJIVA | KIU AH WANG; VAPPA | Pieter PRINS"
         },
         {
             "@type": "Item",
@@ -29990,6 +30068,8 @@
             "source": "F07-JM002-AM002-F0132",
             "title": "Moderner Buddhismus 3 - F0132",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30046,7 +30126,9 @@
                     "date": 1670853570000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0040"
                 }
-            ]
+            ],
+            "date": "July 1991",
+            "PersonInImageWDetails": "PIYARATANA | AK JAYATILLEKE; NY\u0100\u1e46ATISSA |\u00a0NYANATISSA (!); DHAMMASANTA | Manfred FATH; NY\u0100\u1e46ASANTA | Dietfried REGULA; NY\u0100\u1e46\u0100NANDA; NY\u0100\u1e46ASUMANA | Olivier MAILLEBUAU "
         },
         {
             "@type": "Item",
@@ -30060,6 +30142,8 @@
             "source": "F07-JM003-AM001-F0133",
             "title": "Moderner Buddhismus 3 - F0133",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30116,7 +30200,8 @@
                     "date": 1670853621000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0042"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Friedrich Zimmermann |\u00a0Subhadra Bhikshu"
         },
         {
             "@type": "Item",
@@ -30130,6 +30215,8 @@
             "source": "F07-JM003-AM001-F0134",
             "title": "Moderner Buddhismus 3 - F0134",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30186,7 +30273,9 @@
                     "date": 1670853675000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0044"
                 }
-            ]
+            ],
+            "date": "July 1991",
+            "PersonInImageWDetails": "PIYARATANA | AK JAYATILLEKE; NY\u0100\u1e46ATISSA |\u00a0NYANATISSA (!); DHAMMASANTA | Manfred FATH; NY\u0100\u1e46ASANTA | Dietfried REGULA; NY\u0100\u1e46\u0100NANDA; NY\u0100\u1e46ASUMANA | Olivier MAILLEBUAU; SADDHANANDA |\u00a0ANURUDDHA | K. HEMARATNE; DHAMMAJIVA | KIU AH WANG; VAPPA | Pieter PRINS"
         },
         {
             "@type": "Item",
@@ -30200,6 +30289,8 @@
             "source": "F07-JM003-AM001-F0135",
             "title": "Moderner Buddhismus 3 - F0135",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30256,7 +30347,9 @@
                     "date": 1670853724000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0046"
                 }
-            ]
+            ],
+            "date": "1982",
+            "PersonInImageWDetails": "NY\u0100\u1e46ADHIRA Bhikkhu | Frederic HENRY"
         },
         {
             "@type": "Item",
@@ -30270,6 +30363,8 @@
             "source": "F07-JM003-AM001-F0136",
             "title": "Moderner Buddhismus 3 - F0136",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30326,7 +30421,9 @@
                     "date": 1670853766000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0048"
                 }
-            ]
+            ],
+            "date": "May 1989",
+            "PersonInImageWDetails": "PIYARATANA | A.K. JAYATILLEKE; GN\u0100\u1e46AJOTHI; AMATASIRI |\u00a0Robert SCHUJMER; NY\u0100\u1e46ATISSA |\u00a0NYANATISSA (!); NY\u0100\u1e46ASANTA | Dietfried REGULA; NY\u0100\u1e46ASUMANA | Olivier MAILLEBUAU"
         },
         {
             "@type": "Item",
@@ -30340,6 +30437,8 @@
             "source": "F07-JM003-AM001-F0137",
             "title": "Moderner Buddhismus 3 - F0137",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30396,7 +30495,9 @@
                     "date": 1670853813000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0050"
                 }
-            ]
+            ],
+            "date": "May 1989",
+            "PersonInImageWDetails": "PIYARATANA | A.K. JAYATILLEKE; GN\u0100\u1e46AJOTHI; AMATASIRI |\u00a0Robert SCHUJMER; NY\u0100\u1e46ATISSA |\u00a0NYANATISSA (!) "
         },
         {
             "@type": "Item",
@@ -30410,6 +30511,8 @@
             "source": "F07-JM003-AM001-F0138",
             "title": "Moderner Buddhismus 3 - F0138",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30466,7 +30569,8 @@
                     "date": 1670853864000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0052"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Bhikkhu \u00d1\u0100NAVIRA | Harold Eward Musson"
         },
         {
             "@type": "Item",
@@ -30480,6 +30584,8 @@
             "source": "F07-JM003-AM001-F0139",
             "title": "Moderner Buddhismus 3 - F0139",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30536,7 +30642,9 @@
                     "date": 1670853897000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0054"
                 }
-            ]
+            ],
+            "date": "1982",
+            "PersonInImageWDetails": "PIYARATANA Mah\u0101thera |\u00a0A.K. Jayatilleke; With beard: HITESI Samanera | Wolfgang Haala"
         },
         {
             "@type": "Item",
@@ -30550,6 +30658,8 @@
             "source": "F07-JM003-AM001-F0140",
             "title": "Moderner Buddhismus 3 - F0140",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30606,7 +30716,9 @@
                     "date": 1670853937000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0056"
                 }
-            ]
+            ],
+            "date": "1982",
+            "PersonInImageWDetails": "NY\u0100\u1e46ADHIRA | Frederic HENRY; NY\u0100\u1e46ASATTA |\u00a0Martin NOVOSAD; HITESI | Wolfgang Haala; PIYARATANA | AK JAYATILLEKE; NY\u0100\u1e46ARAMITA |\u00a0Peter JELITTO"
         },
         {
             "@type": "Item",
@@ -30620,6 +30732,8 @@
             "source": "F07-JM003-AM001-F0141",
             "title": "Moderner Buddhismus 3 - F0141",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30676,7 +30790,11 @@
                     "date": 1670853983000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0058"
                 }
-            ]
+            ],
+            "date": "10.2.1991",
+            "creator": "singhalesischer Fotograf",
+            "PersonInImageWDetails": "NY\u0100\u1e46AVIMALA |\u00a0Friedrich M\u00f6ller",
+            "LocationCreated": "Island Hermitage Polgasduwa, Dodanduwa, SL"
         },
         {
             "@type": "Item",
@@ -30690,6 +30808,8 @@
             "source": "F07-JM003-AM001-F0142",
             "title": "Moderner Buddhismus 3 - F0142",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30746,7 +30866,11 @@
                     "date": 1670854026000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0060"
                 }
-            ]
+            ],
+            "date": "10.2.1991",
+            "creator": "singhalesischer Fotograf",
+            "PersonInImageWDetails": "NY\u0100\u1e46AVIMALA |\u00a0Friedrich M\u00f6ller",
+            "LocationCreated": "Island Hermitage Polgasduwa, Dodanduwa, SL"
         },
         {
             "@type": "Item",
@@ -30760,6 +30884,8 @@
             "source": "F07-JM003-AM002-F0143",
             "title": "Moderner Buddhismus 3 - F0143",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30816,7 +30942,11 @@
                     "date": 1670854642000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0062"
                 }
-            ]
+            ],
+            "date": "10.2.1991",
+            "creator": "singhalesischer Fotograf",
+            "PersonInImageWDetails": "NY\u0100\u1e46AVIMALA |\u00a0Friedrich M\u00f6ller",
+            "LocationCreated": "Island Hermitage Polgasduwa, Dodanduwa, SL"
         },
         {
             "@type": "Item",
@@ -30830,6 +30960,8 @@
             "source": "F07-JM003-AM002-F0144",
             "title": "Moderner Buddhismus 3 - F0144",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30886,7 +31018,9 @@
                     "date": 1670854137000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0064"
                 }
-            ]
+            ],
+            "date": "1982",
+            "PersonInImageWDetails": "NY\u0100\u1e46ARAMITTA Bhikkhu |\u00a0Peter Jelitto"
         },
         {
             "@type": "Item",
@@ -30900,6 +31034,8 @@
             "source": "F07-JM003-AM002-F0145",
             "title": "Moderner Buddhismus 3 - F0145",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30956,7 +31092,9 @@
                     "date": 1670854274000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0066"
                 }
-            ]
+            ],
+            "date": "1982",
+            "PersonInImageWDetails": "NY\u0100\u1e46ASATTA Mah\u0101thera | Martin NOVOSAD"
         },
         {
             "@type": "Item",
