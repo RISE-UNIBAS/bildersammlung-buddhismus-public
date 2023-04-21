@@ -14,12 +14,14 @@ class Metadata:
     :param blatt_id: running identifier of type "Blatt"
     :param foto_id: running identifier of type "Foto"
     :param fotoblatt_id: running identifier of type "Fotoblatt"
+    :param fotoblatt_id: running identifier for persons
     """
 
     aufgeklebt_id: int = 1
     blatt_id: int = 1
     foto_id: int = 1
     fotoblatt_id: int = 1
+    person_id: int = 1
 
     @classmethod
     def get_type_mapping(cls):
@@ -29,6 +31,7 @@ class Metadata:
                 "blatt_id": "B",
                 "foto_id": "F",
                 "fotoblatt_id": "FB",
+                "person_id": "P",
                 }
 
     @classmethod
