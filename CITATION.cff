@@ -25,6 +25,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.7757209
     description: Version 0.1.0
+  - type: doi
+    value: 10.5281/zenodo.7802036 	
+    description: Version 0.2.0
 url: >-
   https://github.com/RISE-UNIBAS/bildersammlung-buddhismus-public
 repository: 'https://vorlesungsverzeichnis.unibas.ch/de/home?id=274243'
@@ -43,5 +46,5 @@ keywords:
   - photographic archive
   - documentation
 license: CC-BY-4.0
-version: 0.1.0
-date-released: '2023-03-21'
+version: 0.2.0
+date-released: '2023-04-05'
