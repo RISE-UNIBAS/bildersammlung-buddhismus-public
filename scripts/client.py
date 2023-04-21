@@ -4,6 +4,7 @@ Client class. """
 
 from __future__ import annotations
 from scripts.items import Aufgeklebt, Blatt, Fotoblatt, Item
+from scripts.metadata import Metadata
 from scripts.transform import Transform, TransformFotoblatt, TransformContainer, TransformContainerVerso
 from scripts.tropy import Tropy
 from scripts.utility import Utility
@@ -81,11 +82,13 @@ class Client:
 
     @staticmethod
     def persons2csv(json_export: dict,
-                    save_path: str) -> None:
+                    save_path: str,
+                    tall: bool = False) -> None:
         """ Extract persons from Tropy JSON export file to CSV file.
 
         :param json_export: loaded Tropy JSON export file
         :param save_path: complete path to save file including file extension
+        :param tall:
         """
 
         tropy = Tropy(json_export=json_export)
@@ -93,32 +96,48 @@ class Client:
         for item in tropy.graph:
             parsed_item = Item()
             parsed_item.copy_metadata_from_dict(item)
-
             try:
                 persons = persons + parsed_item.get_inscribed_persons()
             except TypeError:
                 pass
 
-        # logic for csv export starts here
-        max_variant_names = 0
-        for person in persons:
-            if len(person.variant_names) > max_variant_names:
-                max_variant_names = len(person.variant_names)
+        # logic for wide csv export starts here (inscribed name variants of one person in one row):
+        if tall is False:
+            max_variant_names = 0
+            for person in persons:
+                if len(person.variant_names) > max_variant_names:
+                    max_variant_names = len(person.variant_names)
 
-        header = ["person_id"]
-        n = 1
-        while n < max_variant_names + 1:
-            header = header + [f"inscribed_name_{n}", f"source_identifier_{n}"]
-            n += 1
+            header = ["person_id"]
+            n = 1
+            while n < max_variant_names + 1:
+                header = header + [f"inscribed_name_{n}", f"source_identifier_{n}"]
+                n += 1
 
-        data = []
-        for person in persons:
-            row = [person.identifier]
-            for variant_name in person.variant_names:
-                row.append(variant_name.transcription)
-                row.append(variant_name.sources[0].identifier)  # assume we have only one source atm
-            data.append(row)
+            data = []
+            for person in persons:
+                row = [person.identifier]
+                for variant_name in person.variant_names:
+                    row.append(variant_name.transcription)
+                    source_identifiers = [source.identifier for source in variant_name.sources]
+                    row.append(",".join(source_identifiers))
+                data.append(row)
+
+        # logic for tall csv export starts here (one inscribed name variant per row):
+        else:
+            header = ["person_id", "inscribed_name", "source_identifier"]
+            data = []
+            for person in persons:
+                for variant_name in person.variant_names:
+                    row = [person.identifier, variant_name.transcription]
+                    source_identifiers = [source.identifier for source in variant_name.sources]
+                    row.append(",".join(source_identifiers))
+                    data.append(row)
 
         Utility.save_csv(header=header,
                          data=data,
                          file_path=save_path)
+        Metadata.person_id = 1
+
+
+
