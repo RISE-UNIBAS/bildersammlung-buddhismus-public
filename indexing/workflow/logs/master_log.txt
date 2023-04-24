@@ -1066,3 +1066,125 @@ The last update was made on 2023-04-19 09:57:26.471340 by indexing/workflow/upda
 No new user exports found. Exiting...
 No new user exports found. Exiting...
 No new user exports found. Exiting...
+Loading master export...
+Loading user exports...
+Updating master export with 1 changed files...
+>> Checking TROSINO_round_1.json
+>>>> Adding F0001: date
+>>>> Adding F0001: creator
+>>>> Adding F0001: PersonInImageWDetails
+>>>> Updating F0001: tag
+>>>> Adding F0002: date
+>>>> Adding F0002: PersonInImageWDetails
+>>>> Adding F0002: LocationCreated
+>>>> Updating F0002: tag
+>>>> Adding F0003: PersonInImageWDetails
+>>>> Updating F0003: tag
+>>>> Updating F0004: tag
+>>>> Updating F0005: tag
+>>>> Adding F0006: LocationCreated
+>>>> Updating F0006: tag
+>>>> Adding F0007: LocationCreated
+>>>> Updating F0007: tag
+>>>> Adding F0008: PersonInImageWDetails
+>>>> Updating F0008: tag
+>>>> Adding F0009: PersonInImageWDetails
+>>>> Adding F0009: LocationCreated
+>>>> Updating F0009: tag
+>>>> Adding F0010: date
+>>>> Adding F0010: creator
+>>>> Adding F0010: PersonInImageWDetails
+>>>> Adding F0010: LocationCreated
+>>>> Updating F0010: tag
+>>>> Adding F0011: PersonInImageWDetails
+>>>> Adding F0011: LocationCreated
+>>>> Updating F0011: tag
+>>>> Adding F0012: PersonInImageWDetails
+>>>> Adding F0012: LocationCreated
+>>>> Updating F0012: tag
+>>>> Adding F0013: date
+>>>> Adding F0013: creator
+>>>> Updating F0013: tag
+>>>> Adding F0014: PersonInImageWDetails
+>>>> Adding F0014: LocationCreated
+>>>> Updating F0014: tag
+>>>> Adding F0015: PersonInImageWDetails
+>>>> Adding F0015: LocationCreated
+>>>> Updating F0015: tag
+>>>> Adding F0016: PersonInImageWDetails
+>>>> Updating F0016: tag
+>>>> Adding F0017: date
+>>>> Adding F0017: PersonInImageWDetails
+>>>> Adding F0017: LocationCreated
+>>>> Updating F0017: tag
+>>>> Adding F0018: date
+>>>> Adding F0018: PersonInImageWDetails
+>>>> Adding F0018: LocationCreated
+>>>> Updating F0018: tag
+>>>> Adding F0019: date
+>>>> Adding F0019: PersonInImageWDetails
+>>>> Adding F0019: LocationCreated
+>>>> Updating F0019: tag
+>>>> Adding F0020: LocationCreated
+>>>> Updating F0020: tag
+>>>> Adding F0021: LocationCreated
+>>>> Updating F0021: tag
+>>>> Adding F0022: LocationCreated
+>>>> Updating F0022: tag
+>>>> Adding F0023: PersonInImage
+>>>> Updating F0023: tag
+>>>> Adding F0024: date
+>>>> Adding F0024: PersonInImageWDetails
+>>>> Adding F0024: LocationCreated
+>>>> Updating F0024: tag
+>>>> F0024: date is up to date
+>>>> F0024: PersonInImageWDetails is up to date
+>>>> F0024: LocationCreated is up to date
+>>>> F0024: tag is up to date
+>>>> Adding F0025: creator
+>>>> Adding F0025: LocationCreated
+>>>> Updating F0025: tag
+>>>> Adding F0026: creator
+>>>> Adding F0026: LocationCreated
+>>>> Updating F0026: tag
+>>>> Adding F0027: creator
+>>>> Adding F0027: LocationCreated
+>>>> Updating F0027: tag
+>>>> Adding F0028: LocationCreated
+>>>> Updating F0028: tag
+>>>> Adding F0029: creator
+>>>> Adding F0029: LocationCreated
+>>>> Updating F0029: tag
+>>>> Adding F0030: creator
+>>>> Adding F0030: PersonInImageWDetails
+>>>> Updating F0030: tag
+>>>> Adding F0031: date
+>>>> Adding F0031: creator
+>>>> Adding F0031: LocationCreated
+>>>> Updating F0031: tag
+>>>> Adding F0032: date
+>>>> Adding F0032: creator
+>>>> Adding F0032: LocationCreated
+>>>> Updating F0032: tag
+>>>> Adding F0033: date
+>>>> Adding F0033: creator
+>>>> Adding F0033: LocationCreated
+>>>> Updating F0033: tag
+>>>> Adding F0034: date
+>>>> Adding F0034: creator
+>>>> Adding F0034: LocationCreated
+>>>> Updating F0034: tag
+>>>> Adding F0035: date
+>>>> Adding F0035: creator
+>>>> Adding F0035: PersonInImageWDetails
+>>>> Adding F0035: LocationCreated
+>>>> Updating F0035: tag
+>>>> Adding F0036: date
+>>>> Adding F0036: creator
+>>>> Adding F0036: PersonInImageWDetails
+>>>> Adding F0036: LocationCreated
+>>>> Updating F0036: tag
+Writing master export to file...
+Writing user exports to file...
+>> Updating mh_export_dummy.json
+The last update was made on 2023-04-24 21:43:31.788970 by indexing/workflow/update_master_export.py

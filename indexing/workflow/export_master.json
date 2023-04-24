@@ -20751,7 +20751,8 @@
             "title": "Moderner Buddhismus Europa Asien 1 - F0001",
             "type": "Foto",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -20807,7 +20808,10 @@
                     "date": 1669635148000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0002"
                 }
-            ]
+            ],
+            "date": "1859",
+            "creator": "Johannes Sch\u00e4fer",
+            "PersonInImageWDetails": "Arthur Schopenhauer"
         },
         {
             "@type": "Item",
@@ -20821,7 +20825,8 @@
             "source": "F01-JM002-AM001-F0002",
             "title": "Moderner Buddhismus Europa Asien 1 - F0002",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -20877,7 +20882,10 @@
                     "date": 1669631597000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0004"
                 }
-            ]
+            ],
+            "date": "1252 ; 1972",
+            "PersonInImageWDetails": "Bronze Buddha",
+            "LocationCreated": "Hondo ; Berlin-Frohnau"
         },
         {
             "@type": "Item",
@@ -20891,7 +20899,8 @@
             "source": "F01-JM002-AM001-F0003",
             "title": "Moderner Buddhismus Europa Asien 1 - F0003",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -20947,7 +20956,8 @@
                     "date": 1669631661000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0006"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ven. Udogampola Wijayasoma (Maha Thero)"
         },
         {
             "@type": "Item",
@@ -20961,7 +20971,9 @@
             "source": "F01-JM002-AM001-F0004",
             "title": "Moderner Buddhismus Europa Asien 1 - F0004",
             "tag": [
-                "marc"
+                "marc",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21031,7 +21043,9 @@
             "source": "F01-JM002-AM001-F0005",
             "title": "Moderner Buddhismus Europa Asien 1 - F0005",
             "tag": [
-                "marc"
+                "marc",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21101,7 +21115,8 @@
             "source": "F01-JM002-AM001-F0006",
             "title": "Moderner Buddhismus Europa Asien 1 - F0006",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21157,7 +21172,8 @@
                     "date": 1669631830000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0012"
                 }
-            ]
+            ],
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21171,7 +21187,8 @@
             "source": "F01-JM002-AM001-F0007",
             "title": "Moderner Buddhismus Europa Asien 1 - F0007",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21227,7 +21244,8 @@
                     "date": 1669631865000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0014"
                 }
-            ]
+            ],
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21241,7 +21259,8 @@
             "source": "F01-JM002-AM001-F0008",
             "title": "Moderner Buddhismus Europa Asien 1 - F0008",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21297,7 +21316,8 @@
                     "date": 1669631906000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0016"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ven. Mahasi Sayadaw (U Sobhana Maha Thera)"
         },
         {
             "@type": "Item",
@@ -21311,7 +21331,8 @@
             "source": "F01-JM002-AM003-F0009",
             "title": "Moderner Buddhismus Europa Asien 1 - F0009",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21367,7 +21388,9 @@
                     "date": 1669631962000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0018"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr Paul Dahlke",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21381,7 +21404,9 @@
             "source": "F01-JM002-AM003-F0010",
             "title": "Moderner Buddhismus Europa Asien 1 - F0010",
             "tag": [
-                "marc"
+                "marc",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21437,7 +21462,11 @@
                     "date": 1669631999000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0020"
                 }
-            ]
+            ],
+            "date": "Mai 1979",
+            "creator": "Dr Weidemann, L\u00fcbeck, Nachlass",
+            "PersonInImageWDetails": "Paul Dahlke",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21451,7 +21480,8 @@
             "source": "F01-JM002-AM003-F0011",
             "title": "Moderner Buddhismus Europa Asien 1 - F0011",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21507,7 +21537,9 @@
                     "date": 1669632037000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0022"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Martin Steinke (Tao Ch\u00fcn)",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21521,7 +21553,8 @@
             "source": "F01-JM002-AM003-F0012",
             "title": "Moderner Buddhismus Europa Asien 1 - F0012",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21577,7 +21610,9 @@
                     "date": 1669632070000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0024"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr Kurt Schmidt",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21591,7 +21626,9 @@
             "source": "F01-JM002-AM003-F0013",
             "title": "Moderner Buddhismus Europa Asien 1 - F0013",
             "tag": [
-                "marc"
+                "marc",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21647,7 +21684,9 @@
                     "date": 1669632119000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0026"
                 }
-            ]
+            ],
+            "date": "27/03/1983",
+            "creator": "Heinz Brunn"
         },
         {
             "@type": "Item",
@@ -21661,7 +21700,8 @@
             "source": "F01-JM002-AM003-F0014",
             "title": "Moderner Buddhismus Europa Asien 1 - F0014",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21717,7 +21757,9 @@
                     "date": 1669632153000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0028"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanaponika (Mahathera)",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21731,7 +21773,8 @@
             "source": "F01-JM002-AM003-F0015",
             "title": "Moderner Buddhismus Europa Asien 1 - F0015",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21787,7 +21830,9 @@
                     "date": 1669632184000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0030"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanatiloka (Mahathera)",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21801,7 +21846,8 @@
             "source": "F01-JM002-AM003-F0016",
             "title": "Moderner Buddhismus Europa Asien 1 - F0016",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21857,7 +21903,8 @@
                     "date": 1669632221000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0032"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Paul Dahlke, Hikkaduwe Sumangala"
         },
         {
             "@type": "Item",
@@ -21871,7 +21918,8 @@
             "source": "F01-JM002-AM003-F0017",
             "title": "Moderner Buddhismus Europa Asien 1 - F0017",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21927,7 +21975,10 @@
                     "date": 1669632269000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0034"
                 }
-            ]
+            ],
+            "date": "1957",
+            "PersonInImageWDetails": "H-Ulrich Rieker; A. Weeraratna",
+            "LocationCreated": "Berlin"
         },
         {
             "@type": "Item",
@@ -21941,7 +21992,8 @@
             "source": "F01-JM002-AM003-F0018",
             "title": "Moderner Buddhismus Europa Asien 1 - F0018",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21997,7 +22049,10 @@
                     "date": 1669632307000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0036"
                 }
-            ]
+            ],
+            "date": "1957",
+            "PersonInImageWDetails": "H-Ulrich Rieker",
+            "LocationCreated": "Berlin"
         },
         {
             "@type": "Item",
@@ -22011,7 +22066,8 @@
             "source": "F01-JM002-AM003-F0019",
             "title": "Moderner Buddhismus Europa Asien 1 - F0019",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22067,7 +22123,10 @@
                     "date": 1669632344000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0038"
                 }
-            ]
+            ],
+            "date": "04/10/1983",
+            "PersonInImageWDetails": "Peter J. Meyer; Gnanawimala Mahathera",
+            "LocationCreated": "Berlin Pax Pagoda"
         },
         {
             "@type": "Item",
@@ -22081,7 +22140,8 @@
             "source": "F01-JM002-AM003-F0020",
             "title": "Moderner Buddhismus Europa Asien 1 - F0020",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22137,7 +22197,8 @@
                     "date": 1669632378000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0040"
                 }
-            ]
+            ],
+            "LocationCreated": "Meditationsklause, Utting am Ammersee"
         },
         {
             "@type": "Item",
@@ -22151,7 +22212,8 @@
             "source": "F01-JM002-AM003-F0021",
             "title": "Moderner Buddhismus Europa Asien 1 - F0021",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22207,7 +22269,8 @@
                     "date": 1669632406000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0042"
                 }
-            ]
+            ],
+            "LocationCreated": "Meditationsklause, Utting am Ammersee"
         },
         {
             "@type": "Item",
@@ -22221,7 +22284,8 @@
             "source": "F01-JM002-AM003-F0022",
             "title": "Moderner Buddhismus Europa Asien 1 - F0022",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22277,7 +22341,8 @@
                     "date": 1669632440000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0044"
                 }
-            ]
+            ],
+            "LocationCreated": "Utting am Ammersee/Obb, Stadtteil Ludwigsh\u00f6he"
         },
         {
             "@type": "Item",
@@ -22291,7 +22356,8 @@
             "source": "F01-JM002-AM003-F0023",
             "title": "Moderner Buddhismus Europa Asien 1 - F0023",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22347,7 +22413,8 @@
                     "date": 1669632472000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0046"
                 }
-            ]
+            ],
+            "PersonInImage": "Georg Grimm"
         },
         {
             "@type": "Item",
@@ -22361,7 +22428,8 @@
             "source": "F01-JM002-AM003-F0024",
             "title": "Moderner Buddhismus Europa Asien 1 - F0024",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22417,7 +22485,10 @@
                     "date": 1669632514000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0048"
                 }
-            ]
+            ],
+            "date": "22.08.1949",
+            "PersonInImageWDetails": "Max Hoppe",
+            "LocationCreated": "Utting am Ammersee/Obb, Stadtteil Ludwigsh\u00f6he"
         },
         {
             "@type": "Item",
@@ -22431,7 +22502,8 @@
             "source": "F01-JM002-AM003-F0025",
             "title": "Moderner Buddhismus Europa Asien 1 - F0025",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22486,7 +22558,9 @@
                     "date": 1669632550000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0050"
                 }
-            ]
+            ],
+            "creator": "Kurt Weinhold",
+            "LocationCreated": "Utting am Ammersee/Obb, Stadtteil Ludwigsh\u00f6he"
         },
         {
             "@type": "Item",
@@ -22500,7 +22574,8 @@
             "source": "F01-JM002-AM005-F0026",
             "title": "Moderner Buddhismus Europa Asien 1 - F0026",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22556,7 +22631,9 @@
                     "date": 1669632584000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0052"
                 }
-            ]
+            ],
+            "creator": "Verlag Haus der Stille",
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)"
         },
         {
             "@type": "Item",
@@ -22570,7 +22647,8 @@
             "source": "F01-JM002-AM005-F0027",
             "title": "Moderner Buddhismus Europa Asien 1 - F0027",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22626,7 +22704,9 @@
                     "date": 1669632609000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0054"
                 }
-            ]
+            ],
+            "creator": "Verlag Haus der Stille",
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)"
         },
         {
             "@type": "Item",
@@ -22640,7 +22720,8 @@
             "source": "F01-JM002-AM005-F0028",
             "title": "Moderner Buddhismus Europa Asien 1 - F0028",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22696,7 +22777,8 @@
                     "date": 1669632641000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0056"
                 }
-            ]
+            ],
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)"
         },
         {
             "@type": "Item",
@@ -22710,7 +22792,8 @@
             "source": "F01-JM002-AM005-F0029",
             "title": "Moderner Buddhismus Europa Asien 1 - F0029",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22766,7 +22849,9 @@
                     "date": 1669632665000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0058"
                 }
-            ]
+            ],
+            "creator": "Verlag Haus der Stille",
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)"
         },
         {
             "@type": "Item",
@@ -22780,7 +22865,8 @@
             "source": "F01-JM002-AM005-F0030",
             "title": "Moderner Buddhismus Europa Asien 1 - F0030",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22836,7 +22922,9 @@
                     "date": 1669632698000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0060"
                 }
-            ]
+            ],
+            "creator": "Eberhard Kuhnhenn",
+            "PersonInImageWDetails": "Eberhard Kuhnhenn"
         },
         {
             "@type": "Item",
@@ -22850,7 +22938,8 @@
             "source": "F01-JM002-AM005-F0031",
             "title": "Moderner Buddhismus Europa Asien 1 - F0031",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22906,7 +22995,10 @@
                     "date": 1669632724000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0062"
                 }
-            ]
+            ],
+            "date": "Mai 1963",
+            "creator": "Hermann Schiewe",
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)"
         },
         {
             "@type": "Item",
@@ -22920,7 +23012,8 @@
             "source": "F01-JM002-AM005-F0032",
             "title": "Moderner Buddhismus Europa Asien 1 - F0032",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22976,7 +23069,10 @@
                     "date": 1669632768000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0064"
                 }
-            ]
+            ],
+            "date": "Mai 1963",
+            "creator": "Hermann Schiewe",
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)"
         },
         {
             "@type": "Item",
@@ -22990,7 +23086,8 @@
             "source": "F01-JM002-AM005-F0033",
             "title": "Moderner Buddhismus Europa Asien 1 - F0033",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -23046,7 +23143,10 @@
                     "date": 1669632805000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0066"
                 }
-            ]
+            ],
+            "date": "Mai 1963",
+            "creator": "Hermann Schiewe",
+            "LocationCreated": "1. Meditationsklause, Haus der Stille in Roseburg"
         },
         {
             "@type": "Item",
@@ -23060,7 +23160,8 @@
             "source": "F01-JM002-AM005-F0034",
             "title": "Moderner Buddhismus Europa Asien 1 - F0034",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -23116,7 +23217,10 @@
                     "date": 1669632831000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0068"
                 }
-            ]
+            ],
+            "date": "Mai 1963",
+            "creator": "Hermann Schiewe",
+            "LocationCreated": "1. Meditationsklause, Haus der Stille in Roseburg"
         },
         {
             "@type": "Item",
@@ -23130,7 +23234,8 @@
             "source": "F01-JM002-AM005-F0035",
             "title": "Moderner Buddhismus Europa Asien 1 - F0035",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -23186,7 +23291,11 @@
                     "date": 1669792100000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0070"
                 }
-            ]
+            ],
+            "date": "Juli 1964",
+            "creator": "Hermann Schiewe",
+            "PersonInImageWDetails": "Bhikkhu Dhammiko (Manuel Kulbarz)",
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)"
         },
         {
             "@type": "Item",
@@ -23200,7 +23309,8 @@
             "source": "F01-JM002-AM005-F0036",
             "title": "Moderner Buddhismus Europa Asien 1 - F0036",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -23256,7 +23366,11 @@
                     "date": 1669792160000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0072"
                 }
-            ]
+            ],
+            "date": "Mai 1963",
+            "creator": "Hermann Schiewe",
+            "PersonInImageWDetails": "Frau Pieturowski; Bhikkhu Dhammiko; NN;NN;NN;Ursel Anders; Elisabeth Heidt",
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)"
         },
         {
             "@type": "Item",
