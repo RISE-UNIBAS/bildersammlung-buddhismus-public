@@ -17,8 +17,8 @@ class Item:
 
     :param template: http://purl.org/dc/elements/1.1/type
     :param title: http://purl.org/dc/elements/1.1/title
-    :param LocationCreated:
     :param LocationShown:
+    :param LocationCreated:
     :param PersonInImage:
     :param PersonInImageWDetails:
     :param creator: http://purl.org/dc/elements/1.1/creator
@@ -43,8 +43,8 @@ class Item:
     """
 
     template: str = "https://tropy.org/v1/templates/id#iTbU0YBP"
-    LocationCreated: str = None
     LocationShown: str = None
+    LocationCreated: str = None
     PersonInImage: str = None
     PersonInImageWDetails: str = None
     title: str = None
@@ -77,6 +77,17 @@ class Item:
 
         return normalized_keys
 
+    @staticmethod
+    def get_inscribed_map() -> dict:
+        """ Get mapping of field to inscribed field. """
+
+        inscribed_map = {"creator": "dcterms_creator",
+                         "date": "dcterms_date",
+                         "LocationShown": "LocationCreated",
+                         "PersonInImage": "PersonInImageWDetails"}
+
+        return inscribed_map
+
     def get_inscribed_persons(self) -> List[Person] | None:
         """ Get inscribed persons. """
 
@@ -106,11 +117,47 @@ class Item:
         except AssertionError:
             return None
         except:
+
             raise
+
+    def get_parsed_field(self,
+                         field: str,
+                         inscribed: bool = False) -> List[List] | None:
+        """ Get values and variants for any (inscribed) field.
+
+        Note that neither values nor variants get IDs (so information that x is a variant of value y gets lost). Use
+        field-specific methods to preserve this connection.
+
+        :param field: the field
+        :param inscribed: toggle inscribed field, defaults to False
+        """
+
+        try:
+            assert hasattr(self, field)
+            source = Source(identifier=self.identifier,
+                            signature=self.source)
+        except AssertionError:
+            raise
+
+        try:
+            if inscribed is True:
+                field = self.get_inscribed_map()[field]
+            assert getattr(self, field) is not None
+            parsed_field = []
+            values = getattr(self, field).split(";")
+            for value in values:
+                variants = value.split("|")
+                for variant in variants:
+                    parsed_field.append([variant.strip(), source])
+            return parsed_field
+        except (AssertionError, AttributeError):
+            return None
 
     def get_date(self,
                  inscribed: bool = False) -> Tuple[str, Source] | None:
-        """ Get date.
+        """ Get date from 'date' resp. 'dcterms_date' (= inscribed date) fields.
+
+        Method assumes that ';' and '|' separators are not used in said fields.
 
         :param inscribed: toggle inscribed date
          """
@@ -184,14 +231,14 @@ class Item:
 
     def copy_metadata_from_dict(self, dictionary: dict) -> None:
         """ Copy metadata from dictionary. """
-
         try:
             for key in dictionary.keys():
                 try:
                     normalized_key = self.get_normalized_tropy_field_names()[key]
                     self.__setattr__(normalized_key, dictionary[key])
                 except KeyError:
-                    self.__setattr__(key, dictionary[key])
+                    pass
+                self.__setattr__(key, dictionary[key])
         except Exception:
             raise
 

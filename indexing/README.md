@@ -88,3 +88,4 @@ For illustration, assume you are assigned to index objects with IDs F0001-F0099 
 
 - [x] Setup automatic ingest
 - [ ] Fix template names
+- [ ] Namespace error when exporting only partial items: `dcterms:date` becomes `date` if `dc:date` is empty, dito for `dcterms:creator`.

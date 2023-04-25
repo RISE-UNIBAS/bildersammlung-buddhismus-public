@@ -142,8 +142,39 @@ class Client:
         Metadata.person_id = 1
 
     @staticmethod
+    def parsed_field2csv(json_export: dict,
+                         save_path: str,
+                         field: str,
+                         inscribed: bool = False) -> None:
+        """ Save parsed field from Tropy JSON export file to CSV file.
+
+        :param json_export: loaded Tropy JSON export file
+        :param save_path: complete path to save file including file extension
+        :param field:
+        :param inscribed:
+        """
+
+        tropy = Tropy(json_export=json_export)
+        header = [field, "source_identifier"]
+        data = []
+        for item in tropy.graph:
+            parsed_item = Item()
+            parsed_item.copy_metadata_from_dict(item)
+            try:
+                parsed_field = parsed_item.get_parsed_field(field=field,
+                                                            inscribed=inscribed)
+                if parsed_field is not None:
+                    data = data + parsed_field
+            except TypeError:
+                pass
+
+        Utility.save_csv(header=header,
+                         data=data,
+                         file_path=save_path)
+
+    @staticmethod
     def dates2csv(json_export: dict,
-                 save_path: str) -> None:
+                  save_path: str) -> None:
         """ Extract dates from Tropy JSON export file to CSV file.
 
         :param json_export: loaded Tropy JSON export file
