@@ -1286,3 +1286,104 @@ Writing user exports to file...
 >> Updating mh_export_dummy.json
 The last update was made on 2023-04-25 13:48:50.927916 by indexing/workflow/update_master_export.py
 No new user exports found. Exiting...
+Loading master export...
+Loading user exports...
+Updating master export with 1 changed files...
+>> Checking mhi_round_1b.json
+>>>> Adding F0055: date
+>>>> Adding F0055: creator
+>>>> Adding F0055: PersonInImageWDetails
+>>>> Adding F0055: LocationCreated
+>>>> Updating F0055: tag
+>>>> Adding F0054: date
+>>>> Adding F0054: creator
+>>>> Adding F0054: PersonInImageWDetails
+>>>> Adding F0054: LocationCreated
+>>>> Updating F0054: tag
+>>>> Adding F0053: date
+>>>> Adding F0053: creator
+>>>> Adding F0053: PersonInImageWDetails
+>>>> Adding F0053: LocationCreated
+>>>> Updating F0053: tag
+>>>> Adding F0052: date
+>>>> Adding F0052: creator
+>>>> Adding F0052: PersonInImageWDetails
+>>>> Adding F0052: LocationCreated
+>>>> Updating F0052: tag
+>>>> Adding F0051: date
+>>>> Adding F0051: creator
+>>>> Adding F0051: PersonInImageWDetails
+>>>> Adding F0051: LocationCreated
+>>>> Updating F0051: tag
+>>>> Adding F0050: date
+>>>> Adding F0050: creator
+>>>> Adding F0050: PersonInImageWDetails
+>>>> Adding F0050: LocationCreated
+>>>> Updating F0050: tag
+>>>> Adding F0049: date
+>>>> Adding F0049: creator
+>>>> Adding F0049: PersonInImageWDetails
+>>>> Adding F0049: LocationCreated
+>>>> Updating F0049: tag
+>>>> Adding F0048: date
+>>>> Adding F0048: creator
+>>>> Adding F0048: PersonInImageWDetails
+>>>> Adding F0048: LocationCreated
+>>>> Updating F0048: tag
+>>>> Adding F0047: date
+>>>> Adding F0047: creator
+>>>> Adding F0047: PersonInImageWDetails
+>>>> Adding F0047: LocationCreated
+>>>> Updating F0047: tag
+>>>> Adding F0046: date
+>>>> Adding F0046: creator
+>>>> Adding F0046: PersonInImageWDetails
+>>>> Adding F0046: LocationCreated
+>>>> Updating F0046: tag
+>>>> Adding F0045: date
+>>>> Adding F0045: creator
+>>>> Adding F0045: PersonInImageWDetails
+>>>> Adding F0045: LocationCreated
+>>>> Updating F0045: tag
+>>>> Adding F0044: date
+>>>> Adding F0044: creator
+>>>> Adding F0044: PersonInImageWDetails
+>>>> Adding F0044: LocationCreated
+>>>> Updating F0044: tag
+>>>> Adding F0043: date
+>>>> Adding F0043: creator
+>>>> Adding F0043: PersonInImageWDetails
+>>>> Adding F0043: LocationCreated
+>>>> Updating F0043: tag
+>>>> Adding F0042: date
+>>>> Adding F0042: creator
+>>>> Adding F0042: PersonInImageWDetails
+>>>> Adding F0042: LocationCreated
+>>>> Updating F0042: tag
+>>>> Adding F0041: date
+>>>> Adding F0041: creator
+>>>> Adding F0041: PersonInImageWDetails
+>>>> Adding F0041: LocationCreated
+>>>> Updating F0041: tag
+>>>> Adding F0040: date
+>>>> Adding F0040: creator
+>>>> Adding F0040: LocationCreated
+>>>> Updating F0040: tag
+>>>> Adding F0039: date
+>>>> Adding F0039: creator
+>>>> Adding F0039: LocationCreated
+>>>> Updating F0039: tag
+>>>> Adding F0038: date
+>>>> Adding F0038: creator
+>>>> Adding F0038: PersonInImageWDetails
+>>>> Adding F0038: LocationCreated
+>>>> Updating F0038: tag
+>>>> Adding F0037: date
+>>>> Adding F0037: creator
+>>>> Adding F0037: PersonInImageWDetails
+>>>> Adding F0037: LocationCreated
+>>>> Updating F0037: tag
+Writing master export to file...
+Writing user exports to file...
+>> Updating mh_export_dummy.json
+The last update was made on 2023-04-25 15:54:20.947074 by indexing/workflow/update_master_export.py
