@@ -1188,3 +1188,89 @@ Writing master export to file...
 Writing user exports to file...
 >> Updating mh_export_dummy.json
 The last update was made on 2023-04-24 21:43:31.788970 by indexing/workflow/update_master_export.py
+Loading master export...
+Loading user exports...
+Updating master export with 1 changed files...
+>> Checking pema_round_1.json
+>>>> Adding F0181: date
+>>>> Adding F0181: PersonInImage
+>>>> Adding F0181: PersonInImageWDetails
+>>>> Updating F0181: tag
+>>>> Adding F0182: date
+>>>> Adding F0182: PersonInImageWDetails
+>>>> Updating F0182: tag
+>>>> Adding F0183: PersonInImageWDetails
+>>>> Updating F0183: tag
+>>>> Adding F0184: date
+>>>> Adding F0184: PersonInImageWDetails
+>>>> Updating F0184: tag
+>>>> Adding F0185: date
+>>>> Adding F0185: PersonInImageWDetails
+>>>> Updating F0185: tag
+>>>> Updating F0186: tag
+>>>> Updating F0187: tag
+>>>> Updating F0188: tag
+>>>> Updating F0189: tag
+>>>> Updating F0190: tag
+>>>> Updating F0191: tag
+>>>> Updating F0192: tag
+>>>> Adding F0193: date
+>>>> Updating F0193: tag
+>>>> Adding F0194: PersonInImageWDetails
+>>>> Updating F0194: tag
+>>>> Adding F0195: PersonInImageWDetails
+>>>> Updating F0195: tag
+>>>> Updating F0196: tag
+>>>> Updating F0197: tag
+>>>> Adding F0198: date
+>>>> Adding F0198: PersonInImageWDetails
+>>>> Updating F0198: tag
+>>>> Adding F0199: date
+>>>> Adding F0199: PersonInImageWDetails
+>>>> Adding F0199: LocationCreated
+>>>> Updating F0199: tag
+>>>> Adding F0200: date
+>>>> Adding F0200: PersonInImageWDetails
+>>>> Updating F0200: tag
+>>>> Adding F0201: date
+>>>> Adding F0201: LocationCreated
+>>>> Updating F0201: tag
+>>>> Updating F0202: tag
+>>>> Adding F0203: date
+>>>> Adding F0203: PersonInImageWDetails
+>>>> Adding F0203: LocationCreated
+>>>> Updating F0203: tag
+>>>> Updating F0204: tag
+>>>> Adding F0205: date
+>>>> Updating F0205: tag
+>>>> Adding F0206: PersonInImage
+>>>> F0206: tag is up to date
+>>>> Adding F0207: PersonInImage
+>>>> Updating F0207: tag
+>>>> Adding F0208: date
+>>>> Adding F0208: PersonInImageWDetails
+>>>> Updating F0208: tag
+>>>> Adding F0209: date
+>>>> Adding F0209: PersonInImageWDetails
+>>>> Updating F0209: tag
+>>>> Adding F0210: PersonInImage
+>>>> Updating F0210: tag
+>>>> Adding F0211: PersonInImage
+>>>> Updating F0211: tag
+>>>> Adding F0212: PersonInImage
+>>>> Updating F0212: tag
+>>>> Adding F0213: PersonInImage
+>>>> Updating F0213: tag
+>>>> Adding F0214: PersonInImage
+>>>> Updating F0214: tag
+>>>> Adding F0215: PersonInImageWDetails
+>>>> Adding F0215: LocationCreated
+>>>> Updating F0215: tag
+>>>> Adding F0216: date
+>>>> Adding F0216: PersonInImageWDetails
+>>>> Adding F0216: LocationCreated
+>>>> Updating F0216: tag
+Writing master export to file...
+Writing user exports to file...
+>> Updating mh_export_dummy.json
+The last update was made on 2023-04-25 08:31:27.498755 by indexing/workflow/update_master_export.py
