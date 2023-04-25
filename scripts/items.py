@@ -6,7 +6,7 @@ from __future__ import annotations
 from dataclasses import dataclass, asdict
 from scripts.person import InscribedName, Person, Source
 from scripts.metadata import Metadata
-from typing import List, Dict
+from typing import List, Dict, Tuple
 
 
 @dataclass
@@ -78,7 +78,8 @@ class Item:
         return normalized_keys
 
     def get_inscribed_persons(self) -> List[Person] | None:
-        """ """
+        """ Get inscribed persons. """
+
         try:
             assert self.PersonInImageWDetails is not None
             persons = []
@@ -106,6 +107,36 @@ class Item:
             return None
         except:
             raise
+
+    def get_date(self,
+                 inscribed: bool = False) -> Tuple[str, Source] | None:
+        """ Get date.
+
+        :param inscribed: toggle inscribed date
+         """
+
+        try:
+            source = Source(identifier=self.identifier,
+                            signature=self.source)
+            if inscribed is True:
+                assert self.dcterms_date is not None
+                return self.dcterms_date, source
+            else:
+                assert self.date is not None
+                return self.date, source
+
+        except AssertionError:
+            return None
+        except:
+            raise
+
+    def get_inscribed_creator(self):
+        """ """
+        pass
+
+    def get_inscribed_location(self):
+        """ """
+        pass
 
     def list2metadata(self) -> None:
         """ Map (validated) list content to metadata fields. """

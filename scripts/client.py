@@ -84,11 +84,13 @@ class Client:
     def persons2csv(json_export: dict,
                     save_path: str,
                     tall: bool = False) -> None:
-        """ Extract persons from Tropy JSON export file to CSV file.
+        """ Extract persons from Tropy JSON export file to CSV file (name variants of one person in one row).
+
+        Method (for now) limited to inscribed persons shown.
 
         :param json_export: loaded Tropy JSON export file
         :param save_path: complete path to save file including file extension
-        :param tall:
+        :param tall: toggle tall CSV export (one row per name variant of a person)
         """
 
         tropy = Tropy(json_export=json_export)
@@ -139,5 +141,34 @@ class Client:
                          file_path=save_path)
         Metadata.person_id = 1
 
+    @staticmethod
+    def dates2csv(json_export: dict,
+                 save_path: str) -> None:
+        """ Extract dates from Tropy JSON export file to CSV file.
 
+        :param json_export: loaded Tropy JSON export file
+        :param save_path: complete path to save file including file extension
+        """
 
+        tropy = Tropy(json_export=json_export)
+        dates = []
+        inscribed_dates = []
+        for item in tropy.graph:
+            parsed_item = Item()
+            parsed_item.copy_metadata_from_dict(item)
+            try:
+                date = parsed_item.get_date()
+                if date is not None:
+                    dates.append(date)
+                date = parsed_item.get_date(inscribed=True)
+                if date is not None:
+                    inscribed_dates.append(date)
+            except TypeError:
+                pass
+
+        header = ["inscribed_date", "source_identifier"]
+        data = [[item[0], item[1]] for item in dates]
+
+        Utility.save_csv(header=header,
+                         data=data,
+                         file_path=save_path)
