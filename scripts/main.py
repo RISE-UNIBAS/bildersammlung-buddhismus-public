@@ -15,7 +15,6 @@ INDEXING = f"{PARENT_DIR}/indexing"
 
 Client.dates2csv(json_export=Utility.load_json(file_path=f"{INDEXING}/workflow/export_master.json"),
                  save_path=f"{INDEXING}/workflow/dates.csv")
-exit()
 Client.persons2csv(json_export=Utility.load_json(file_path=f"{INDEXING}/workflow/export_master.json"),
                    save_path=f"{INDEXING}/workflow/persons_wide.csv")
 Client.persons2csv(json_export=Utility.load_json(file_path=f"{INDEXING}/workflow/export_master.json"),
