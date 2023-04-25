@@ -37592,7 +37592,8 @@
             "source": "F02-JM002-AM004-F0232",
             "title": "Moderner Buddhismus Europa Asien 2 - F0232",
             "tag": [
-                "eric"
+                "eric",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37648,7 +37649,9 @@
                     "date": 1670582742000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0168"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Taungpulu-tawya Kab\u0101-Aye Sayadaw",
+            "LocationCreated": "Rangoon"
         },
         {
             "@type": "Item",
