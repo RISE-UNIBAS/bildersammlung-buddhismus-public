@@ -91,10 +91,8 @@ class Client:
         """
 
         for field in fields:
-            if field is "person":
-                Client.persons2csv(json_export=json_export,
-                                   save_path=f"{save_dir}/{field}.csv",
-                                   tall=True)
+            if field == "person":
+                Client.persons2csv(json_export=json_export, save_path=f"{save_dir}/{field}.csv")
             else:
                 Client.parsed_field2csv(json_export=json_export,
                                         save_path=f"{save_dir}/{field}_inscribed.csv",
@@ -107,15 +105,13 @@ class Client:
 
     @staticmethod
     def persons2csv(json_export: dict,
-                    save_path: str,
-                    tall: bool = False) -> None:
+                    save_path: str) -> None:
         """ Extract persons from Tropy JSON export file to CSV file (name variants of one person in one row).
 
         Method (for now) limited to inscribed persons shown.
 
         :param json_export: loaded Tropy JSON export file
         :param save_path: complete path to save file including file extension
-        :param tall: toggle tall CSV export (one row per name variant of a person)
         """
 
         tropy = Tropy(json_export=json_export)
@@ -128,38 +124,14 @@ class Client:
             except TypeError:
                 pass
 
-        # logic for wide csv export starts here (inscribed name variants of one person in one row):
-        if tall is False:
-            max_variant_names = 0
-            for person in persons:
-                if len(person.variant_names) > max_variant_names:
-                    max_variant_names = len(person.variant_names)
-
-            header = ["person_id"]
-            n = 1
-            while n < max_variant_names + 1:
-                header = header + [f"inscribed_name_{n}", f"source_identifier_{n}"]
-                n += 1
-
-            data = []
-            for person in persons:
-                row = [person.identifier]
-                for variant_name in person.variant_names:
-                    row.append(variant_name.transcription)
-                    source_identifiers = [source.identifier for source in variant_name.sources]
-                    row.append(",".join(source_identifiers))
+        header = ["person_id", "inscribed_name", "source_identifier"]
+        data = []
+        for person in persons:
+            for variant_name in person.variant_names:
+                row = [person.identifier, variant_name.transcription]
+                source_identifiers = [source.identifier for source in variant_name.sources]
+                row.append(",".join(source_identifiers))
                 data.append(row)
-
-        # logic for tall csv export starts here (one inscribed name variant per row):
-        else:
-            header = ["person_id", "inscribed_name", "source_identifier"]
-            data = []
-            for person in persons:
-                for variant_name in person.variant_names:
-                    row = [person.identifier, variant_name.transcription]
-                    source_identifiers = [source.identifier for source in variant_name.sources]
-                    row.append(",".join(source_identifiers))
-                    data.append(row)
 
         Utility.save_csv(header=header,
                          data=data,
@@ -172,8 +144,6 @@ class Client:
                          field: str,
                          inscribed: bool = False) -> None:
         """ Save parsed field from Tropy JSON export file to CSV file.
-
-
 
         :param json_export: loaded Tropy JSON export file
         :param save_path: complete path to save file including file extension
