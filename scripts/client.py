@@ -81,6 +81,31 @@ class Client:
         new_tropy.save(save_path)
 
     @staticmethod
+    def run_analysis(json_export: dict,
+                     save_dir: str,
+                     *fields: str) -> None:
+        """ Run analysis on Tropy fields in a loaded Tropy JSON export file and save analyses to CSV files.
+
+        :param json_export: loaded Tropy JSON export file
+        :param save_dir: path to save directory
+        """
+
+        for field in fields:
+            if field is "person":
+                Client.persons2csv(json_export=json_export,
+                                   save_path=f"{save_dir}/{field}.csv",
+                                   tall=True)
+            else:
+                Client.parsed_field2csv(json_export=json_export,
+                                        save_path=f"{save_dir}/{field}_inscribed.csv",
+                                        field=field,
+                                        inscribed=True)
+                Client.parsed_field2csv(json_export=json_export,
+                                        save_path=f"{save_dir}/{field}.csv",
+                                        field=field,
+                                        inscribed=False)
+
+    @staticmethod
     def persons2csv(json_export: dict,
                     save_path: str,
                     tall: bool = False) -> None:
@@ -148,10 +173,12 @@ class Client:
                          inscribed: bool = False) -> None:
         """ Save parsed field from Tropy JSON export file to CSV file.
 
+
+
         :param json_export: loaded Tropy JSON export file
         :param save_path: complete path to save file including file extension
-        :param field:
-        :param inscribed:
+        :param field: the field to be parsed
+        :param inscribed: toggle inscribed field, defaults to False
         """
 
         tropy = Tropy(json_export=json_export)
@@ -167,38 +194,6 @@ class Client:
                     data = data + parsed_field
             except TypeError:
                 pass
-
-        Utility.save_csv(header=header,
-                         data=data,
-                         file_path=save_path)
-
-    @staticmethod
-    def dates2csv(json_export: dict,
-                  save_path: str) -> None:
-        """ Extract dates from Tropy JSON export file to CSV file.
-
-        :param json_export: loaded Tropy JSON export file
-        :param save_path: complete path to save file including file extension
-        """
-
-        tropy = Tropy(json_export=json_export)
-        dates = []
-        inscribed_dates = []
-        for item in tropy.graph:
-            parsed_item = Item()
-            parsed_item.copy_metadata_from_dict(item)
-            try:
-                date = parsed_item.get_date()
-                if date is not None:
-                    dates.append(date)
-                date = parsed_item.get_date(inscribed=True)
-                if date is not None:
-                    inscribed_dates.append(date)
-            except TypeError:
-                pass
-
-        header = ["inscribed_date", "source_identifier"]
-        data = [[item[0], item[1]] for item in dates]
 
         Utility.save_csv(header=header,
                          data=data,

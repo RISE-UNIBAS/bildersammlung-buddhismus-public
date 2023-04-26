@@ -126,7 +126,7 @@ class Item:
         """ Get values and variants for any (inscribed) field.
 
         Note that neither values nor variants get IDs (so information that x is a variant of value y gets lost). Use
-        field-specific methods to preserve this connection.
+        field-specific methods (such as 'get_inscribed_persons') to preserve this connection.
 
         :param field: the field
         :param inscribed: toggle inscribed field, defaults to False
@@ -152,38 +152,6 @@ class Item:
             return parsed_field
         except (AssertionError, AttributeError):
             return None
-
-    def get_date(self,
-                 inscribed: bool = False) -> Tuple[str, Source] | None:
-        """ Get date from 'date' resp. 'dcterms_date' (= inscribed date) fields.
-
-        Method assumes that ';' and '|' separators are not used in said fields.
-
-        :param inscribed: toggle inscribed date
-         """
-
-        try:
-            source = Source(identifier=self.identifier,
-                            signature=self.source)
-            if inscribed is True:
-                assert self.dcterms_date is not None
-                return self.dcterms_date, source
-            else:
-                assert self.date is not None
-                return self.date, source
-
-        except AssertionError:
-            return None
-        except:
-            raise
-
-    def get_inscribed_creator(self):
-        """ """
-        pass
-
-    def get_inscribed_location(self):
-        """ """
-        pass
 
     def list2metadata(self) -> None:
         """ Map (validated) list content to metadata fields. """

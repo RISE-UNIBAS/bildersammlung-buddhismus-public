@@ -31,6 +31,14 @@ This dataset is licensed under a Creative Commons Attribution 4.0 International 
 
 - `/indexing/workflow`. Semi-automated workflow on `students` branch to collaborate on Tropy project to index the collection.
 
+### Data modelling
+
+- `/indexing/model`.
+
+### Data analysis
+
+- `/indexing/analysis.` Data analysis created by running `Client.run_analysis` on `/indexing/workflow/master_export.json`.
+
 ## How to use this Tropy project
 
 Note that specific guidelines (e.g., Round 1) trump general guidelines!
@@ -51,7 +59,7 @@ Note that specific guidelines (e.g., Round 1) trump general guidelines!
    3. Add the tag `rights_inscribed` if there is inscribed information about the copy rights of the object.
    4. Add the tag `problem` you have problems with filling in the fields and want to discuss the case in class.
    5. Add the tag `done_round_1`.
-6. Export all objects from Tropy as JSON-LD. See Tropy documentation for instructions: https://docs.tropy.org/other-features/export. Save it as a file called `name_round_1.json` to `/indexing/workflow/user_export` where "name" is your name.
+6. Export **_all objects_** from Tropy as JSON-LD (if not all objects are exported, there might be errors regarding the metadata namespaces). See Tropy documentation for instructions: https://docs.tropy.org/other-features/export. Save it as a file called `name_round_1.json` to `/indexing/workflow/user_export` where "name" is your name.
 7. In GitHub Desktop, deselect all files/changes excluding `/indexing/workflow/user_export/name_round_1.json` before committing to the `students`-branch.
 8. Push your changes.
 
@@ -87,5 +95,6 @@ For illustration, assume you are assigned to index objects with IDs F0001-F0099 
 ## To dos
 
 - [x] Setup automatic ingest
-- [ ] Fix template names
+- [x] Fix template names
 - [ ] Namespace error when exporting only partial items: `dcterms:date` becomes `date` if `dc:date` is empty, dito for `dcterms:creator`.
+- [ ] Add description of `/indexing/model`.
