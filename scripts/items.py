@@ -13,18 +13,18 @@ from typing import List, Dict, Tuple
 class Item:
     """ A representation of a Tropy item.
 
-    Parameter naming follows Tropy naming convention for fields (and not PEP).
+    Parameter naming prioritizes Tropy naming conventions for fields over PEP.
 
     :param template: http://purl.org/dc/elements/1.1/type
     :param title: http://purl.org/dc/elements/1.1/title
-    :param LocationShown:
-    :param LocationCreated:
-    :param PersonInImage:
-    :param PersonInImageWDetails:
+    :param LocationShown: http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationShown
+    :param LocationCreated: http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationCreated
+    :param PersonInImage: http://iptc.org/std/Iptc4xmpExt/2008-02-29/PersonInImage
+    :param PersonInImageWDetails: http://iptc.org/std/Iptc4xmpExt/2008-02-29/PersonInImageWDetails
     :param creator: http://purl.org/dc/elements/1.1/creator
-    :param dcterms_creator:
+    :param dcterms_creator: http://purl.org/dc/terms/creator
     :param date: http://purl.org/dc/elements/1.1/date
-    :param dcterms_date:
+    :param dcterms_date: http://purl.org/dc/terms/date
     :param type: http://purl.org/dc/elements/1.1/type
     :param source: http://purl.org/dc/elements/1.1/source
     :param collection: https://tropy.org/v1/tropy#collection
@@ -36,8 +36,8 @@ class Item:
     :param hasPart: http://purl.org/dc/terms/hasPart
     :param isPartOf: http://purl.org/dc/terms/isPartOf
     :param isRelatedTo: http://www.europeana.eu/schemas/edm/isRelatedTo
-    :param list: Tropy list
     :param photo: https://tropy.org/v1/tropy#photo
+    :param list: Tropy list
     :param tag: Tropy tag
     :param note: Tropy note
     """
@@ -63,8 +63,8 @@ class Item:
     hasPart: str = None
     isPartOf: str = None
     isRelatedTo: str = None
-    list: List[str] = None
     photo: List[Dict] = None
+    list: List[str] = None
     tag: list = None
     note: list = None
 
@@ -117,7 +117,6 @@ class Item:
         except AssertionError:
             return None
         except:
-
             raise
 
     def get_parsed_field(self,

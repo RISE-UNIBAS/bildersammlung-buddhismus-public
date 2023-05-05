@@ -104,6 +104,17 @@ class Client:
                                         inscribed=False)
 
     @staticmethod
+    def fix_namespace(json_export: dict,
+                      save_path: str) -> None:
+        """ bla
+
+        :param json_export: loaded Tropy JSON export file
+        :param save_path: complete path to save file including file extension
+        """
+
+        pass
+
+    @staticmethod
     def persons2csv(json_export: dict,
                     save_path: str) -> None:
         """ Extract persons from Tropy JSON export file to CSV file (name variants of one person in one row).
