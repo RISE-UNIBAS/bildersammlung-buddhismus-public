@@ -43,6 +43,16 @@ This dataset is licensed under a Creative Commons Attribution 4.0 International 
 
 Note that specific guidelines (e.g., Round 1) trump general guidelines!
 
+### Round 2 (2023-05-03)
+
+1. Checkout the `students` branch and make sure it is up-to-date.
+2. Make a copy of `/indexing/indexing.tpy` entitled `/indexing/indexing_name.tpy` where "name" is your name.
+3. Open `/indexing/indexing_name.tpy` with Tropy; if needed import the required templates `/indexing/AneingungBuddhismus.ttp` and `/indexing/ImagesFormat.ttp`
+4. Follow the instructions on [ADAM](https://adam.unibas.ch/goto_adam_wiki_wpage_2942_1546444.html) for indexing and correcting the images assigned to you.
+5. Export **_all objects_** from Tropy as JSON-LD (if not all objects are exported, there might be errors regarding the metadata namespaces). See Tropy documentation for instructions: https://docs.tropy.org/other-features/export. Save it as a file called `name_round_2.json` to `/indexing/workflow/user_export` where "name" is your name.
+6. In GitHub Desktop, deselect all files/changes excluding `/indexing/workflow/user_export/name_round_2.json` before committing to the `students`-branch.
+7. Push your changes.
+
 ### Round 1 (2023-04-05)
 
 1. Checkout the `students` branch and make sure it is up-to-date.
