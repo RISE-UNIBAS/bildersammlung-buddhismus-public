@@ -1,0 +1,3082 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://tropy.org/v1/tropy#",
+    "template": {
+      "@type": "@id"
+    },
+    "photo": {
+      "@id": "https://tropy.org/v1/tropy#photo",
+      "@container": "@list"
+    },
+    "note": {
+      "@id": "https://tropy.org/v1/tropy#note",
+      "@container": "@list"
+    },
+    "selection": {
+      "@id": "https://tropy.org/v1/tropy#selection",
+      "@container": "@list"
+    },
+    "object": "http://www.europeana.eu/schemas/edm/object",
+    "type": "http://purl.org/dc/elements/1.1/type",
+    "isPartOf": "http://purl.org/dc/terms/isPartOf",
+    "identifier": "http://purl.org/dc/elements/1.1/identifier",
+    "source": "http://purl.org/dc/elements/1.1/source",
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "date": "http://purl.org/dc/terms/date",
+    "PersonInImageWDetails": "http://iptc.org/std/Iptc4xmpExt/2008-02-29/PersonInImageWDetails",
+    "PersonInImage": "http://iptc.org/std/Iptc4xmpExt/2008-02-29/PersonInImage",
+    "format": "http://purl.org/dc/elements/1.1/format",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "LocationCreated": "http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationCreated"
+  },
+  "@graph": [
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0129",
+      "identifier": "F0181",
+      "source": "F02-JM002-AM001-F0181",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0181",
+      "date": "um 1920",
+      "PersonInImageWDetails": "VAPPO Thero | Ludwig Stolz; Georg",
+      "PersonInImage": "VAPPO Thero | Ludwig Stolz; Georg Stolz",
+      "tag": [
+        "done_round_1",
+        "rights_inscribed",
+        "pema",
+        "problem"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "35ac28fb4cfe7b3d9238cc3a77235910",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0065.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0065.jpg",
+          "protocol": "file",
+          "size": 983815,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1899,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1389,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581076000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0065"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "80ccd835902cea9bf8c31f298f4f42d6",
+          "color": "rgb(200,200,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0066.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0066.jpg",
+          "protocol": "file",
+          "size": 722707,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 90,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1881,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1365,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581081000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0066"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "identifier": "F0182",
+      "isPartOf": "FB0130",
+      "source": "F02-JM002-AM001-F0182",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0182",
+      "PersonInImageWDetails": "VAPPO Thero | Ludwig Stolz",
+      "date": "um 1920 | Dezember 1920",
+      "tag": [
+        "done_round_1",
+        "rights_inscribed",
+        "pema",
+        "problem"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "752a59d978e143d5137a5ef909d66ebb",
+          "color": "rgb(232,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0067.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0067.jpg",
+          "protocol": "file",
+          "size": 711090,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1628,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1196,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581122000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0067"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "3fd8642f6aad7bc18e606ce3f524b190",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0068.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0068.jpg",
+          "protocol": "file",
+          "size": 580519,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 270,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1612,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1172,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581126000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0068"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0130",
+      "identifier": "F0183",
+      "source": "F02-JM002-AM001-F0183",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0183",
+      "PersonInImageWDetails": "VAPPO Thero | Ludwig Stolz; Mr. Okada; Inouye; Mr. Toukamoto",
+      "tag": [
+        "done_round_1",
+        "rights_inscribed",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "d4eaf66b02d0368abbae7ec554da9832",
+          "color": "rgb(136,152,168,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0069.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0069.jpg",
+          "protocol": "file",
+          "size": 1073945,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1341,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1897,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581146000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0069"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "4eebea13f23e8e48ea1eadd8c48f4a32",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0070.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0070.jpg",
+          "protocol": "file",
+          "size": 707990,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1365,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1905,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581152000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0070"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "identifier": "F0184",
+      "isPartOf": "FB0131",
+      "source": "F02-JM002-AM001-F0184",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0184",
+      "date": "20er Jahre?",
+      "PersonInImageWDetails": "Unbekannt",
+      "tag": [
+        "done_round_1",
+        "rights_inscribed",
+        "pema",
+        "problem"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "8ad7821f48aacb6c6bcd89d029126fe3",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0071.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0071.jpg",
+          "protocol": "file",
+          "size": 882199,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1897,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1389,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581182000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0071"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "dece6f7a4de1eb36d5ebb13f05a1e6b1",
+          "color": "rgb(184,184,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0072.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0072.jpg",
+          "protocol": "file",
+          "size": 673854,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 90,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1876,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1367,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581187000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0072"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0131",
+      "identifier": "F0185",
+      "source": "F02-JM002-AM001-F0185",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0185",
+      "PersonInImageWDetails": "BHIKKU ÑĀṆAMOLI | Osbert Moore",
+      "date": "25th Oct. 1958",
+      "tag": [
+        "done_round_1",
+        "rights_inscribed",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "a155e82e682e89a5d7c2375d57af1882",
+          "color": "rgb(200,200,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0073.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0073.jpg",
+          "protocol": "file",
+          "size": 977685,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1350,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1906,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581207000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0073"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "6f96f3df7e312433fb4e2eef42efc5a6",
+          "color": "rgb(168,184,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0074.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0074.jpg",
+          "protocol": "file",
+          "size": 807531,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 180,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1357,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1889,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581212000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0074"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "identifier": "F0186",
+      "isPartOf": "FB0132",
+      "source": "F02-JM002-AM001-F0186",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0186",
+      "tag": [
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "4612dafb9bf7264a5e0a87dd0dc55840",
+          "color": "rgb(216,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0075.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0075.jpg",
+          "protocol": "file",
+          "size": 425550,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 833,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1190,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581243000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0075",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Aus dem Nachlass von Martin Novosad | Ñyāṇasatta",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Aus dem Nachlass von&nbsp;Martin Novosad | Ñyāṇasatta</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "e4890245e5f74d014d89828e5864b7e8",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0076.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0076.jpg",
+          "protocol": "file",
+          "size": 197934,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 827,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1159,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581248000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0076"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0132",
+      "identifier": "F0187",
+      "source": "F02-JM002-AM001-F0187",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0187",
+      "tag": [
+        "rescan",
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "ce4ea6c8c5b63399bcfd1564bfe262e6",
+          "color": "rgb(24,40,56,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0077.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0077.jpg",
+          "protocol": "file",
+          "size": 401227,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 826,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1196,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581266000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0077",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Aus dem Nachlass von Martin Novosad | Ñyāṇasatta",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Aus dem Nachlass von&nbsp;Martin Novosad | Ñyāṇasatta</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "d966cc1677c78edbe576513a91b40edc",
+          "color": "rgb(184,200,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0078.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0078.jpg",
+          "protocol": "file",
+          "size": 187294,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 827,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1157,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581271000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0078"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0132",
+      "identifier": "F0188",
+      "source": "F02-JM002-AM001-F0188",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0188",
+      "tag": [
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "47e786adef653332256c205d00f4b3cf",
+          "color": "rgb(216,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0079.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0079.jpg",
+          "protocol": "file",
+          "size": 353854,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 833,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1181,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581287000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0079",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Aus dem Nachlass von Martin Novosad | Ñyāṇasatta",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Aus dem Nachlass von&nbsp;Martin Novosad | Ñyāṇasatta</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "2557ae73205af1d25c08ccec55ac5c09",
+          "color": "rgb(184,200,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0080.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0080.jpg",
+          "protocol": "file",
+          "size": 213186,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 825,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1149,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581291000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0080"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0132",
+      "identifier": "F0189",
+      "source": "F02-JM002-AM001-F0189",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0189",
+      "tag": [
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "509a82ff0684e6ae77df16596c8e5360",
+          "color": "rgb(232,232,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0081.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0081.jpg",
+          "protocol": "file",
+          "size": 692003,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1182,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1575,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581309000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0081",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Aus dem Nachlass von Martin Novosad | Ñyāṇasatta",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Aus dem Nachlass von&nbsp;Martin Novosad | Ñyāṇasatta</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "b132e69874fe3d6d8c5802bd0e937ac1",
+          "color": "rgb(216,216,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0082.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0082.jpg",
+          "protocol": "file",
+          "size": 363960,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1195,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1575,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581324000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0082"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0132",
+      "identifier": "F0190",
+      "source": "F02-JM002-AM001-F0190",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0190",
+      "tag": [
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "f2b1504dc307225934f1cf2fc153659e",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0083.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0083.jpg",
+          "protocol": "file",
+          "size": 314783,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1242,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 895,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581357000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0083",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Aus dem Nachlass von Martin Novosad | Ñyāṇasatta",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Aus dem Nachlass von&nbsp;Martin Novosad | Ñyāṇasatta</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "c42e1d969e8fd20d25145ec0e0dc7920",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0084.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0084.jpg",
+          "protocol": "file",
+          "size": 223152,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1228,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 880,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581361000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0084"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0132",
+      "identifier": "F0191",
+      "source": "F02-JM002-AM001-F0191",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0191",
+      "tag": [
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "0ca73feaf7d378a57553bc168a779cf4",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0085.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0085.jpg",
+          "protocol": "file",
+          "size": 323111,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 871,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1225,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581379000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0085",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Aus dem Nachlass von Martin Novosad | Ñyāṇasatta",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Aus dem Nachlass von&nbsp;Martin Novosad | Ñyāṇasatta</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "5cd6dbf66f4c1acf26874b3d6a28d910",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0086.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0086.jpg",
+          "protocol": "file",
+          "size": 218452,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 872,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1234,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581383000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0086"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0132",
+      "identifier": "F0192",
+      "source": "F02-JM002-AM001-F0192",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0192",
+      "tag": [
+        "rescan",
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "08a465e914f5eff42f204bb0b433e15c",
+          "color": "rgb(184,200,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0087.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0087.jpg",
+          "protocol": "file",
+          "size": 258097,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1116,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 846,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581402000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0087",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Aus dem Nachlass von Martin Novosad | Ñyāṇasatta",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Aus dem Nachlass von&nbsp;Martin Novosad | Ñyāṇasatta</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "794777d6b2aca4d6b828fe6d37b28a08",
+          "color": "rgb(232,248,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0088.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0088.jpg",
+          "protocol": "file",
+          "size": 189606,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1078,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 831,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581411000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0088"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "identifier": "F0193",
+      "isPartOf": "FB0133",
+      "source": "F02-JM002-AM001-F0193",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0193",
+      "date": "7./5. 1952",
+      "tag": [
+        "pema",
+        "problem"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "41e6b697f0f0759171738287565d2704",
+          "color": "rgb(168,168,168,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0089.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0089.jpg",
+          "protocol": "file",
+          "size": 601472,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1728,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1126,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581439000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0089"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "7833cd3c6a7833d34584cc124deac04a",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0090.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0090.jpg",
+          "protocol": "file",
+          "size": 730473,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1720,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1126,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581443000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0090"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0133",
+      "identifier": "F0194",
+      "source": "F02-JM002-AM001-F0194",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0194",
+      "PersonInImageWDetails": "OSKAR SCHLOß",
+      "tag": [
+        "done_round_1",
+        "pema",
+        "problem",
+        "rights_inscribed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "921d143767dd24f94d39dbb7ca27447c",
+          "color": "rgb(72,88,104,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0091.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0091.jpg",
+          "protocol": "file",
+          "size": 562442,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1606,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1134,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581469000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0091"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "a28e99ecd9591c1128c039d28c3e6524",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0092.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0092.jpg",
+          "protocol": "file",
+          "size": 396925,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1580,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1134,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581473000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0092"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0133",
+      "identifier": "F0195",
+      "source": "F02-JM002-AM001-F0195",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0195",
+      "PersonInImageWDetails": "Wladyslaw Misiewicz",
+      "tag": [
+        "done_round_1",
+        "pema",
+        "problem"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "a339dea65a83b881d8581cfc281963d1",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0093.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0093.jpg",
+          "protocol": "file",
+          "size": 682654,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1204,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1812,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581503000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0093"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "98b7378d3947a27d1c8ca5281cd9fd56",
+          "color": "rgb(216,216,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0094.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0094.jpg",
+          "protocol": "file",
+          "size": 657949,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1188,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1782,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581511000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0094"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0133",
+      "identifier": "F0196",
+      "source": "F02-JM002-AM001-F0196",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0196",
+      "tag": [
+        "pema",
+        "problem",
+        "translation_needed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "2b12547ba8da024bb893f864eb045c61",
+          "color": "rgb(184,184,184,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0095.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0095.jpg",
+          "protocol": "file",
+          "size": 201068,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 867,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 717,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581534000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0095"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "0b104a857265d0631430e150f125a3be",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0096.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0096.jpg",
+          "protocol": "file",
+          "size": 144753,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 898,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 725,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581539000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0096"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "identifier": "F0197",
+      "isPartOf": "FB0134",
+      "source": "F02-JM002-AM001-F0197",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0197",
+      "tag": [
+        "rescan",
+        "pema",
+        "problem",
+        "translation_needed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "6a91ffaaeeb0aeafe8ab3c532dff8e74",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0097.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0097.jpg",
+          "protocol": "file",
+          "size": 226292,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 716,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1190,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581581000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0097"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "b9d82e48c415a0ce3a1237e1b4ece5a2",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0098.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0098.jpg",
+          "protocol": "file",
+          "size": 196857,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 696,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1138,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581588000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0098"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0134",
+      "identifier": "F0198",
+      "source": "F02-JM002-AM001-F0198",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0198",
+      "date": "Augusto 1948",
+      "PersonInImageWDetails": "Mia edzino; kaj min filo",
+      "tag": [
+        "rescan",
+        "done_round_1",
+        "pema",
+        "problem",
+        "translation_needed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "1e11aff1f1fa67e36104a4d493105afc",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0099.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0099.jpg",
+          "protocol": "file",
+          "size": 222848,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 698,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1145,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581610000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0099",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Mia edzino; kaj min filo -> Esperanto: Gattin und Kind",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Mia edzino; kaj min filo -&gt; Esperanto: Gattin und Kind</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "26fb4845083880ea8cd2c0945f417a55",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0100.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0100.jpg",
+          "protocol": "file",
+          "size": 231690,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 674,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1117,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581616000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0100"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0134",
+      "identifier": "F0199",
+      "source": "F02-JM002-AM001-F0199",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0199",
+      "date": "4.8.46",
+      "LocationCreated": "Tiebiě, Československo",
+      "PersonInImageWDetails": "Kamil Sedláček",
+      "tag": [
+        "rescan",
+        "done_round_1",
+        "pema",
+        "problem",
+        "translation_needed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "c2d88f99b7ad875c09891d7244d8011c",
+          "color": "rgb(184,200,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0101.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0101.jpg",
+          "protocol": "file",
+          "size": 259317,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1074,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 812,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581631000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0101"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "0ae339ba7916c79465b9180bc385cd1a",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0102.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0102.jpg",
+          "protocol": "file",
+          "size": 205827,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1076,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 820,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581637000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0102"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0134",
+      "identifier": "F0200",
+      "source": "F02-JM002-AM001-F0200",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0200",
+      "date": "15./1.1932",
+      "PersonInImageWDetails": "Aldrich Novosad",
+      "tag": [
+        "done_round_1",
+        "pema",
+        "problem",
+        "translation_needed",
+        "rights_inscribed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "59a587bee0f6a7e95f4969966d0354a7",
+          "color": "rgb(56,72,104,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0103.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0103.jpg",
+          "protocol": "file",
+          "size": 293298,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1121,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 874,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581662000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0103"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "743b195ed97b0967d43ecdee98e50e96",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0104.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0104.jpg",
+          "protocol": "file",
+          "size": 247788,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1120,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 841,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581667000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0104",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Schiewe fügt 1991 an: Aldrich Novosad ist vielleicht Bruder von Martin Novosad | Ñyāṇasatta",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Schiewe fügt 1991 an: Aldrich Novosad ist vielleicht Bruder von Martin Novosad | Ñyāṇasatta</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0134",
+      "identifier": "F0201",
+      "source": "F02-JM002-AM001-F0201",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0201",
+      "date": "2.1.1949",
+      "LocationCreated": "ČSR - Brno, Masarykova 37",
+      "tag": [
+        "done_round_1",
+        "pema",
+        "problem",
+        "rights_inscribed",
+        "translation_needed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "15de0b1fa33ae47d4c7642bb115eeff6",
+          "color": "rgb(56,72,88,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0105.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0105.jpg",
+          "protocol": "file",
+          "size": 516342,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1637,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1150,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581686000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0105"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "43b874619bfe4e8efc4eb5e02b5da70c",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0106.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0106.jpg",
+          "protocol": "file",
+          "size": 467986,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1642,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1149,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581690000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0106"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0134",
+      "identifier": "F0202",
+      "source": "F02-JM002-AM001-F0202",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0202",
+      "tag": [
+        "pema",
+        "problem",
+        "translation_needed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "d364dd31b7b982b95209ff75f0e9af90",
+          "color": "rgb(184,184,184,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0107.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0107.jpg",
+          "protocol": "file",
+          "size": 358429,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1091,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 851,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581706000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0107"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "7a9586b5905381b89d5289127b19f6e4",
+          "color": "rgb(248,248,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0108.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0108.jpg",
+          "protocol": "file",
+          "size": 252212,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1097,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 868,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581711000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0108"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "identifier": "F0203",
+      "isPartOf": "FB0135",
+      "source": "F02-JM002-AM001-F0203",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0203",
+      "PersonInImageWDetails": "Pavel Košík",
+      "LocationCreated": "Brno - Československo",
+      "date": "1941",
+      "tag": [
+        "done_round_1",
+        "pema",
+        "problem",
+        "translation_needed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "3e3b9c19d62ef1b6e72b4100c8114403",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0109.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0109.jpg",
+          "protocol": "file",
+          "size": 298264,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1148,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 849,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581753000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0109"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "fbc1d78f03b11f34bc5da46de5f6bc06",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0110.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0110.jpg",
+          "protocol": "file",
+          "size": 246237,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1142,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 841,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581758000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0110"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0135",
+      "identifier": "F0204",
+      "source": "F02-JM002-AM001-F0204",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0204",
+      "tag": [
+        "rights_inscribed",
+        "pema",
+        "problem",
+        "translation_needed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "83af567f1f7f7f53b548bff301d999f6",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0111.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0111.jpg",
+          "protocol": "file",
+          "size": 263459,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 840,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1124,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581775000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0111"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "aca0566c5456cffc883447daf74027b6",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0112.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0112.jpg",
+          "protocol": "file",
+          "size": 256336,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 841,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1125,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581781000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0112"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "box": "F02",
+      "folder": "JM002",
+      "object": "AM001",
+      "type": "Foto",
+      "isPartOf": "FB0135",
+      "identifier": "F0205",
+      "source": "F02-JM002-AM001-F0205",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0205",
+      "date": "8./10.1899",
+      "tag": [
+        "pema",
+        "problem",
+        "translation_needed"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "a4118e2dbc7314ffcc668e84b084ccf4",
+          "color": "rgb(152,152,152,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0113.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0113.jpg",
+          "protocol": "file",
+          "size": 270122,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1099,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 817,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581801000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0113"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "ac1c150d7e80a55b5a34f4f9ae46ddbf",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0114.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0114.jpg",
+          "protocol": "file",
+          "size": 242091,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1094,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 821,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581807000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0114"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "identifier": "F0206",
+      "isPartOf": "FB0136",
+      "source": "F02-JM002-AM003-F0206",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0206",
+      "PersonInImage": "Shanti Bhadra",
+      "tag": [
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "25608ef7c0a47e0fe858165b4eef697c",
+          "color": "rgb(200,200,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0115.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0115.jpg",
+          "protocol": "file",
+          "size": 246701,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1110,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 862,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581847000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0115"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "f3da6082ec1abefc552a2e49a900cbce",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0116.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0116.jpg",
+          "protocol": "file",
+          "size": 181012,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1095,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 845,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581855000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0116"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "isPartOf": "FB0136",
+      "identifier": "F0207",
+      "source": "F02-JM002-AM003-F0207",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0207",
+      "PersonInImage": "Shanti Bhadra",
+      "tag": [
+        "pema",
+        "problem"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "e0dce88a8d41dc02ba39bb328b9160d8",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0117.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0117.jpg",
+          "protocol": "file",
+          "size": 586304,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1706,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1096,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581878000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0117"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "8e5dbe0fc7196831a8e6e1c819949c86",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0118.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0118.jpg",
+          "protocol": "file",
+          "size": 352131,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1675,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1076,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581882000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0118"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "isPartOf": "FB0136",
+      "identifier": "F0208",
+      "source": "F02-JM002-AM003-F0208",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0208",
+      "PersonInImageWDetails": "Shanti Bhadra",
+      "date": "31/XII/59",
+      "tag": [
+        "done_round_1",
+        "pema",
+        "problem"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "51ae9fd3870b7ceadba030b6d453f8ca",
+          "color": "rgb(8,24,40,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0119.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0119.jpg",
+          "protocol": "file",
+          "size": 209735,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 949,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 754,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670581999000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0119"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "37a1c94e81d3d2c22b34673e16a500f4",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0120.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0120.jpg",
+          "protocol": "file",
+          "size": 143534,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 955,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 735,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582003000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0120"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "isPartOf": "FB0136",
+      "identifier": "F0209",
+      "source": "F02-JM002-AM003-F0209",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0209",
+      "date": "24.8.57",
+      "PersonInImageWDetails": "Kheminda Thera; Soma Thera; Bhikku Vinita",
+      "tag": [
+        "done_round_1",
+        "pema",
+        "problem"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "80a539a39fadff2c1897070c2f5fc31d",
+          "color": "rgb(248,248,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0121.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0121.jpg",
+          "protocol": "file",
+          "size": 786008,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1350,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1889,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582019000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0121",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "More information on them: https://en.wikipedia.org/wiki/Soma_Thera & https://buddho.org/about-the-author/soma-thera/",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>More information on them:&nbsp;<a href=\"https://en.wikipedia.org/wiki/Soma_Thera\">https://en.wikipedia.org/wiki/Soma_Thera</a> &amp;&nbsp;<a href=\"https://buddho.org/about-the-author/soma-thera/\">https://buddho.org/about-the-author/soma-thera/</a></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "37e695b458d0afd209004fc8dba7139c",
+          "color": "rgb(200,200,200,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0122.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0122.jpg",
+          "protocol": "file",
+          "size": 534118,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1349,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1889,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582023000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0122"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "identifier": "F0210",
+      "isPartOf": "FB0137",
+      "source": "F02-JM002-AM003-F0210",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0210",
+      "PersonInImage": "Soma Thera; Kheminda Thera",
+      "tag": [
+        "done_round_1",
+        "pema",
+        "problem"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "5b4db583c548e7b0d55020c839613151",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0123.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0123.jpg",
+          "protocol": "file",
+          "size": 412417,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 887,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1257,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582045000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0123",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "More information on them: https://en.wikipedia.org/wiki/Soma_Thera & https://buddho.org/about-the-author/soma-thera/",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>More information on them:&nbsp;<a href=\"https://en.wikipedia.org/wiki/Soma_Thera\">https://en.wikipedia.org/wiki/Soma_Thera</a> &amp;&nbsp;<a href=\"https://buddho.org/about-the-author/soma-thera/\">https://buddho.org/about-the-author/soma-thera/</a></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "7c66903ce3a0fd04165e83a55386ae6d",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0124.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0124.jpg",
+          "protocol": "file",
+          "size": 194873,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 872,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1235,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582050000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0124"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "isPartOf": "FB0137",
+      "identifier": "F0211",
+      "source": "F02-JM002-AM003-F0211",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0211",
+      "PersonInImage": "Soma Thera",
+      "tag": [
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "07a8fa6216de71fa05691781c0196233",
+          "color": "rgb(200,200,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0125.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0125.jpg",
+          "protocol": "file",
+          "size": 368511,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1296,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 958,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582070000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0125",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "More information on him: https://en.wikipedia.org/wiki/Soma_Thera & https://buddho.org/about-the-author/soma-thera/",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>More information on him:&nbsp;<a href=\"https://en.wikipedia.org/wiki/Soma_Thera\">https://en.wikipedia.org/wiki/Soma_Thera</a> &amp;&nbsp;<a href=\"https://buddho.org/about-the-author/soma-thera/\">https://buddho.org/about-the-author/soma-thera/</a></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "128e652a8b43d1ca45dc406c6ba1df36",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0126.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0126.jpg",
+          "protocol": "file",
+          "size": 214023,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1289,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 941,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582074000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0126"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "isPartOf": "FB0137",
+      "identifier": "F0212",
+      "source": "F02-JM002-AM003-F0212",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0212",
+      "PersonInImage": "Soma Thera; Kheminda Thera",
+      "tag": [
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "b0652d62bc162fa31d226d5fc034043f",
+          "color": "rgb(40,72,120,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0127.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0127.jpg",
+          "protocol": "file",
+          "size": 407348,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1307,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 975,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582110000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0127",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "More information on them: https://en.wikipedia.org/wiki/Soma_Thera & https://buddho.org/about-the-author/soma-thera/",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>More information on them:&nbsp;<a href=\"https://en.wikipedia.org/wiki/Soma_Thera\">https://en.wikipedia.org/wiki/Soma_Thera</a> &amp;&nbsp;<a href=\"https://buddho.org/about-the-author/soma-thera/\">https://buddho.org/about-the-author/soma-thera/</a></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "82b8ae9f20701627cd356fd58d60f0ab",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0128.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0128.jpg",
+          "protocol": "file",
+          "size": 216279,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1297,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 957,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582114000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0128"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "isPartOf": "FB0137",
+      "identifier": "F0213",
+      "source": "F02-JM002-AM003-F0213",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0213",
+      "PersonInImage": "Soma Thera; Kheminda Thera",
+      "tag": [
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "6fae3ce6597f2693cba73ae5bc46ce8d",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0129.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0129.jpg",
+          "protocol": "file",
+          "size": 417087,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 936,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1297,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582184000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0129",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "More information on them: https://en.wikipedia.org/wiki/Soma_Thera & https://buddho.org/about-the-author/soma-thera/",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>More information on them:&nbsp;<a href=\"https://en.wikipedia.org/wiki/Soma_Thera\">https://en.wikipedia.org/wiki/Soma_Thera</a> &amp;&nbsp;<a href=\"https://buddho.org/about-the-author/soma-thera/\">https://buddho.org/about-the-author/soma-thera/</a></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "c8d0b0dd584ac5cdfff9120ab4954925",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0130.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0130.jpg",
+          "protocol": "file",
+          "size": 233112,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 941,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1289,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582193000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0130"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "identifier": "F0214",
+      "isPartOf": "FB0138",
+      "source": "F02-JM002-AM003-F0214",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0214",
+      "PersonInImage": "Soma Thera; Kheminda Thera",
+      "tag": [
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "ba341b38b29e43967a3755ec6fc5f318",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0131.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0131.jpg",
+          "protocol": "file",
+          "size": 403084,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 880,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1258,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582214000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0131",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "More information on them: https://en.wikipedia.org/wiki/Soma_Thera & https://buddho.org/about-the-author/soma-thera/",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>More information on them:&nbsp;<a href=\"https://en.wikipedia.org/wiki/Soma_Thera\">https://en.wikipedia.org/wiki/Soma_Thera</a> &amp;&nbsp;<a href=\"https://buddho.org/about-the-author/soma-thera/\">https://buddho.org/about-the-author/soma-thera/</a></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "ced4e8c12bd21aff780ca704ed48f0b5",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0132.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0132.jpg",
+          "protocol": "file",
+          "size": 211754,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 879,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1251,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582218000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0132"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "isPartOf": "FB0138",
+      "identifier": "F0215",
+      "source": "F02-JM002-AM003-F0215",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0215",
+      "LocationCreated": "Colombo (4), Ceylon",
+      "PersonInImageWDetails": "Venerable Madihe Paññasiha Maha Nayaka Thera of Vajirārāma",
+      "tag": [
+        "rescan",
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "3fc92ddf047f8e96c07bd7945c25c372",
+          "color": "rgb(24,24,40,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0133.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0133.jpg",
+          "protocol": "file",
+          "size": 236568,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1003,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 782,
+          "format": "A7",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582232000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0133"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "f45e23d0c9412ce32266c21865033d88",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0134.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0134.jpg",
+          "protocol": "file",
+          "size": 210835,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 90,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1024,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 791,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582236000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0134"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM003",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "identifier": "F0216",
+      "isPartOf": "FB0139",
+      "source": "F02-JM002-AM003-F0216",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0216",
+      "date": "6.6.64",
+      "LocationCreated": "Pavillon de Cambodge, 27 Boulevard Jourdan, Paris 14",
+      "PersonInImageWDetails": "Venerable Sobhita",
+      "tag": [
+        "done_round_1",
+        "pema"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "e1d5ffcb14bec002b32e6c98d192003f",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0135.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0135.jpg",
+          "protocol": "file",
+          "size": 567773,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1104,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1452,
+          "format": "A6",
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582266000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0135"
+        },
+        {
+          "@type": "Photo",
+          "checksum": "e2672f9d48a7c4fefe3fb4fbf5edd878",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0136.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/pemafrick/Documents/GitHub/bildersammlung-buddhismus-public/digitized/WE 1 Moderner Buddhismus Europa und Asien Teil 2/Images/Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0136.jpg",
+          "protocol": "file",
+          "size": 421501,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1196,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1514,
+          "dc:date": {
+            "@type": "https://tropy.org/v1/tropy#date",
+            "@value": 1670582271000
+          },
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0136"
+        }
+      ]
+    }
+  ],
+  "version": "1.13.0"
+}

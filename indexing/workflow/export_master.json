@@ -20751,7 +20751,8 @@
             "title": "Moderner Buddhismus Europa Asien 1 - F0001",
             "type": "Foto",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -20807,7 +20808,10 @@
                     "date": 1669635148000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0002"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Arthur Schopenhauer",
+            "dcterms:creator": "Johannes Sch\u00e4fer",
+            "dcterms:date": "1859"
         },
         {
             "@type": "Item",
@@ -20821,7 +20825,8 @@
             "source": "F01-JM002-AM001-F0002",
             "title": "Moderner Buddhismus Europa Asien 1 - F0002",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -20877,7 +20882,10 @@
                     "date": 1669631597000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0004"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Bronze Buddha",
+            "LocationCreated": "Hondo ; Berlin-Frohnau",
+            "dcterms:date": "1252 ; 1972"
         },
         {
             "@type": "Item",
@@ -20891,7 +20899,8 @@
             "source": "F01-JM002-AM001-F0003",
             "title": "Moderner Buddhismus Europa Asien 1 - F0003",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -20947,7 +20956,8 @@
                     "date": 1669631661000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0006"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ven. Udogampola Wijayasoma (Maha Thero)"
         },
         {
             "@type": "Item",
@@ -20961,7 +20971,9 @@
             "source": "F01-JM002-AM001-F0004",
             "title": "Moderner Buddhismus Europa Asien 1 - F0004",
             "tag": [
-                "marc"
+                "marc",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21031,7 +21043,9 @@
             "source": "F01-JM002-AM001-F0005",
             "title": "Moderner Buddhismus Europa Asien 1 - F0005",
             "tag": [
-                "marc"
+                "marc",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21101,7 +21115,8 @@
             "source": "F01-JM002-AM001-F0006",
             "title": "Moderner Buddhismus Europa Asien 1 - F0006",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21157,7 +21172,8 @@
                     "date": 1669631830000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0012"
                 }
-            ]
+            ],
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21171,7 +21187,8 @@
             "source": "F01-JM002-AM001-F0007",
             "title": "Moderner Buddhismus Europa Asien 1 - F0007",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21227,7 +21244,8 @@
                     "date": 1669631865000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0014"
                 }
-            ]
+            ],
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21241,7 +21259,8 @@
             "source": "F01-JM002-AM001-F0008",
             "title": "Moderner Buddhismus Europa Asien 1 - F0008",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21297,7 +21316,8 @@
                     "date": 1669631906000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0016"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ven. Mahasi Sayadaw (U Sobhana Maha Thera)"
         },
         {
             "@type": "Item",
@@ -21311,7 +21331,8 @@
             "source": "F01-JM002-AM003-F0009",
             "title": "Moderner Buddhismus Europa Asien 1 - F0009",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21367,7 +21388,9 @@
                     "date": 1669631962000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0018"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr Paul Dahlke",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21381,7 +21404,9 @@
             "source": "F01-JM002-AM003-F0010",
             "title": "Moderner Buddhismus Europa Asien 1 - F0010",
             "tag": [
-                "marc"
+                "marc",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21437,7 +21462,11 @@
                     "date": 1669631999000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0020"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Paul Dahlke",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus",
+            "dcterms:creator": "Dr Weidemann, L\u00fcbeck, Nachlass",
+            "dcterms:date": "Mai 1979"
         },
         {
             "@type": "Item",
@@ -21451,7 +21480,8 @@
             "source": "F01-JM002-AM003-F0011",
             "title": "Moderner Buddhismus Europa Asien 1 - F0011",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21507,7 +21537,9 @@
                     "date": 1669632037000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0022"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Martin Steinke (Tao Ch\u00fcn)",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21521,7 +21553,8 @@
             "source": "F01-JM002-AM003-F0012",
             "title": "Moderner Buddhismus Europa Asien 1 - F0012",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21577,7 +21610,9 @@
                     "date": 1669632070000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0024"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr Kurt Schmidt",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21591,7 +21626,9 @@
             "source": "F01-JM002-AM003-F0013",
             "title": "Moderner Buddhismus Europa Asien 1 - F0013",
             "tag": [
-                "marc"
+                "marc",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21647,7 +21684,9 @@
                     "date": 1669632119000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0026"
                 }
-            ]
+            ],
+            "dcterms:creator": "Heinz Brunn",
+            "dcterms:date": "27/03/1983"
         },
         {
             "@type": "Item",
@@ -21661,7 +21700,8 @@
             "source": "F01-JM002-AM003-F0014",
             "title": "Moderner Buddhismus Europa Asien 1 - F0014",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21717,7 +21757,9 @@
                     "date": 1669632153000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0028"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanaponika (Mahathera)",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21731,7 +21773,8 @@
             "source": "F01-JM002-AM003-F0015",
             "title": "Moderner Buddhismus Europa Asien 1 - F0015",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21787,7 +21830,9 @@
                     "date": 1669632184000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0030"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanatiloka (Mahathera)",
+            "LocationCreated": "Berlin Frohnau, Das Buddhistische Haus"
         },
         {
             "@type": "Item",
@@ -21801,7 +21846,8 @@
             "source": "F01-JM002-AM003-F0016",
             "title": "Moderner Buddhismus Europa Asien 1 - F0016",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21857,7 +21903,8 @@
                     "date": 1669632221000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0032"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Paul Dahlke, Hikkaduwe Sumangala"
         },
         {
             "@type": "Item",
@@ -21871,7 +21918,8 @@
             "source": "F01-JM002-AM003-F0017",
             "title": "Moderner Buddhismus Europa Asien 1 - F0017",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21927,7 +21975,10 @@
                     "date": 1669632269000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0034"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "H-Ulrich Rieker; A. Weeraratna",
+            "LocationCreated": "Berlin",
+            "dcterms:date": "1957"
         },
         {
             "@type": "Item",
@@ -21941,7 +21992,8 @@
             "source": "F01-JM002-AM003-F0018",
             "title": "Moderner Buddhismus Europa Asien 1 - F0018",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -21997,7 +22049,10 @@
                     "date": 1669632307000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0036"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "H-Ulrich Rieker",
+            "LocationCreated": "Berlin",
+            "dcterms:date": "1957"
         },
         {
             "@type": "Item",
@@ -22011,7 +22066,8 @@
             "source": "F01-JM002-AM003-F0019",
             "title": "Moderner Buddhismus Europa Asien 1 - F0019",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22067,7 +22123,10 @@
                     "date": 1669632344000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0038"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Peter J. Meyer; Gnanawimala Mahathera",
+            "LocationCreated": "Berlin Pax Pagoda",
+            "dcterms:date": "04/10/1983"
         },
         {
             "@type": "Item",
@@ -22081,7 +22140,8 @@
             "source": "F01-JM002-AM003-F0020",
             "title": "Moderner Buddhismus Europa Asien 1 - F0020",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22137,7 +22197,8 @@
                     "date": 1669632378000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0040"
                 }
-            ]
+            ],
+            "LocationCreated": "Meditationsklause, Utting am Ammersee"
         },
         {
             "@type": "Item",
@@ -22151,7 +22212,8 @@
             "source": "F01-JM002-AM003-F0021",
             "title": "Moderner Buddhismus Europa Asien 1 - F0021",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22207,7 +22269,8 @@
                     "date": 1669632406000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0042"
                 }
-            ]
+            ],
+            "LocationCreated": "Meditationsklause, Utting am Ammersee"
         },
         {
             "@type": "Item",
@@ -22221,7 +22284,8 @@
             "source": "F01-JM002-AM003-F0022",
             "title": "Moderner Buddhismus Europa Asien 1 - F0022",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22277,7 +22341,8 @@
                     "date": 1669632440000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0044"
                 }
-            ]
+            ],
+            "LocationCreated": "Utting am Ammersee/Obb, Stadtteil Ludwigsh\u00f6he"
         },
         {
             "@type": "Item",
@@ -22291,7 +22356,8 @@
             "source": "F01-JM002-AM003-F0023",
             "title": "Moderner Buddhismus Europa Asien 1 - F0023",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22347,7 +22413,8 @@
                     "date": 1669632472000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0046"
                 }
-            ]
+            ],
+            "PersonInImage": "Georg Grimm"
         },
         {
             "@type": "Item",
@@ -22361,7 +22428,8 @@
             "source": "F01-JM002-AM003-F0024",
             "title": "Moderner Buddhismus Europa Asien 1 - F0024",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22417,7 +22485,10 @@
                     "date": 1669632514000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0048"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Max Hoppe",
+            "LocationCreated": "Utting am Ammersee/Obb, Stadtteil Ludwigsh\u00f6he",
+            "dcterms:date": "22.08.1949"
         },
         {
             "@type": "Item",
@@ -22431,7 +22502,8 @@
             "source": "F01-JM002-AM003-F0025",
             "title": "Moderner Buddhismus Europa Asien 1 - F0025",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22486,7 +22558,9 @@
                     "date": 1669632550000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0050"
                 }
-            ]
+            ],
+            "LocationCreated": "Utting am Ammersee/Obb, Stadtteil Ludwigsh\u00f6he",
+            "dcterms:creator": "Kurt Weinhold"
         },
         {
             "@type": "Item",
@@ -22500,7 +22574,8 @@
             "source": "F01-JM002-AM005-F0026",
             "title": "Moderner Buddhismus Europa Asien 1 - F0026",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22556,7 +22631,9 @@
                     "date": 1669632584000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0052"
                 }
-            ]
+            ],
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)",
+            "dcterms:creator": "Verlag Haus der Stille"
         },
         {
             "@type": "Item",
@@ -22570,7 +22647,8 @@
             "source": "F01-JM002-AM005-F0027",
             "title": "Moderner Buddhismus Europa Asien 1 - F0027",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22626,7 +22704,9 @@
                     "date": 1669632609000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0054"
                 }
-            ]
+            ],
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)",
+            "dcterms:creator": "Verlag Haus der Stille"
         },
         {
             "@type": "Item",
@@ -22640,7 +22720,8 @@
             "source": "F01-JM002-AM005-F0028",
             "title": "Moderner Buddhismus Europa Asien 1 - F0028",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22696,7 +22777,8 @@
                     "date": 1669632641000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0056"
                 }
-            ]
+            ],
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)"
         },
         {
             "@type": "Item",
@@ -22710,7 +22792,8 @@
             "source": "F01-JM002-AM005-F0029",
             "title": "Moderner Buddhismus Europa Asien 1 - F0029",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22766,7 +22849,9 @@
                     "date": 1669632665000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0058"
                 }
-            ]
+            ],
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)",
+            "dcterms:creator": "Verlag Haus der Stille"
         },
         {
             "@type": "Item",
@@ -22780,7 +22865,8 @@
             "source": "F01-JM002-AM005-F0030",
             "title": "Moderner Buddhismus Europa Asien 1 - F0030",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22836,7 +22922,9 @@
                     "date": 1669632698000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0060"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Eberhard Kuhnhenn",
+            "dcterms:creator": "Eberhard Kuhnhenn"
         },
         {
             "@type": "Item",
@@ -22850,7 +22938,8 @@
             "source": "F01-JM002-AM005-F0031",
             "title": "Moderner Buddhismus Europa Asien 1 - F0031",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22906,7 +22995,10 @@
                     "date": 1669632724000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0062"
                 }
-            ]
+            ],
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "Mai 1963"
         },
         {
             "@type": "Item",
@@ -22920,7 +23012,8 @@
             "source": "F01-JM002-AM005-F0032",
             "title": "Moderner Buddhismus Europa Asien 1 - F0032",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -22976,7 +23069,10 @@
                     "date": 1669632768000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0064"
                 }
-            ]
+            ],
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "Mai 1963"
         },
         {
             "@type": "Item",
@@ -22990,7 +23086,8 @@
             "source": "F01-JM002-AM005-F0033",
             "title": "Moderner Buddhismus Europa Asien 1 - F0033",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -23046,7 +23143,10 @@
                     "date": 1669632805000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0066"
                 }
-            ]
+            ],
+            "LocationCreated": "1. Meditationsklause, Haus der Stille in Roseburg",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "Mai 1963"
         },
         {
             "@type": "Item",
@@ -23060,7 +23160,8 @@
             "source": "F01-JM002-AM005-F0034",
             "title": "Moderner Buddhismus Europa Asien 1 - F0034",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -23116,7 +23217,10 @@
                     "date": 1669632831000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0068"
                 }
-            ]
+            ],
+            "LocationCreated": "1. Meditationsklause, Haus der Stille in Roseburg",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "Mai 1963"
         },
         {
             "@type": "Item",
@@ -23130,7 +23234,8 @@
             "source": "F01-JM002-AM005-F0035",
             "title": "Moderner Buddhismus Europa Asien 1 - F0035",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -23186,7 +23291,11 @@
                     "date": 1669792100000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0070"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Bhikkhu Dhammiko (Manuel Kulbarz)",
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "Juli 1964"
         },
         {
             "@type": "Item",
@@ -23200,7 +23309,8 @@
             "source": "F01-JM002-AM005-F0036",
             "title": "Moderner Buddhismus Europa Asien 1 - F0036",
             "tag": [
-                "marc"
+                "marc",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -23256,7 +23366,11 @@
                     "date": 1669792160000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0072"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Frau Pieturowski; Bhikkhu Dhammiko; NN;NN;NN;Ursel Anders; Elisabeth Heidt",
+            "LocationCreated": "Haus der Stille, Roseburg (Schleswig-Holstein)",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "Mai 1963"
         },
         {
             "@type": "Item",
@@ -23270,7 +23384,10 @@
             "source": "F01-JM002-AM005-F0037",
             "title": "Moderner Buddhismus Europa Asien 1 - F0037",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -23326,7 +23443,11 @@
                     "date": 1669792200000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0074"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Bhikkhu Dhammiko",
+            "LocationCreated": "schleswig-holsteinischen See",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "Mai 1963"
         },
         {
             "@type": "Item",
@@ -23340,7 +23461,10 @@
             "source": "F01-JM002-AM005-F0038",
             "title": "Moderner Buddhismus Europa Asien 1 - F0038",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -23396,7 +23520,11 @@
                     "date": 1669792237000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0076"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Bhikkhu Dhammiko",
+            "LocationCreated": "schleswig-holsteinischen See",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "Mai 1963"
         },
         {
             "@type": "Item",
@@ -23410,7 +23538,10 @@
             "source": "F01-JM002-AM005-F0039",
             "title": "Moderner Buddhismus Europa Asien 1 - F0039",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -23466,7 +23597,10 @@
                     "date": 1669792355000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0078"
                 }
-            ]
+            ],
+            "LocationCreated": "HAUS RISSEN",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -23480,7 +23614,10 @@
             "source": "F01-JM002-AM005-F0040",
             "title": "Moderner Buddhismus Europa Asien 1 - F0040",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -23536,7 +23673,10 @@
                     "date": 1669792412000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0080"
                 }
-            ]
+            ],
+            "LocationCreated": "SPEISESAAL VOM HAUS RISSEN",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -23550,7 +23690,10 @@
             "source": "F01-JM002-AM005-F0041",
             "title": "Moderner Buddhismus Europa Asien 1 - F0041",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -23606,7 +23749,11 @@
                     "date": 1669792450000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0082"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "RUDOLF ORTMANN; MAX GLASHOFF; WILHELM STEGEMANN",
+            "LocationCreated": "Hamburg-Rissen, \"Haus Rissen\"",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -23620,7 +23767,10 @@
             "source": "F01-JM002-AM005-F0042",
             "title": "Moderner Buddhismus Europa Asien 1 - F0042",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -23676,7 +23826,11 @@
                     "date": 1669792547000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0084"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. KURT SCHMIDT",
+            "LocationCreated": "Hamburg-Rissen, \"Haus Rissen\"",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -23690,7 +23844,10 @@
             "source": "F01-JM002-AM005-F0043",
             "title": "Moderner Buddhismus Europa Asien 1 - F0043",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -23746,7 +23903,11 @@
                     "date": 1669792594000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0086"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. KURT SCHMIDT",
+            "LocationCreated": "Hamburg-Rissen, \"Haus Rissen\"",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -23760,7 +23921,10 @@
             "source": "F01-JM002-AM005-F0044",
             "title": "Moderner Buddhismus Europa Asien 1 - F0044",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -23816,7 +23980,11 @@
                     "date": 1669792640000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0088"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. KURT SCHMIDT; WILHELM STEGEMANN",
+            "LocationCreated": "Hamburg-Rissen, \"Haus Rissen\"",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -23830,7 +23998,10 @@
             "source": "F01-JM002-AM005-F0045",
             "title": "Moderner Buddhismus Europa Asien 1 - F0045",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -23886,7 +24057,11 @@
                     "date": 1669792734000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0090"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. KURT SCHMIDT; FELIX KNOBELOCH",
+            "LocationCreated": "Hamburg-Rissen, \"Haus Rissen\"",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -23900,7 +24075,10 @@
             "source": "F01-JM002-AM005-F0046",
             "title": "Moderner Buddhismus Europa Asien 1 - F0046",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -23956,7 +24134,11 @@
                     "date": 1669792790000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0092"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. KURT SCHMIDT; FELIX KNOBELOCH; LEONORE K\u00d6HN",
+            "LocationCreated": "Hamburg-Rissen, \"Haus Rissen\"",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -23970,7 +24152,10 @@
             "source": "F01-JM002-AM005-F0047",
             "title": "Moderner Buddhismus Europa Asien 1 - F0047",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -24026,7 +24211,11 @@
                     "date": 1669792863000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0094"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. KURT SCHMIDT",
+            "LocationCreated": "Hamburg-Rissen, \"Haus Rissen\"",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -24040,7 +24229,10 @@
             "source": "F01-JM002-AM005-F0048",
             "title": "Moderner Buddhismus Europa Asien 1 - F0048",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -24096,7 +24288,11 @@
                     "date": 1669792919000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0096"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "GR\u00c4FIN DOROTHEA MATUSCHKA",
+            "LocationCreated": "Hamburg-Rissen, \"Haus Rissen\"",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -24110,7 +24306,10 @@
             "source": "F01-JM002-AM005-F0049",
             "title": "Moderner Buddhismus Europa Asien 1 - F0049",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -24166,7 +24365,11 @@
                     "date": 1669792949000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0098"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "FRIEDRICH GR\u00c4BNER: FRAU MAIRHOFER",
+            "LocationCreated": "Hamburg-Rissen, \"Haus Rissen\"",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -24180,7 +24383,10 @@
             "source": "F01-JM002-AM005-F0050",
             "title": "Moderner Buddhismus Europa Asien 1 - F0050",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -24236,7 +24442,11 @@
                     "date": 1669792989000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0100"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "LEONORE K\u00d6HN; MAX GLASHOFF; KARIN STEGEMANN",
+            "LocationCreated": "Hamburg-Rissen, \"Haus Rissen\"",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "15. bis 21. Oktober 1961"
         },
         {
             "@type": "Item",
@@ -24250,7 +24460,10 @@
             "source": "F01-JM002-AM007-F0051",
             "title": "Moderner Buddhismus Europa Asien 1 - F0051",
             "tag": [
-                "reserve"
+                "reserve",
+                "done_round_1",
+                "rights_inscribed",
+                "max"
             ],
             "photo": [
                 {
@@ -24306,7 +24519,11 @@
                     "date": 1669793045000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0102"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "PAUL DEBES",
+            "LocationCreated": "Hustedt (L\u00fcneb. Heide)",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "21.7. bis 4.8.1962"
         },
         {
             "@type": "Item",
@@ -24320,7 +24537,10 @@
             "source": "F01-JM002-AM007-F0052",
             "title": "Moderner Buddhismus Europa Asien 1 - F0052",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -24376,7 +24596,11 @@
                     "date": 1669793083000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0104"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "PAUL DEBES",
+            "LocationCreated": "Hustedt (L\u00fcneb. Heide)",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "21.7. bis 4.8.1962"
         },
         {
             "@type": "Item",
@@ -24390,7 +24614,10 @@
             "source": "F01-JM002-AM007-F0053",
             "title": "Moderner Buddhismus Europa Asien 1 - F0053",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -24446,7 +24673,11 @@
                     "date": 1669793117000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0106"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "PAUL DEBES",
+            "LocationCreated": "Hustedt (L\u00fcneb. Heide)",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "21.7. bis 4.8.1962"
         },
         {
             "@type": "Item",
@@ -24460,7 +24691,10 @@
             "source": "F01-JM002-AM007-F0054",
             "title": "Moderner Buddhismus Europa Asien 1 - F0054",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -24516,7 +24750,11 @@
                     "date": 1669793147000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0108"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "PAUL DEBES; IRMA L\u00dcBCKE",
+            "LocationCreated": "Hustedt (L\u00fcneb. Heide)",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "21.7. bis 4.8.1962"
         },
         {
             "@type": "Item",
@@ -24530,7 +24768,10 @@
             "source": "F01-JM002-AM007-F0055",
             "title": "Moderner Buddhismus Europa Asien 1 - F0055",
             "tag": [
-                "reserve"
+                "reserve",
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -24586,7 +24827,11 @@
                     "date": 1669793184000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_1_1249039_0110"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "PAUL DEBES",
+            "LocationCreated": "Hustedt (L\u00fcneb. Heide)",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "21.7. bis 4.8.1962"
         },
         {
             "@type": "Item",
@@ -28450,6 +28695,8 @@
             "source": "F06-JM005-AM001-F0110",
             "title": "Moderner Buddhismus - F0110",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -28506,7 +28753,10 @@
                     "date": 1673967952000,
                     "title": "Images_Moderner_Buddhismus_1296047_0090"
                 }
-            ]
+            ],
+            "LocationCreated": "in one of the caves of the rock-temple of Dambulla in Sri Lanka",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "24th July 1980"
         },
         {
             "@type": "Item",
@@ -28520,6 +28770,8 @@
             "source": "F06-JM005-AM001-F0111",
             "title": "Moderner Buddhismus - F0111",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -28576,7 +28828,10 @@
                     "date": 1673967997000,
                     "title": "Images_Moderner_Buddhismus_1296047_0092"
                 }
-            ]
+            ],
+            "LocationCreated": "Polonnaruwa, Sri Lanka",
+            "dcterms:creator": "Hermann Schiewe",
+            "dcterms:date": "25th July 1980"
         },
         {
             "@type": "Item",
@@ -28590,6 +28845,8 @@
             "source": "F06-JM005-AM001-F0112",
             "title": "Moderner Buddhismus - F0112",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -28646,7 +28903,10 @@
                     "date": 1673968046000,
                     "title": "Images_Moderner_Buddhismus_1296047_0094"
                 }
-            ]
+            ],
+            "LocationCreated": "Kambodscha",
+            "dcterms:creator": "Pius Rast",
+            "dcterms:date": "1956"
         },
         {
             "@type": "Item",
@@ -28660,7 +28920,9 @@
             "source": "F07-JM002-AM001-F0113",
             "title": "Moderner Buddhismus 3 - F0113",
             "tag": [
-                "lewin"
+                "done_round_1",
+                "lewin",
+                "problem"
             ],
             "photo": [
                 {
@@ -28716,7 +28978,8 @@
                     "date": 1670852157000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0002"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Bartholom\u00e4us Bauer | Bartel Bauer | Konda\u00f1\u00f1o"
         },
         {
             "@type": "Item",
@@ -28730,6 +28993,7 @@
             "type": "Foto",
             "title": "Moderner Buddhismus 3 - F0114",
             "tag": [
+                "done_round_1",
                 "lewin"
             ],
             "photo": [
@@ -28786,7 +29050,8 @@
                     "date": 1670852235000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0004"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Franz Josef Bauer | Novize und M\u00f6nch unter dem Namen Vimalo"
         },
         {
             "@type": "Item",
@@ -28800,6 +29065,7 @@
             "source": "F07-JM002-AM001-F0115",
             "title": "Moderner Buddhismus 3 - F0115",
             "tag": [
+                "done_round_1",
                 "lewin"
             ],
             "photo": [
@@ -28856,7 +29122,8 @@
                     "date": 1670852284000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0006"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Victor Stomps aus Finnentrop |\u00a0Mah\u00e2n\u00e2mo"
         },
         {
             "@type": "Item",
@@ -28870,6 +29137,7 @@
             "source": "F07-JM002-AM001-F0116",
             "title": "Moderner Buddhismus 3 - F0116",
             "tag": [
+                "done_round_1",
                 "lewin"
             ],
             "photo": [
@@ -28926,7 +29194,8 @@
                     "date": 1670852370000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0008"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ludwig Stolz aus Elberfeld | Vappo"
         },
         {
             "@type": "Item",
@@ -28940,6 +29209,7 @@
             "source": "F07-JM002-AM001-F0117",
             "title": "Moderner Buddhismus 3 - F0117",
             "tag": [
+                "done_round_1",
                 "lewin"
             ],
             "photo": [
@@ -28996,7 +29266,8 @@
                     "date": 1670852464000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0010"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ludwig Ankenbrand aus N\u00fcrnberg"
         },
         {
             "@type": "Item",
@@ -29010,6 +29281,8 @@
             "source": "F07-JM002-AM001-F0118",
             "title": "Moderner Buddhismus 3 - F0118",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29066,7 +29339,8 @@
                     "date": 1670852569000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0012"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Friedrich Zimmermann |\u00a0Subhadra Bhikshu"
         },
         {
             "@type": "Item",
@@ -29080,6 +29354,8 @@
             "source": "F07-JM002-AM001-F0119",
             "title": "Moderner Buddhismus 3 - F0119",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29136,7 +29412,8 @@
                     "date": 1670852632000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0014"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. HANS MUCH"
         },
         {
             "@type": "Item",
@@ -29150,6 +29427,8 @@
             "source": "F07-JM002-AM001-F0120",
             "title": "Moderner Buddhismus 3 - F0120",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29206,7 +29485,8 @@
                     "date": 1670852737000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0016"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Max HOPPE | Anag\u0101rika Dhammap\u0101la"
         },
         {
             "@type": "Item",
@@ -29220,6 +29500,8 @@
             "source": "F07-JM002-AM001-F0121",
             "title": "Moderner Buddhismus 3 - F0121",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29276,7 +29558,8 @@
                     "date": 1670852794000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0018"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. KARL SEIDENST\u00dcCKER |\u00a0Girimananda"
         },
         {
             "@type": "Item",
@@ -29290,6 +29573,8 @@
             "source": "F07-JM002-AM001-F0122",
             "title": "Moderner Buddhismus 3 - F0122",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29346,7 +29631,8 @@
                     "date": 1670852937000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0020"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. KARL SEIDENST\u00dcCKER |\u00a0Girimananda"
         },
         {
             "@type": "Item",
@@ -29360,6 +29646,8 @@
             "source": "F07-JM002-AM002-F0123",
             "title": "Moderner Buddhismus 3 - F0123",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29416,7 +29704,10 @@
                     "date": 1670853019000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0022"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NAPONIKA |\u00a0Siegmund Feniger",
+            "LocationCreated": "Galle (SL)",
+            "dcterms:date": "19. Februar 1937 oder 1938"
         },
         {
             "@type": "Item",
@@ -29430,6 +29721,8 @@
             "source": "F07-JM002-AM002-F0124",
             "title": "Moderner Buddhismus 3 - F0124",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29486,7 +29779,10 @@
                     "date": 1670853073000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0024"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NATILOKA | Anton W. F. Gueth",
+            "LocationCreated": "Galle (SL)",
+            "dcterms:date": "19. Februar 1937 oder 1938"
         },
         {
             "@type": "Item",
@@ -29500,6 +29796,8 @@
             "source": "F07-JM002-AM002-F0125",
             "title": "Moderner Buddhismus 3 - F0125",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29556,7 +29854,10 @@
                     "date": 1670853123000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0026"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NAMALITO | Malte Schoenfeldt",
+            "LocationCreated": "Galle (SL)",
+            "dcterms:date": "19. Februar 1937 oder 1938"
         },
         {
             "@type": "Item",
@@ -29570,6 +29871,8 @@
             "source": "F07-JM002-AM002-F0126",
             "title": "Moderner Buddhismus 3 - F0126",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29626,7 +29929,10 @@
                     "date": 1670853202000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0028"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NATILOKA | Anton W. F. Gueth (mitte); NY\u0100NAMALITO | Malte Schoenfeldt (links); NY\u0100NAPONIKA | Siegmund Feniger (rechts)",
+            "LocationCreated": "Galle (SL)",
+            "dcterms:date": "19. Februar 1937 oder 1938"
         },
         {
             "@type": "Item",
@@ -29640,6 +29946,8 @@
             "source": "F07-JM002-AM002-F0127",
             "title": "Moderner Buddhismus 3 - F0127",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29696,7 +30004,8 @@
                     "date": 1670853254000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0030"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "MAYA KELLER-GRIMM"
         },
         {
             "@type": "Item",
@@ -29710,6 +30019,8 @@
             "source": "F07-JM002-AM002-F0128",
             "title": "Moderner Buddhismus 3 - F0128",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29766,7 +30077,8 @@
                     "date": 1670853332000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0032"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "KARL EUGEN NEUMANN"
         },
         {
             "@type": "Item",
@@ -29780,6 +30092,8 @@
             "source": "F07-JM002-AM002-F0129",
             "title": "Moderner Buddhismus 3 - F0129",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29836,7 +30150,8 @@
                     "date": 1670853426000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0034"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. HANS MUCH"
         },
         {
             "@type": "Item",
@@ -29850,6 +30165,8 @@
             "source": "F07-JM002-AM002-F0130",
             "title": "Moderner Buddhismus 3 - F0130",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29906,7 +30223,9 @@
                     "date": 1670853467000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0036"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NATILOKA | Anton W. F. Gueth",
+            "dcterms:date": "19.2.38"
         },
         {
             "@type": "Item",
@@ -29920,6 +30239,8 @@
             "source": "F07-JM002-AM002-F0131",
             "title": "Moderner Buddhismus 3 - F0131",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -29976,7 +30297,9 @@
                     "date": 1670853535000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0038"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NYANASUMANA | Olivier MAILLEBUAU; SADDHANANDA |\u00a0ANURUDDHA | K. HEMARATNE; DHAMMAJIVA | KIU AH WANG; VAPPA | Pieter PRINS",
+            "dcterms:date": "July 1991"
         },
         {
             "@type": "Item",
@@ -29990,6 +30313,8 @@
             "source": "F07-JM002-AM002-F0132",
             "title": "Moderner Buddhismus 3 - F0132",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30046,7 +30371,9 @@
                     "date": 1670853570000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0040"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "PIYARATANA | AK JAYATILLEKE; NY\u0100\u1e46ATISSA |\u00a0NYANATISSA (!); DHAMMASANTA | Manfred FATH; NY\u0100\u1e46ASANTA | Dietfried REGULA; NY\u0100\u1e46\u0100NANDA; NY\u0100\u1e46ASUMANA | Olivier MAILLEBUAU ",
+            "dcterms:date": "July 1991"
         },
         {
             "@type": "Item",
@@ -30060,6 +30387,8 @@
             "source": "F07-JM003-AM001-F0133",
             "title": "Moderner Buddhismus 3 - F0133",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30116,7 +30445,8 @@
                     "date": 1670853621000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0042"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Friedrich Zimmermann |\u00a0Subhadra Bhikshu"
         },
         {
             "@type": "Item",
@@ -30130,6 +30460,8 @@
             "source": "F07-JM003-AM001-F0134",
             "title": "Moderner Buddhismus 3 - F0134",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30186,7 +30518,9 @@
                     "date": 1670853675000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0044"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "PIYARATANA | AK JAYATILLEKE; NY\u0100\u1e46ATISSA |\u00a0NYANATISSA (!); DHAMMASANTA | Manfred FATH; NY\u0100\u1e46ASANTA | Dietfried REGULA; NY\u0100\u1e46\u0100NANDA; NY\u0100\u1e46ASUMANA | Olivier MAILLEBUAU; SADDHANANDA |\u00a0ANURUDDHA | K. HEMARATNE; DHAMMAJIVA | KIU AH WANG; VAPPA | Pieter PRINS",
+            "dcterms:date": "July 1991"
         },
         {
             "@type": "Item",
@@ -30200,6 +30534,8 @@
             "source": "F07-JM003-AM001-F0135",
             "title": "Moderner Buddhismus 3 - F0135",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30256,7 +30592,9 @@
                     "date": 1670853724000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0046"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100\u1e46ADHIRA Bhikkhu | Frederic HENRY",
+            "dcterms:date": "1982"
         },
         {
             "@type": "Item",
@@ -30270,6 +30608,8 @@
             "source": "F07-JM003-AM001-F0136",
             "title": "Moderner Buddhismus 3 - F0136",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30326,7 +30666,9 @@
                     "date": 1670853766000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0048"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "PIYARATANA | A.K. JAYATILLEKE; GN\u0100\u1e46AJOTHI; AMATASIRI |\u00a0Robert SCHUJMER; NY\u0100\u1e46ATISSA |\u00a0NYANATISSA (!); NY\u0100\u1e46ASANTA | Dietfried REGULA; NY\u0100\u1e46ASUMANA | Olivier MAILLEBUAU",
+            "dcterms:date": "May 1989"
         },
         {
             "@type": "Item",
@@ -30340,6 +30682,8 @@
             "source": "F07-JM003-AM001-F0137",
             "title": "Moderner Buddhismus 3 - F0137",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30396,7 +30740,9 @@
                     "date": 1670853813000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0050"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "PIYARATANA | A.K. JAYATILLEKE; GN\u0100\u1e46AJOTHI; AMATASIRI |\u00a0Robert SCHUJMER; NY\u0100\u1e46ATISSA |\u00a0NYANATISSA (!) ",
+            "dcterms:date": "May 1989"
         },
         {
             "@type": "Item",
@@ -30410,6 +30756,8 @@
             "source": "F07-JM003-AM001-F0138",
             "title": "Moderner Buddhismus 3 - F0138",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30466,7 +30814,8 @@
                     "date": 1670853864000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0052"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Bhikkhu \u00d1\u0100NAVIRA | Harold Eward Musson"
         },
         {
             "@type": "Item",
@@ -30480,6 +30829,8 @@
             "source": "F07-JM003-AM001-F0139",
             "title": "Moderner Buddhismus 3 - F0139",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30536,7 +30887,9 @@
                     "date": 1670853897000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0054"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "PIYARATANA Mah\u0101thera |\u00a0A.K. Jayatilleke; With beard: HITESI Samanera | Wolfgang Haala",
+            "dcterms:date": "1982"
         },
         {
             "@type": "Item",
@@ -30550,6 +30903,8 @@
             "source": "F07-JM003-AM001-F0140",
             "title": "Moderner Buddhismus 3 - F0140",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30606,7 +30961,9 @@
                     "date": 1670853937000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0056"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100\u1e46ADHIRA | Frederic HENRY; NY\u0100\u1e46ASATTA |\u00a0Martin NOVOSAD; HITESI | Wolfgang Haala; PIYARATANA | AK JAYATILLEKE; NY\u0100\u1e46ARAMITA |\u00a0Peter JELITTO",
+            "dcterms:date": "1982"
         },
         {
             "@type": "Item",
@@ -30620,6 +30977,8 @@
             "source": "F07-JM003-AM001-F0141",
             "title": "Moderner Buddhismus 3 - F0141",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30676,7 +31035,11 @@
                     "date": 1670853983000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0058"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100\u1e46AVIMALA |\u00a0Friedrich M\u00f6ller",
+            "LocationCreated": "Island Hermitage Polgasduwa, Dodanduwa, SL",
+            "dcterms:creator": "singhalesischer Fotograf",
+            "dcterms:date": "10.2.1991"
         },
         {
             "@type": "Item",
@@ -30690,6 +31053,8 @@
             "source": "F07-JM003-AM001-F0142",
             "title": "Moderner Buddhismus 3 - F0142",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30746,7 +31111,11 @@
                     "date": 1670854026000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0060"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100\u1e46AVIMALA |\u00a0Friedrich M\u00f6ller",
+            "LocationCreated": "Island Hermitage Polgasduwa, Dodanduwa, SL",
+            "dcterms:creator": "singhalesischer Fotograf",
+            "dcterms:date": "10.2.1991"
         },
         {
             "@type": "Item",
@@ -30760,6 +31129,8 @@
             "source": "F07-JM003-AM002-F0143",
             "title": "Moderner Buddhismus 3 - F0143",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30816,7 +31187,11 @@
                     "date": 1670854642000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0062"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100\u1e46AVIMALA |\u00a0Friedrich M\u00f6ller",
+            "LocationCreated": "Island Hermitage Polgasduwa, Dodanduwa, SL",
+            "dcterms:creator": "singhalesischer Fotograf",
+            "dcterms:date": "10.2.1991"
         },
         {
             "@type": "Item",
@@ -30830,6 +31205,8 @@
             "source": "F07-JM003-AM002-F0144",
             "title": "Moderner Buddhismus 3 - F0144",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30886,7 +31263,9 @@
                     "date": 1670854137000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0064"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100\u1e46ARAMITTA Bhikkhu |\u00a0Peter Jelitto",
+            "dcterms:date": "1982"
         },
         {
             "@type": "Item",
@@ -30900,6 +31279,8 @@
             "source": "F07-JM003-AM002-F0145",
             "title": "Moderner Buddhismus 3 - F0145",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "lewin"
             ],
             "photo": [
@@ -30956,7 +31337,9 @@
                     "date": 1670854274000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0066"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100\u1e46ASATTA Mah\u0101thera | Martin NOVOSAD",
+            "dcterms:date": "1982"
         },
         {
             "@type": "Item",
@@ -30970,7 +31353,10 @@
             "source": "F07-JM003-AM002-F0146",
             "title": "Moderner Buddhismus 3 - F0146",
             "tag": [
-                "alysejah"
+                "alysejah",
+                "problem",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -31026,7 +31412,10 @@
                     "date": 1670854323000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0068"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NASANTA|Dietfried REGULA; NY\u0100NASUMANA|Olivier MAILLEBUAU",
+            "LocationCreated": "Island Hermitage Polgasduwa, Dodanduwa, SL",
+            "dcterms:date": "May 1989; "
         },
         {
             "@type": "Item",
@@ -31040,7 +31429,9 @@
             "source": "F07-JM003-AM002-F0147",
             "title": "Moderner Buddhismus 3 - F0147",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -31096,7 +31487,10 @@
                     "date": 1670854382000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0070"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NAPIYA| J.Pistor | VAJRABUDDHI; NY\u0100NALOKA | Ragasinghe; NY\u0100NATILOKA | Anton W. F. Gueth; NY\u0100NAPONIKA | Siegmund Feniger; NY\u0100NAVAMASA | ?; NY\u0100NAVIMALA | ?; NY\u0100NAKHEMETTO | Peter Schoenfeldt | SWAMI GAURIBALA; NY\u0100NASISI | Otto Krauskopf ",
+            "LocationCreated": "'Island Hermitage Polgasduwa', Dodnaduwa, SL",
+            "dcterms:date": "1936"
         },
         {
             "@type": "Item",
@@ -31110,7 +31504,9 @@
             "source": "F07-JM003-AM002-F0148",
             "title": "Moderner Buddhismus 3 - F0148",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -31166,7 +31562,10 @@
                     "date": 1670854456000,
                     "title": "Images_Moderner_Buddhismus_Teil_3_1260786_0072"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Bhikku S\u012aL\u0100C\u0100RA | J. F. McKechnie; WALTER MARKGRAF | S\u0101manero Dhamm\u0101nus\u0101r\u012a; NY\u0100NATILOKA | Anton W. F. Gueth",
+            "LocationCreated": "RANGOON | Rangung",
+            "dcterms:date": "1907"
         },
         {
             "@type": "Item",
@@ -31180,7 +31579,9 @@
             "source": "F02-JM001-AM001-F0149",
             "title": "Moderner Buddhismus Europa Asien 2 - F0149",
             "tag": [
-                "alysejah"
+                "alysejah",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -31236,7 +31637,9 @@
                     "date": 1670579946000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0002"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanapija; Nyanaloka; Nyanatiloka; Nyanaponika; Nyanaketho; Nyanasisi",
+            "dcterms:date": ""
         },
         {
             "@type": "Item",
@@ -31250,7 +31653,9 @@
             "source": "F02-JM001-AM004-F0150",
             "title": "Moderner Buddhismus Europa Asien 2 - F0150",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -31306,7 +31711,9 @@
                     "date": 1670580037000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0004"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NATILOKA | Anton W. F. Gueth",
+            "LocationCreated": "' Island Hermitage Polgasduwa '"
         },
         {
             "@type": "Item",
@@ -31320,7 +31727,9 @@
             "source": "F02-JM001-AM004-F0151",
             "title": "Moderner Buddhismus Europa Asien 2 - F0151",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -31376,7 +31785,9 @@
                     "date": 1670580062000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0006"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NADHARA | Conrad Nell aus Berlin",
+            "LocationCreated": "' Island Hermitage Polgasduwa ' in Dodanduwa, Sri Lanka"
         },
         {
             "@type": "Item",
@@ -31390,7 +31801,9 @@
             "source": "F02-JM001-AM004-F0152",
             "title": "Moderner Buddhismus Europa Asien 2 - F0152",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -31446,7 +31859,9 @@
                     "date": 1670580110000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0008"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NATILOKA | Anton W. F. Gueth",
+            "LocationCreated": "' Island Hermitage Polgasduwa ' , Dodanduwa, Sri Lanka"
         },
         {
             "@type": "Item",
@@ -31460,7 +31875,9 @@
             "source": "F02-JM001-AM004-F0153",
             "title": "Moderner Buddhismus Europa Asien 2 - F0153",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -31516,7 +31933,9 @@
                     "date": 1670580134000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0010"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ny\u0101napiya; Ny\u0101natiloka",
+            "LocationCreated": "' Island Hermitage Polgasduwa ' , Sri Lanka"
         },
         {
             "@type": "Item",
@@ -31530,7 +31949,9 @@
             "source": "F02-JM001-AM004-F0154",
             "title": "Moderner Buddhismus Europa Asien 2 - F0154",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -31586,7 +32007,9 @@
                     "date": 1670580178000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0012"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NATILOKA | Anton W. F. Gueth",
+            "LocationCreated": "' Island Hermitage Polgasduwa '"
         },
         {
             "@type": "Item",
@@ -31600,7 +32023,9 @@
             "source": "F02-JM001-AM004-F0155",
             "title": "Moderner Buddhismus Europa Asien 2 - F0155",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -31656,7 +32081,9 @@
                     "date": 1670580203000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0014"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NAPIYA | J. Pistor",
+            "LocationCreated": "' Island Hermitage Polgasduwa ' in Dodanduwa, Sri Lanka"
         },
         {
             "@type": "Item",
@@ -31670,7 +32097,10 @@
             "source": "F02-JM001-AM004-F0156",
             "title": "Moderner Buddhismus Europa Asien 2 - F0156",
             "tag": [
-                "alysejah"
+                "alysejah",
+                "problem",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -31726,7 +32156,9 @@
                     "date": 1670580257000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0016"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NAPONIKA | Siegmund Feniger; Ny\u0101naloka; Vappo; NY\u0100NATILOKA | Anton W. F. Gueth",
+            "LocationCreated": "' Island Hermitage Polgasduwa ' , Dodanduwa, Sri Lanka"
         },
         {
             "@type": "Item",
@@ -31740,7 +32172,9 @@
             "source": "F02-JM001-AM004-F0157",
             "title": "Moderner Buddhismus Europa Asien 2 - F0157",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -31796,7 +32230,9 @@
                     "date": 1670580280000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0018"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NAPONIKA | Siegmund Feniger",
+            "LocationCreated": "' Island Hermitage Polgasduwa ' , Dodanduwa, Sri Lanka"
         },
         {
             "@type": "Item",
@@ -31810,6 +32246,7 @@
             "source": "F02-JM001-AM004-F0158",
             "title": "Moderner Buddhismus Europa Asien 2 - F0158",
             "tag": [
+                "done_round_1",
                 "alysejah"
             ],
             "photo": [
@@ -31866,7 +32303,11 @@
                     "date": 1670580323000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0020"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanatiloka; Nyanamalito; Nyanaponiko",
+            "LocationCreated": "Galle",
+            "dcterms:creator": "Detlef Kantowsky",
+            "dcterms:date": "1937/38"
         },
         {
             "@type": "Item",
@@ -31880,7 +32321,9 @@
             "source": "F02-JM001-AM004-F0159",
             "title": "Moderner Buddhismus Europa Asien 2 - F0159",
             "tag": [
-                "alysejah"
+                "alysejah",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -31936,7 +32379,9 @@
                     "date": 1670580346000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0022"
                 }
-            ]
+            ],
+            "LocationCreated": "Kandy",
+            "dcterms:creator": "Detlef Kantowsky"
         },
         {
             "@type": "Item",
@@ -31950,7 +32395,9 @@
             "source": "F02-JM001-AM004-F0160",
             "title": "Moderner Buddhismus Europa Asien 2 - F0160",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -32006,7 +32453,10 @@
                     "date": 1670580380000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0024"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NAPONIKA | Siegmund Feniger",
+            "LocationCreated": "\"Forest Hermitage\", Kandy, Sri Lanka",
+            "dcterms:date": "5.Aug.1980"
         },
         {
             "@type": "Item",
@@ -32020,6 +32470,7 @@
             "source": "F02-JM001-AM004-F0161",
             "title": "Moderner Buddhismus Europa Asien 2 - F0161",
             "tag": [
+                "done_round_1",
                 "alysejah"
             ],
             "photo": [
@@ -32076,7 +32527,10 @@
                     "date": 1670580405000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0026"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NAPONIKA | Siegmund Feniger",
+            "LocationCreated": "\"Forest Hermitage\", Kandy, Sri Lanka",
+            "dcterms:date": "5.Aug.1980"
         },
         {
             "@type": "Item",
@@ -32090,7 +32544,9 @@
             "source": "F02-JM001-AM004-F0162",
             "title": "Moderner Buddhismus Europa Asien 2 - F0162",
             "tag": [
-                "alysejah"
+                "rescan",
+                "alysejah",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -32146,7 +32602,10 @@
                     "date": 1670580446000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0028"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NAPONIKA | Siegmund Feniger",
+            "LocationCreated": "'Forest Hermitage', Kandy, Sri Lanka",
+            "dcterms:date": "5. Aug. 1980"
         },
         {
             "@type": "Item",
@@ -32160,7 +32619,10 @@
             "source": "F02-JM001-AM007-B0340",
             "title": "Moderner Buddhismus Europa Asien 2 - F0163",
             "tag": [
-                "alysejah"
+                "alysejah",
+                "problem",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -32216,7 +32678,8 @@
                     "date": 1670580535000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0030"
                 }
-            ]
+            ],
+            "dcterms:date": "15.9.88"
         },
         {
             "@type": "Item",
@@ -32230,7 +32693,9 @@
             "source": "F02-JM001-AM007-F0164",
             "title": "Moderner Buddhismus Europa Asien 2 - F0164",
             "tag": [
-                "alysejah"
+                "alysejah",
+                "rescan",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -32286,7 +32751,10 @@
                     "date": 1670580559000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0032"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Siegmund Feniger",
+            "LocationCreated": "Berlin",
+            "dcterms:date": "4. Febr. 1934"
         },
         {
             "@type": "Item",
@@ -32300,7 +32768,8 @@
             "source": "F02-JM001-AM007-F0165",
             "title": "Moderner Buddhismus Europa Asien 2 - F0165",
             "tag": [
-                "alysejah"
+                "alysejah",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -32356,7 +32825,10 @@
                     "date": 1670580580000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0034"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ny\u0101naponika",
+            "LocationCreated": "FOREST HERMITAGE",
+            "dcterms:date": "M\u00e4rz 1986"
         },
         {
             "@type": "Item",
@@ -32370,7 +32842,11 @@
             "source": "F02-JM001-AM007-F0166",
             "title": "Moderner Buddhismus Europa Asien 2 - F0166",
             "tag": [
-                "alysejah"
+                "rescan",
+                "alysejah",
+                "problem",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -32440,7 +32916,9 @@
             "source": "F02-JM001-AM007-F0167",
             "title": "Moderner Buddhismus Europa Asien 2 - F0167",
             "tag": [
-                "alysejah"
+                "rescan",
+                "alysejah",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -32496,7 +32974,11 @@
                     "date": 1670580651000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0038"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanaponika Mahathera",
+            "LocationCreated": "Forest Hermitage",
+            "dcterms:creator": "Detlef Kantowsky",
+            "dcterms:date": "April 1991"
         },
         {
             "@type": "Item",
@@ -32510,6 +32992,7 @@
             "source": "F02-JM001-AM007-F0168",
             "title": "Moderner Buddhismus Europa Asien 2 - F0168",
             "tag": [
+                "done_round_1",
                 "alysejah"
             ],
             "photo": [
@@ -32566,7 +33049,11 @@
                     "date": 1670580676000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0040"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Kheminda Mahathera",
+            "LocationCreated": "Vajirarama, Ba?balapitiya, Colombo 5",
+            "dcterms:creator": "Detlef Kantowsky",
+            "dcterms:date": "9.4.91"
         },
         {
             "@type": "Item",
@@ -32580,6 +33067,7 @@
             "source": "F02-JM001-AM007-F0169",
             "title": "Moderner Buddhismus Europa Asien 2 - F0169",
             "tag": [
+                "done_round_1",
                 "alysejah"
             ],
             "photo": [
@@ -32636,7 +33124,11 @@
                     "date": 1670580717000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0042"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanaponika Mahathera",
+            "LocationCreated": "Haus der Besinnung, CH-Diecken",
+            "dcterms:creator": "Martin Onken",
+            "dcterms:date": "Vesakh 1976"
         },
         {
             "@type": "Item",
@@ -32650,6 +33142,7 @@
             "source": "F02-JM001-AM007-F0170",
             "title": "Moderner Buddhismus Europa Asien 2 - F0170",
             "tag": [
+                "done_round_1",
                 "alysejah"
             ],
             "photo": [
@@ -32706,7 +33199,11 @@
                     "date": 1670580751000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0044"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanaponika Mahathera",
+            "LocationCreated": "Haus der Besinnung, CH-Diecken",
+            "dcterms:creator": "Martin Onken",
+            "dcterms:date": "Vesakh 1976"
         },
         {
             "@type": "Item",
@@ -32720,6 +33217,7 @@
             "source": "F02-JM001-AM007-F0171",
             "title": "Moderner Buddhismus Europa Asien 2 - F0171",
             "tag": [
+                "done_round_1",
                 "alysejah"
             ],
             "photo": [
@@ -32776,7 +33274,11 @@
                     "date": 1670580792000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0046"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanaponika Mahathera",
+            "LocationCreated": "Haus der Besinnung, CH-Diecken",
+            "dcterms:creator": "Martin Onken",
+            "dcterms:date": "Vesakh 1976"
         },
         {
             "@type": "Item",
@@ -32790,6 +33292,7 @@
             "source": "F02-JM001-AM007-F0172",
             "title": "Moderner Buddhismus Europa Asien 2 - F0172",
             "tag": [
+                "done_round_1",
                 "alysejah"
             ],
             "photo": [
@@ -32846,7 +33349,8 @@
                     "date": 1670580817000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0048"
                 }
-            ]
+            ],
+            "dcterms:creator": "Detlef Kantowsky"
         },
         {
             "@type": "Item",
@@ -32860,6 +33364,7 @@
             "source": "F02-JM001-AM008-F0248",
             "title": "Moderner Buddhismus Europa Asien 2 - B0334",
             "tag": [
+                "done_round_1",
                 "alysejah"
             ],
             "photo": [
@@ -32916,7 +33421,11 @@
                     "date": 1670423669000,
                     "title": "Containers_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1256491_0045"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Nyanaponika Mahathera",
+            "LocationCreated": "'Haus der Besinnung' CH-9115 Dicken",
+            "dcterms:creator": "Martin Onken",
+            "dcterms:date": "am Vesakh 1976"
         },
         {
             "@type": "Item",
@@ -32930,6 +33439,7 @@
             "source": "F02-JM002-AM001-F0173",
             "title": "Moderner Buddhismus Europa Asien 2 - F0173",
             "tag": [
+                "done_round_1",
                 "alysejah"
             ],
             "photo": [
@@ -32986,7 +33496,10 @@
                     "date": 1670580867000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0050"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Richard Abeyasekera",
+            "LocationCreated": "vor dem B\u00fcro der \"Buddhist Publication Society\" ",
+            "dcterms:date": "5. Aug. 1980"
         },
         {
             "@type": "Item",
@@ -33000,7 +33513,9 @@
             "source": "F02-JM002-AM001-F0174",
             "title": "Moderner Buddhismus Europa Asien 2 - F0174",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -33056,7 +33571,10 @@
                     "date": 1670580891000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0052"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "RICHARD ABEYASEKERA",
+            "LocationCreated": "vor dem B\u00fcro der \"Buddhist Publication Society\" ",
+            "dcterms:date": "5. Aug. 1980"
         },
         {
             "@type": "Item",
@@ -33070,7 +33588,9 @@
             "source": "F02-JM002-AM001-F0175",
             "title": "Moderner Buddhismus Europa Asien 2 - F0175",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -33126,7 +33646,8 @@
                     "date": 1670580912000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0054"
                 }
-            ]
+            ],
+            "LocationCreated": "' Island Hermitage Polgasduwa' , Sri Lanka"
         },
         {
             "@type": "Item",
@@ -33140,6 +33661,7 @@
             "source": "F02-JM002-AM001-F0176",
             "title": "Moderner Buddhismus Europa Asien 2 - F0176",
             "tag": [
+                "done_round_1",
                 "alysejah"
             ],
             "photo": [
@@ -33196,7 +33718,9 @@
                     "date": 1670580953000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0056"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "VIMALO | Franz. Joseph Bauer; KONDA\u00d1\u00d1O | Bartel Bauer",
+            "LocationCreated": "' Island Hermitage Polgasduwa'"
         },
         {
             "@type": "Item",
@@ -33210,7 +33734,9 @@
             "source": "F02-JM002-AM001-F0177",
             "title": "Moderner Buddhismus Europa Asien 2 - F0177",
             "tag": [
-                "alysejah"
+                "alysejah",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -33280,7 +33806,9 @@
             "source": "F02-JM002-AM001-F0178",
             "title": "Moderner Buddhismus Europa Asien 2 - F0178",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -33336,7 +33864,9 @@
                     "date": 1670580989000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0060"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "VIMALO | Franz. Joseph Bauer; KONDA\u00d1\u00d1O | Bartel Bauer",
+            "LocationCreated": "'Island Hermitage Polgasduwa'"
         },
         {
             "@type": "Item",
@@ -33350,7 +33880,9 @@
             "source": "F02-JM002-AM001-F0179",
             "title": "Moderner Buddhismus Europa Asien 2 - F0179",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -33406,7 +33938,9 @@
                     "date": 1670581024000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0062"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "VIMALO | Franz. Joseph Bauer; KONDA\u00d1\u00d1O | Bartel Bauer",
+            "LocationCreated": "'Island Hermitage Polgasduwa'"
         },
         {
             "@type": "Item",
@@ -33420,7 +33954,9 @@
             "source": "F02-JM002-AM001-F0180",
             "title": "Moderner Buddhismus Europa Asien 2 - F0180",
             "tag": [
-                "alysejah"
+                "done_round_1",
+                "alysejah",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -33476,7 +34012,11 @@
                     "date": 1670581050000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0064"
                 }
-            ]
+            ],
+            "PersonInImage": "VAPPO Thero | Ludwig Stolz; Georg Stolz; ",
+            "PersonInImageWDetails": "VAPPO Thero | Ludwig Stolz; Georg; ",
+            "LocationCreated": "\"Island Hermitage Polgasduwa\"",
+            "dcterms:date": "1920"
         },
         {
             "@type": "Item",
@@ -33490,7 +34030,10 @@
             "source": "F02-JM002-AM001-F0181",
             "title": "Moderner Buddhismus Europa Asien 2 - F0181",
             "tag": [
-                "pema"
+                "done_round_1",
+                "rights_inscribed",
+                "pema",
+                "problem"
             ],
             "photo": [
                 {
@@ -33546,7 +34089,10 @@
                     "date": 1670581081000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0066"
                 }
-            ]
+            ],
+            "PersonInImage": "VAPPO Thero | Ludwig Stolz; Georg Stolz",
+            "PersonInImageWDetails": "VAPPO Thero | Ludwig Stolz; Georg",
+            "dcterms:date": "um 1920"
         },
         {
             "@type": "Item",
@@ -33560,7 +34106,10 @@
             "source": "F02-JM002-AM001-F0182",
             "title": "Moderner Buddhismus Europa Asien 2 - F0182",
             "tag": [
-                "pema"
+                "done_round_1",
+                "rights_inscribed",
+                "pema",
+                "problem"
             ],
             "photo": [
                 {
@@ -33616,7 +34165,9 @@
                     "date": 1670581126000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0068"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "VAPPO Thero | Ludwig Stolz",
+            "dcterms:date": "um 1920 | Dezember 1920"
         },
         {
             "@type": "Item",
@@ -33630,6 +34181,8 @@
             "source": "F02-JM002-AM001-F0183",
             "title": "Moderner Buddhismus Europa Asien 2 - F0183",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "pema"
             ],
             "photo": [
@@ -33686,7 +34239,8 @@
                     "date": 1670581152000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0070"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "VAPPO Thero | Ludwig Stolz; Mr. Okada; Inouye; Mr. Toukamoto"
         },
         {
             "@type": "Item",
@@ -33700,7 +34254,10 @@
             "source": "F02-JM002-AM001-F0184",
             "title": "Moderner Buddhismus Europa Asien 2 - F0184",
             "tag": [
-                "pema"
+                "done_round_1",
+                "rights_inscribed",
+                "pema",
+                "problem"
             ],
             "photo": [
                 {
@@ -33756,7 +34313,9 @@
                     "date": 1670581187000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0072"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Unbekannt",
+            "dcterms:date": "20er Jahre?"
         },
         {
             "@type": "Item",
@@ -33770,6 +34329,8 @@
             "source": "F02-JM002-AM001-F0185",
             "title": "Moderner Buddhismus Europa Asien 2 - F0185",
             "tag": [
+                "done_round_1",
+                "rights_inscribed",
                 "pema"
             ],
             "photo": [
@@ -33826,7 +34387,9 @@
                     "date": 1670581212000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0074"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "BHIKKU \u00d1\u0100\u1e46AMOLI | Osbert Moore",
+            "dcterms:date": "25th Oct. 1958"
         },
         {
             "@type": "Item",
@@ -33840,6 +34403,7 @@
             "source": "F02-JM002-AM001-F0186",
             "title": "Moderner Buddhismus Europa Asien 2 - F0186",
             "tag": [
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -33910,6 +34474,8 @@
             "source": "F02-JM002-AM001-F0187",
             "title": "Moderner Buddhismus Europa Asien 2 - F0187",
             "tag": [
+                "rescan",
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -33980,6 +34546,7 @@
             "source": "F02-JM002-AM001-F0188",
             "title": "Moderner Buddhismus Europa Asien 2 - F0188",
             "tag": [
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -34050,6 +34617,7 @@
             "source": "F02-JM002-AM001-F0189",
             "title": "Moderner Buddhismus Europa Asien 2 - F0189",
             "tag": [
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -34120,6 +34688,7 @@
             "source": "F02-JM002-AM001-F0190",
             "title": "Moderner Buddhismus Europa Asien 2 - F0190",
             "tag": [
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -34190,6 +34759,7 @@
             "source": "F02-JM002-AM001-F0191",
             "title": "Moderner Buddhismus Europa Asien 2 - F0191",
             "tag": [
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -34260,6 +34830,8 @@
             "source": "F02-JM002-AM001-F0192",
             "title": "Moderner Buddhismus Europa Asien 2 - F0192",
             "tag": [
+                "rescan",
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -34330,7 +34902,8 @@
             "source": "F02-JM002-AM001-F0193",
             "title": "Moderner Buddhismus Europa Asien 2 - F0193",
             "tag": [
-                "pema"
+                "pema",
+                "problem"
             ],
             "photo": [
                 {
@@ -34386,7 +34959,8 @@
                     "date": 1670581443000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0090"
                 }
-            ]
+            ],
+            "dcterms:date": "7./5. 1952"
         },
         {
             "@type": "Item",
@@ -34400,7 +34974,10 @@
             "source": "F02-JM002-AM001-F0194",
             "title": "Moderner Buddhismus Europa Asien 2 - F0194",
             "tag": [
-                "pema"
+                "done_round_1",
+                "pema",
+                "problem",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -34456,7 +35033,8 @@
                     "date": 1670581473000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0092"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "OSKAR SCHLO\u00df"
         },
         {
             "@type": "Item",
@@ -34470,7 +35048,9 @@
             "source": "F02-JM002-AM001-F0195",
             "title": "Moderner Buddhismus Europa Asien 2 - F0195",
             "tag": [
-                "pema"
+                "done_round_1",
+                "pema",
+                "problem"
             ],
             "photo": [
                 {
@@ -34526,7 +35106,8 @@
                     "date": 1670581511000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0094"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Wladyslaw Misiewicz"
         },
         {
             "@type": "Item",
@@ -34540,7 +35121,9 @@
             "source": "F02-JM002-AM001-F0196",
             "title": "Moderner Buddhismus Europa Asien 2 - F0196",
             "tag": [
-                "pema"
+                "pema",
+                "problem",
+                "translation_needed"
             ],
             "photo": [
                 {
@@ -34610,7 +35193,10 @@
             "source": "F02-JM002-AM001-F0197",
             "title": "Moderner Buddhismus Europa Asien 2 - F0197",
             "tag": [
-                "pema"
+                "rescan",
+                "pema",
+                "problem",
+                "translation_needed"
             ],
             "photo": [
                 {
@@ -34680,7 +35266,11 @@
             "source": "F02-JM002-AM001-F0198",
             "title": "Moderner Buddhismus Europa Asien 2 - F0198",
             "tag": [
-                "pema"
+                "rescan",
+                "done_round_1",
+                "pema",
+                "problem",
+                "translation_needed"
             ],
             "photo": [
                 {
@@ -34736,7 +35326,9 @@
                     "date": 1670581616000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0100"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Mia edzino; kaj min filo",
+            "dcterms:date": "Augusto 1948"
         },
         {
             "@type": "Item",
@@ -34750,7 +35342,11 @@
             "source": "F02-JM002-AM001-F0199",
             "title": "Moderner Buddhismus Europa Asien 2 - F0199",
             "tag": [
-                "pema"
+                "rescan",
+                "done_round_1",
+                "pema",
+                "problem",
+                "translation_needed"
             ],
             "photo": [
                 {
@@ -34806,7 +35402,10 @@
                     "date": 1670581637000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0102"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Kamil Sedl\u00e1\u010dek",
+            "LocationCreated": "Tiebi\u011b, \u010ceskoslovensko",
+            "dcterms:date": "4.8.46"
         },
         {
             "@type": "Item",
@@ -34820,7 +35419,11 @@
             "source": "F02-JM002-AM001-F0200",
             "title": "Moderner Buddhismus Europa Asien 2 - F0200",
             "tag": [
-                "pema"
+                "done_round_1",
+                "pema",
+                "problem",
+                "translation_needed",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -34876,7 +35479,9 @@
                     "date": 1670581667000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0104"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Aldrich Novosad",
+            "dcterms:date": "15./1.1932"
         },
         {
             "@type": "Item",
@@ -34890,7 +35495,11 @@
             "source": "F02-JM002-AM001-F0201",
             "title": "Moderner Buddhismus Europa Asien 2 - F0201",
             "tag": [
-                "pema"
+                "done_round_1",
+                "pema",
+                "problem",
+                "rights_inscribed",
+                "translation_needed"
             ],
             "photo": [
                 {
@@ -34946,7 +35555,9 @@
                     "date": 1670581690000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0106"
                 }
-            ]
+            ],
+            "LocationCreated": "\u010cSR - Brno, Masarykova 37",
+            "dcterms:date": "2.1.1949"
         },
         {
             "@type": "Item",
@@ -34960,7 +35571,9 @@
             "source": "F02-JM002-AM001-F0202",
             "title": "Moderner Buddhismus Europa Asien 2 - F0202",
             "tag": [
-                "pema"
+                "pema",
+                "problem",
+                "translation_needed"
             ],
             "photo": [
                 {
@@ -35030,7 +35643,10 @@
             "source": "F02-JM002-AM001-F0203",
             "title": "Moderner Buddhismus Europa Asien 2 - F0203",
             "tag": [
-                "pema"
+                "done_round_1",
+                "pema",
+                "problem",
+                "translation_needed"
             ],
             "photo": [
                 {
@@ -35086,7 +35702,10 @@
                     "date": 1670581758000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0110"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Pavel Ko\u0161\u00edk",
+            "LocationCreated": "Brno - \u010ceskoslovensko",
+            "dcterms:date": "1941"
         },
         {
             "@type": "Item",
@@ -35100,7 +35719,10 @@
             "source": "F02-JM002-AM001-F0204",
             "title": "Moderner Buddhismus Europa Asien 2 - F0204",
             "tag": [
-                "pema"
+                "rights_inscribed",
+                "pema",
+                "problem",
+                "translation_needed"
             ],
             "photo": [
                 {
@@ -35170,7 +35792,9 @@
             "source": "F02-JM002-AM001-F0205",
             "title": "Moderner Buddhismus Europa Asien 2 - F0205",
             "tag": [
-                "pema"
+                "pema",
+                "problem",
+                "translation_needed"
             ],
             "photo": [
                 {
@@ -35226,7 +35850,8 @@
                     "date": 1670581807000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0114"
                 }
-            ]
+            ],
+            "dcterms:date": "8./10.1899"
         },
         {
             "@type": "Item",
@@ -35296,7 +35921,8 @@
                     "date": 1670581855000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0116"
                 }
-            ]
+            ],
+            "PersonInImage": "Shanti Bhadra"
         },
         {
             "@type": "Item",
@@ -35310,7 +35936,8 @@
             "source": "F02-JM002-AM003-F0207",
             "title": "Moderner Buddhismus Europa Asien 2 - F0207",
             "tag": [
-                "pema"
+                "pema",
+                "problem"
             ],
             "photo": [
                 {
@@ -35366,7 +35993,8 @@
                     "date": 1670581882000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0118"
                 }
-            ]
+            ],
+            "PersonInImage": "Shanti Bhadra"
         },
         {
             "@type": "Item",
@@ -35380,7 +36008,9 @@
             "source": "F02-JM002-AM003-F0208",
             "title": "Moderner Buddhismus Europa Asien 2 - F0208",
             "tag": [
-                "pema"
+                "done_round_1",
+                "pema",
+                "problem"
             ],
             "photo": [
                 {
@@ -35436,7 +36066,9 @@
                     "date": 1670582003000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0120"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Shanti Bhadra",
+            "dcterms:date": "31/XII/59"
         },
         {
             "@type": "Item",
@@ -35450,7 +36082,9 @@
             "source": "F02-JM002-AM003-F0209",
             "title": "Moderner Buddhismus Europa Asien 2 - F0209",
             "tag": [
-                "pema"
+                "done_round_1",
+                "pema",
+                "problem"
             ],
             "photo": [
                 {
@@ -35506,7 +36140,9 @@
                     "date": 1670582023000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0122"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Kheminda Thera; Soma Thera; Bhikku Vinita",
+            "dcterms:date": "24.8.57"
         },
         {
             "@type": "Item",
@@ -35520,7 +36156,9 @@
             "source": "F02-JM002-AM003-F0210",
             "title": "Moderner Buddhismus Europa Asien 2 - F0210",
             "tag": [
-                "pema"
+                "done_round_1",
+                "pema",
+                "problem"
             ],
             "photo": [
                 {
@@ -35576,7 +36214,8 @@
                     "date": 1670582050000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0124"
                 }
-            ]
+            ],
+            "PersonInImage": "Soma Thera; Kheminda Thera"
         },
         {
             "@type": "Item",
@@ -35590,6 +36229,7 @@
             "source": "F02-JM002-AM003-F0211",
             "title": "Moderner Buddhismus Europa Asien 2 - F0211",
             "tag": [
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -35646,7 +36286,8 @@
                     "date": 1670582074000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0126"
                 }
-            ]
+            ],
+            "PersonInImage": "Soma Thera"
         },
         {
             "@type": "Item",
@@ -35660,6 +36301,7 @@
             "source": "F02-JM002-AM003-F0212",
             "title": "Moderner Buddhismus Europa Asien 2 - F0212",
             "tag": [
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -35716,7 +36358,8 @@
                     "date": 1670582114000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0128"
                 }
-            ]
+            ],
+            "PersonInImage": "Soma Thera; Kheminda Thera"
         },
         {
             "@type": "Item",
@@ -35730,6 +36373,7 @@
             "source": "F02-JM002-AM003-F0213",
             "title": "Moderner Buddhismus Europa Asien 2 - F0213",
             "tag": [
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -35786,7 +36430,8 @@
                     "date": 1670582193000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0130"
                 }
-            ]
+            ],
+            "PersonInImage": "Soma Thera; Kheminda Thera"
         },
         {
             "@type": "Item",
@@ -35800,6 +36445,7 @@
             "source": "F02-JM002-AM003-F0214",
             "title": "Moderner Buddhismus Europa Asien 2 - F0214",
             "tag": [
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -35856,7 +36502,8 @@
                     "date": 1670582218000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0132"
                 }
-            ]
+            ],
+            "PersonInImage": "Soma Thera; Kheminda Thera"
         },
         {
             "@type": "Item",
@@ -35870,6 +36517,8 @@
             "source": "F02-JM002-AM003-F0215",
             "title": "Moderner Buddhismus Europa Asien 2 - F0215",
             "tag": [
+                "rescan",
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -35926,7 +36575,9 @@
                     "date": 1670582236000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0134"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Venerable Madihe Pa\u00f1\u00f1asiha Maha Nayaka Thera of Vajir\u0101r\u0101ma",
+            "LocationCreated": "Colombo (4), Ceylon"
         },
         {
             "@type": "Item",
@@ -35940,6 +36591,7 @@
             "source": "F02-JM002-AM003-F0216",
             "title": "Moderner Buddhismus Europa Asien 2 - F0216",
             "tag": [
+                "done_round_1",
                 "pema"
             ],
             "photo": [
@@ -35996,7 +36648,10 @@
                     "date": 1670582271000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0136"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Venerable Sobhita",
+            "LocationCreated": "Pavillon de Cambodge, 27 Boulevard Jourdan, Paris 14",
+            "dcterms:date": "6.6.64"
         },
         {
             "@type": "Item",
@@ -37068,7 +37723,8 @@
             "source": "F02-JM002-AM004-F0232",
             "title": "Moderner Buddhismus Europa Asien 2 - F0232",
             "tag": [
-                "eric"
+                "eric",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37124,7 +37780,9 @@
                     "date": 1670582742000,
                     "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0168"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Taungpulu-tawya Kab\u0101-Aye Sayadaw",
+            "LocationCreated": "Rangoon"
         },
         {
             "@type": "Item",
@@ -37418,7 +38076,9 @@
             "source": "F05-JM001-AM004-F0237",
             "title": "Deutsche Buddhisten - F0237",
             "tag": [
-                "max"
+                "max",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37473,7 +38133,10 @@
                     "date": 1670230917000,
                     "title": "Images_Deutsche_Buddhisten_1253604_0012"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Maungg Maungg Hwin; U Kyaw Hla; Lama Anagarika Govina | Ernst Lothar Hoffmann; Ny\u0101natiloka | Anton W.F. Gueth; Adinavaysa Thera",
+            "dcterms:date": "April 1929",
+            "LocationCreated": "Mandalay, Burma"
         },
         {
             "@type": "Item",
@@ -37487,7 +38150,10 @@
             "source": "F05-JM001-AM004-F0238",
             "title": "Deutsche Buddhisten - F0238",
             "tag": [
-                "max"
+                "max",
+                "problem",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -37543,7 +38209,10 @@
                     "date": 1670230945000,
                     "title": "Images_Deutsche_Buddhisten_1253604_0014"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ny\u0101naloka | Rajasinghe, Singh; Ny\u0101natiloka | Anton W. F. Gueth; Ny\u0101nasumedha; Ny\u0101naponika | Siegmund Feniger",
+            "dcterms:date": "6.5.1935",
+            "LocationCreated": "Studio in Shri Lanka"
         },
         {
             "@type": "Item",
@@ -37557,7 +38226,9 @@
             "source": "F05-JM001-AM004-F0239",
             "title": "Deutsche Buddhisten - F0239",
             "tag": [
-                "max"
+                "max",
+                "done_round_1",
+                "rights_inscribed"
             ],
             "photo": [
                 {
@@ -37613,7 +38284,10 @@
                     "date": 1670230978000,
                     "title": "Images_Deutsche_Buddhisten_1253604_0016"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ny\u0101natiloka | Anton W. F. Gueth",
+            "dcterms:date": "1935",
+            "LocationCreated": "vor einem privaten Landhaus bei Morawaka, Shri Lanka"
         },
         {
             "@type": "Item",
@@ -37627,7 +38301,9 @@
             "source": "F05-JM001-AM004-F0240",
             "title": "Deutsche Buddhisten - F0240",
             "tag": [
-                "max"
+                "max",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37683,7 +38359,8 @@
                     "date": 1670230997000,
                     "title": "Images_Deutsche_Buddhisten_1253604_0018"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "ANURUDDHA | K. HEMARATNE; NY\u0100\u1e46\u0100LOKA | Thierry VALLOI; MAL DHAMMAJIVA | KIU AH WANG; VAPPA | Pieter PRINS; DHAMMASANTA | Manfred FATH; NY\u0100\u1e46ASANTA | Dietfried REGULA; PIYARATANA | A.K. JAYATILLEKE; DHAMMARATANA | Thomas Schreiber; NY\u0100\u1e46ASUMANA | Olivier MAILLEBUAU"
         },
         {
             "@type": "Item",
@@ -37697,7 +38374,10 @@
             "source": "F05-JM001-AM004-F0241",
             "title": "Deutsche Buddhisten - F0241",
             "tag": [
-                "max"
+                "max",
+                "rights_inscribed",
+                "problem",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37753,7 +38433,9 @@
                     "date": 1670231017000,
                     "title": "Images_Deutsche_Buddhisten_1253604_0020"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "NY\u0100NAPONIKA | Siegmund Feniger; VAPPO | Ludwig Stolz; Ny\u0101nakhetto | Peter Schoenfeldt | Swami Gauribala | NYANAKHETTO; NYANAPIYA | Julius Pistor; NYANAMALITO | Malte Schoenfeldt",
+            "LocationCreated": "'Island Hermitage Polgasduwa' in Dodanduwa, Shri Lanka"
         },
         {
             "@type": "Item",
@@ -37767,7 +38449,8 @@
             "source": "F05-JM001-AM005-F0242",
             "title": "Deutsche Buddhisten - F0242",
             "tag": [
-                "max"
+                "max",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37823,7 +38506,8 @@
                     "date": 1670231037000,
                     "title": "Images_Deutsche_Buddhisten_1253604_0022"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. Wolfgang Schumacher"
         },
         {
             "@type": "Item",
@@ -37837,7 +38521,8 @@
             "source": "F05-JM001-AM005-F0243",
             "title": "Deutsche Buddhisten - F0243",
             "tag": [
-                "max"
+                "max",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37893,7 +38578,8 @@
                     "date": 1670231054000,
                     "title": "Images_Deutsche_Buddhisten_1253604_0024"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. Wolfgang Schumacher"
         },
         {
             "@type": "Item",
@@ -37907,7 +38593,8 @@
             "source": "F05-JM001-AM005-F0244",
             "title": "Deutsche Buddhisten - F0244",
             "tag": [
-                "max"
+                "max",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -37963,7 +38650,10 @@
                     "date": 1670231083000,
                     "title": "Images_Deutsche_Buddhisten_1253604_0026"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. med. Wolfgang Schumacher; Ilse",
+            "dcterms:date": "1952",
+            "LocationCreated": "Heilst\u00e4tte Ganz"
         },
         {
             "@type": "Item",
@@ -37977,7 +38667,9 @@
             "source": "F05-JM001-AM005-F0245",
             "title": "Deutsche Buddhisten - F0245",
             "tag": [
-                "max"
+                "max",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -38033,7 +38725,9 @@
                     "date": 1670231099000,
                     "title": "Images_Deutsche_Buddhisten_1253604_0028"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Dr. Wolf gang Schumacher",
+            "dcterms:date": "1952"
         },
         {
             "@type": "Item",
@@ -38047,7 +38741,9 @@
             "source": "F05-JM001-AM006-F0246",
             "title": "Deutsche Buddhisten - F0246",
             "tag": [
-                "max"
+                "max",
+                "rights_inscribed",
+                "done_round_1"
             ],
             "photo": [
                 {
@@ -38103,7 +38799,8 @@
                     "date": 1670231118000,
                     "title": "Images_Deutsche_Buddhisten_1253604_0030"
                 }
-            ]
+            ],
+            "PersonInImageWDetails": "Ludwig STOLZ | VAPPO"
         },
         {
             "@type": "Item",
