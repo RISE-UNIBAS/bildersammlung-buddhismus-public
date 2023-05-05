@@ -106,13 +106,32 @@ class Client:
     @staticmethod
     def fix_namespace(json_export: dict,
                       save_path: str) -> None:
-        """ bla
+        """ Fix namespace error occurring when exporting partial items: 'dcterms:date' becomes 'date' if 'dc:date' is
+        empty, dito for 'dcterms:creator'. Assumes that 'date' and 'creator' fields have not yet been filled in (they
+        get overwritten).
 
         :param json_export: loaded Tropy JSON export file
         :param save_path: complete path to save file including file extension
         """
 
-        pass
+        tropy = Tropy(json_export=json_export)
+        for item in tropy.graph:
+            if item["identifier"] == "test identifier":
+                pass
+            else:
+                try:
+                    item["dcterms:creator"] = item["creator"]
+                    del item["creator"]
+                except KeyError:
+                    pass
+                try:
+                    item["dcterms:date"] = item["date"]
+                    del item["date"]
+                except KeyError:
+                    pass
+
+        Utility.save_json(data=tropy.json_export,
+                          file_path=save_path)
 
     @staticmethod
     def persons2csv(json_export: dict,
