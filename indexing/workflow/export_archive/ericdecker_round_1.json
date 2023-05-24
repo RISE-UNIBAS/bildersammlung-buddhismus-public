@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://tropy.org/v1/tropy#",
+    "template": {
+      "@type": "@id"
+    },
+    "photo": {
+      "@id": "https://tropy.org/v1/tropy#photo",
+      "@container": "@list"
+    },
+    "note": {
+      "@id": "https://tropy.org/v1/tropy#note",
+      "@container": "@list"
+    },
+    "selection": {
+      "@id": "https://tropy.org/v1/tropy#selection",
+      "@container": "@list"
+    },
+    "object": "http://www.europeana.eu/schemas/edm/object",
+    "type": "http://purl.org/dc/elements/1.1/type",
+    "identifier": "http://purl.org/dc/elements/1.1/identifier",
+    "isPartOf": "http://purl.org/dc/terms/isPartOf",
+    "source": "http://purl.org/dc/elements/1.1/source",
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "LocationCreated": "http://iptc.org/std/Iptc4xmpExt/2008-02-29/LocationCreated",
+    "PersonInImageWDetails": "http://iptc.org/std/Iptc4xmpExt/2008-02-29/PersonInImageWDetails",
+    "format": "http://purl.org/dc/elements/1.1/format",
+    "date": {
+      "@id": "http://purl.org/dc/elements/1.1/date",
+      "@type": "https://tropy.org/v1/tropy#date"
+    }
+  },
+  "@graph": [
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#iTbU0YBP",
+      "object": "AM004",
+      "box": "F02",
+      "folder": "JM002",
+      "type": "Foto",
+      "identifier": "F0232",
+      "isPartOf": "FB0147",
+      "source": "F02-JM002-AM004-F0232",
+      "title": "Moderner Buddhismus Europa Asien 2 - F0232",
+      "LocationCreated": "Rangoon",
+      "PersonInImageWDetails": "Taungpulu-tawya Kabā-Aye Sayadaw",
+      "tag": [
+        "eric",
+        "done_round_1"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "fc36c456dae68d764ed96947a5585b26",
+          "color": "rgb(24,24,56,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0167.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "C:\\Users\\deckere\\Documents\\GitHub\\bildersammlung-buddhismus-public\\digitized\\WE 1 Moderner Buddhismus Europa und Asien Teil 2\\Images\\Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0167.jpg",
+          "protocol": "file",
+          "size": 705422,
+          "template": "https://tropy.org/v1/templates/id#Oi0DBbM4",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1670,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1238,
+          "format": "A6",
+          "date": 1670582737000,
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0167",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Iat “Taungpulu-tawya Kabā-Aye Sayadaw” ein Personenname?",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Iat&nbsp;“Taungpulu-tawya Kabā-Aye Sayadaw” ein Personenname?</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Photo",
+          "checksum": "db026cdaa378984c5c4c4ff2b7abcaf3",
+          "color": "rgb(216,216,216,1)",
+          "density": null,
+          "filename": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0168.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "C:\\Users\\deckere\\Documents\\GitHub\\bildersammlung-buddhismus-public\\digitized\\WE 1 Moderner Buddhismus Europa und Asien Teil 2\\Images\\Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0168.jpg",
+          "protocol": "file",
+          "size": 321320,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1534,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1102,
+          "date": 1670582742000,
+          "title": "Images_WE_1_Moderner_Buddhismus_Europa_und_Asien_Teil_2_1258140_0168"
+        }
+      ]
+    }
+  ],
+  "version": "1.13.0"
+}

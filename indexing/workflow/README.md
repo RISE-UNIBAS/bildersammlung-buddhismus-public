@@ -8,7 +8,7 @@ Semi-automated workflow on `students` branch to collaborate on Tropy project to 
 
 This dataset was created by the University of Basel's Research and Infrastructure Support RISE (rise@unibas.ch) in 2023. The automation script was forked from @sorinmarti.
 
-## Overview 
+## Overview
 
 ### Setup
 
