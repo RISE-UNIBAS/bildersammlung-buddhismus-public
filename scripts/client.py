@@ -9,6 +9,7 @@ from scripts.transform import Transform, TransformFotoblatt, TransformContainer,
 from scripts.tropy import Tropy
 from scripts.utility import Utility
 import copy
+import time
 
 
 class Client:
@@ -198,3 +199,38 @@ class Client:
         Utility.save_csv(header=header,
                          data=data,
                          file_path=save_path)
+
+    @staticmethod
+    def add_normalized_names(tropy_file_path: str,
+                             name_csv_path: str,
+                             tropy_save_path: str = None) -> None:
+        """ Add names by item ID to an item's PersonInImage field .
+
+        The CSV file must be formatted with a header 'name,name/person ID,item ID'.
+
+        :param tropy_file_path: complete path to Tropy export file including file extension
+        :param tropy_save_path: complete path to updated Tropy save file including file extension, defaults to None
+        :param name_csv_path: complete path to CSV name file
+        """
+
+        tropy = Tropy(json_export=Utility.load_json(tropy_file_path))
+        csv = Utility.load_csv(name_csv_path)
+
+        for item in tropy.graph:
+            if item["type"] != "Foto":  # TODO: generalize
+                continue
+            else:
+                for row in csv[1:]:
+                    if item["identifier"] == row[2]:
+                        try:
+                            item["PersonInImage"] = f"{item['PersonInImage']}; {row[0]}"
+                        except KeyError:
+                            item["PersonInImage"] = row[0]
+                        finally:
+                            print(f"{row[0]} added to {item['identifier']}")
+
+        if tropy_save_path is None:
+            tropy_save_path = "".join(
+                tropy_file_path.split(".")[:-1] + [f"_updated_{time.strftime('%Y%m%d-%H%M%S')}.json"])
+        Utility.save_json(data=tropy.json_export,
+                          file_path=tropy_save_path)
