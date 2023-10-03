@@ -126,6 +126,7 @@ Note that items classified as `Dubletten` in `/archive/archivordnung.tpy` do not
 - `F02-JM001-AM006-B0331` deleted (back side of `F02-JM001-AM006-B0330`)
 - `F02-JM001-AM007-F0163` misclassified (`Foto` instead of `Blatt`), new `F02-JM001-AM007-B0340`
 - `F02-JM001-AM008-B0334` misclassified (`Blatt` instead of `Foto`), new `F01-JM003-AM002-F0248`
+- `F03-JM004-AM046-B0157` becomes `F03-JM004-AM047-B0157`, and `F03-JM004-AM046-B0341` was added (missing scan)
 
 ## To dos
 
