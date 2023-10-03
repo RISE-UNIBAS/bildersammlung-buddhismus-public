@@ -1,0 +1,275 @@
+2023-05-30 14:36:35,597 INFO:root:Started Client.
+2023-05-30 14:36:35,600 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): account.readcoop.eu:443
+2023-05-30 14:36:35,773 DEBUG:urllib3.connectionpool:https://account.readcoop.eu:443 "POST /auth/realms/readcoop/protocol/openid-connect/token HTTP/1.1" 200 2437
+2023-05-30 14:36:35,774 INFO:root:maximilian.hindermann@unibas.ch authorized successfully with https://transkribus.eu/processing/v1.
+2023-05-30 14:36:35,776 INFO:root:Started Client().enrich_tropy(tropy_file_path=C:\Users\hinder0000\PycharmProjects\metagrapho-tropy/_2023-05-30/export_master.json, download_file_path=C:\Users\hinder0000\PycharmProjects\metagrapho-tropy/sample/download_input.json),tropy_save_path=C:\Users\hinder0000\PycharmProjects\metagrapho-tropy/_2023-05-30/export_master_enriched.json,lines=True.
+2023-05-30 14:36:35,849 INFO:root:Item B0340 not enriched, empty transcription.
+2023-05-30 14:36:35,849 INFO:root:Item F0001 not enriched, empty transcription.
+2023-05-30 14:36:35,850 INFO:root:Successfully enriched item F0002.
+2023-05-30 14:36:35,851 INFO:root:Successfully enriched item F0003.
+2023-05-30 14:36:35,851 INFO:root:Item F0004 not enriched, empty transcription.
+2023-05-30 14:36:35,851 INFO:root:Item F0005 not enriched, empty transcription.
+2023-05-30 14:36:35,851 INFO:root:Successfully enriched item F0006.
+2023-05-30 14:36:35,852 INFO:root:Successfully enriched item F0007.
+2023-05-30 14:36:35,852 INFO:root:Successfully enriched item F0008.
+2023-05-30 14:36:35,853 INFO:root:Successfully enriched item F0009.
+2023-05-30 14:36:35,853 INFO:root:Successfully enriched item F0010.
+2023-05-30 14:36:35,854 INFO:root:Successfully enriched item F0011.
+2023-05-30 14:36:35,855 INFO:root:Successfully enriched item F0012.
+2023-05-30 14:36:35,857 INFO:root:Successfully enriched item F0013.
+2023-05-30 14:36:35,857 INFO:root:Successfully enriched item F0014.
+2023-05-30 14:36:35,858 INFO:root:Successfully enriched item F0015.
+2023-05-30 14:36:35,858 INFO:root:Successfully enriched item F0016.
+2023-05-30 14:36:35,859 INFO:root:Successfully enriched item F0017.
+2023-05-30 14:36:35,859 INFO:root:Successfully enriched item F0018.
+2023-05-30 14:36:35,860 INFO:root:Successfully enriched item F0019.
+2023-05-30 14:36:35,860 INFO:root:Successfully enriched item F0020.
+2023-05-30 14:36:35,861 INFO:root:Successfully enriched item F0021.
+2023-05-30 14:36:35,861 INFO:root:Successfully enriched item F0022.
+2023-05-30 14:36:35,862 INFO:root:Successfully enriched item F0023.
+2023-05-30 14:36:35,862 INFO:root:Successfully enriched item F0024.
+2023-05-30 14:36:35,863 INFO:root:Successfully enriched item F0025.
+2023-05-30 14:36:35,864 INFO:root:Successfully enriched item F0026.
+2023-05-30 14:36:35,864 INFO:root:Successfully enriched item F0027.
+2023-05-30 14:36:35,865 INFO:root:Successfully enriched item F0028.
+2023-05-30 14:36:35,865 INFO:root:Successfully enriched item F0029.
+2023-05-30 14:36:35,865 INFO:root:Item F0030 not enriched, empty transcription.
+2023-05-30 14:36:35,867 INFO:root:Successfully enriched item F0031.
+2023-05-30 14:36:35,868 INFO:root:Successfully enriched item F0032.
+2023-05-30 14:36:35,869 INFO:root:Successfully enriched item F0033.
+2023-05-30 14:36:35,870 INFO:root:Successfully enriched item F0034.
+2023-05-30 14:36:35,871 INFO:root:Successfully enriched item F0035.
+2023-05-30 14:36:35,872 INFO:root:Successfully enriched item F0036.
+2023-05-30 14:36:35,873 INFO:root:Successfully enriched item F0037.
+2023-05-30 14:36:35,874 INFO:root:Successfully enriched item F0038.
+2023-05-30 14:36:35,874 INFO:root:Successfully enriched item F0039.
+2023-05-30 14:36:35,875 INFO:root:Successfully enriched item F0040.
+2023-05-30 14:36:35,876 INFO:root:Successfully enriched item F0041.
+2023-05-30 14:36:35,877 INFO:root:Successfully enriched item F0042.
+2023-05-30 14:36:35,878 INFO:root:Successfully enriched item F0043.
+2023-05-30 14:36:35,879 INFO:root:Successfully enriched item F0044.
+2023-05-30 14:36:35,880 INFO:root:Successfully enriched item F0045.
+2023-05-30 14:36:35,881 INFO:root:Successfully enriched item F0046.
+2023-05-30 14:36:35,882 INFO:root:Successfully enriched item F0047.
+2023-05-30 14:36:35,883 INFO:root:Successfully enriched item F0048.
+2023-05-30 14:36:35,884 INFO:root:Successfully enriched item F0049.
+2023-05-30 14:36:35,885 INFO:root:Successfully enriched item F0050.
+2023-05-30 14:36:35,886 INFO:root:Successfully enriched item F0051.
+2023-05-30 14:36:35,887 INFO:root:Successfully enriched item F0052.
+2023-05-30 14:36:35,888 INFO:root:Successfully enriched item F0053.
+2023-05-30 14:36:35,889 INFO:root:Successfully enriched item F0054.
+2023-05-30 14:36:35,890 INFO:root:Successfully enriched item F0055.
+2023-05-30 14:36:35,890 INFO:root:Successfully enriched item F0056.
+2023-05-30 14:36:35,890 INFO:root:Successfully enriched item F0057.
+2023-05-30 14:36:35,891 INFO:root:Successfully enriched item F0058.
+2023-05-30 14:36:35,892 INFO:root:Successfully enriched item F0059.
+2023-05-30 14:36:35,892 INFO:root:Item F0060 not enriched, empty transcription.
+2023-05-30 14:36:35,892 INFO:root:Item F0061 not enriched, empty transcription.
+2023-05-30 14:36:35,892 INFO:root:Item F0062 not enriched, empty transcription.
+2023-05-30 14:36:35,892 INFO:root:Item F0063 not enriched, empty transcription.
+2023-05-30 14:36:35,892 INFO:root:Item F0064 not enriched, empty transcription.
+2023-05-30 14:36:35,892 INFO:root:Successfully enriched item F0065.
+2023-05-30 14:36:35,894 INFO:root:Successfully enriched item F0066.
+2023-05-30 14:36:35,895 INFO:root:Successfully enriched item F0067.
+2023-05-30 14:36:35,896 INFO:root:Successfully enriched item F0068.
+2023-05-30 14:36:35,896 INFO:root:Item F0069 not enriched, empty transcription.
+2023-05-30 14:36:35,896 INFO:root:Successfully enriched item F0070.
+2023-05-30 14:36:35,897 INFO:root:Successfully enriched item F0071.
+2023-05-30 14:36:35,899 INFO:root:Successfully enriched item F0072.
+2023-05-30 14:36:35,900 INFO:root:Successfully enriched item F0073.
+2023-05-30 14:36:35,900 INFO:root:Successfully enriched item F0074.
+2023-05-30 14:36:35,901 INFO:root:Successfully enriched item F0075.
+2023-05-30 14:36:35,902 INFO:root:Successfully enriched item F0076.
+2023-05-30 14:36:35,903 INFO:root:Successfully enriched item F0077.
+2023-05-30 14:36:35,904 INFO:root:Successfully enriched item F0078.
+2023-05-30 14:36:35,906 INFO:root:Successfully enriched item F0079.
+2023-05-30 14:36:35,906 INFO:root:Successfully enriched item F0080.
+2023-05-30 14:36:35,908 INFO:root:Successfully enriched item F0081.
+2023-05-30 14:36:35,909 INFO:root:Successfully enriched item F0082.
+2023-05-30 14:36:35,910 INFO:root:Successfully enriched item F0083.
+2023-05-30 14:36:35,912 INFO:root:Successfully enriched item F0084.
+2023-05-30 14:36:35,913 INFO:root:Successfully enriched item F0085.
+2023-05-30 14:36:35,914 INFO:root:Successfully enriched item F0086.
+2023-05-30 14:36:35,916 INFO:root:Successfully enriched item F0087.
+2023-05-30 14:36:35,917 INFO:root:Successfully enriched item F0088.
+2023-05-30 14:36:35,918 INFO:root:Successfully enriched item F0089.
+2023-05-30 14:36:35,919 INFO:root:Successfully enriched item F0090.
+2023-05-30 14:36:35,920 INFO:root:Successfully enriched item F0091.
+2023-05-30 14:36:35,921 INFO:root:Successfully enriched item F0092.
+2023-05-30 14:36:35,922 INFO:root:Successfully enriched item F0093.
+2023-05-30 14:36:35,923 INFO:root:Successfully enriched item F0094.
+2023-05-30 14:36:35,924 INFO:root:Successfully enriched item F0095.
+2023-05-30 14:36:35,925 INFO:root:Successfully enriched item F0096.
+2023-05-30 14:36:35,926 INFO:root:Successfully enriched item F0097.
+2023-05-30 14:36:35,927 INFO:root:Successfully enriched item F0098.
+2023-05-30 14:36:35,929 INFO:root:Successfully enriched item F0099.
+2023-05-30 14:36:35,930 INFO:root:Successfully enriched item F0100.
+2023-05-30 14:36:35,932 INFO:root:Successfully enriched item F0101.
+2023-05-30 14:36:35,933 INFO:root:Successfully enriched item F0102.
+2023-05-30 14:36:35,933 INFO:root:Successfully enriched item F0103.
+2023-05-30 14:36:35,934 INFO:root:Successfully enriched item F0104.
+2023-05-30 14:36:35,935 INFO:root:Successfully enriched item F0105.
+2023-05-30 14:36:35,936 INFO:root:Successfully enriched item F0106.
+2023-05-30 14:36:35,936 INFO:root:Successfully enriched item F0107.
+2023-05-30 14:36:35,937 INFO:root:Successfully enriched item F0108.
+2023-05-30 14:36:35,937 INFO:root:Successfully enriched item F0109.
+2023-05-30 14:36:35,938 INFO:root:Successfully enriched item F0110.
+2023-05-30 14:36:35,939 INFO:root:Successfully enriched item F0111.
+2023-05-30 14:36:35,939 INFO:root:Successfully enriched item F0112.
+2023-05-30 14:36:35,939 INFO:root:Successfully enriched item F0113.
+2023-05-30 14:36:35,940 INFO:root:Successfully enriched item F0114.
+2023-05-30 14:36:35,940 INFO:root:Successfully enriched item F0115.
+2023-05-30 14:36:35,940 INFO:root:Successfully enriched item F0116.
+2023-05-30 14:36:35,941 INFO:root:Successfully enriched item F0117.
+2023-05-30 14:36:35,942 INFO:root:Successfully enriched item F0118.
+2023-05-30 14:36:35,943 INFO:root:Successfully enriched item F0119.
+2023-05-30 14:36:35,944 INFO:root:Successfully enriched item F0120.
+2023-05-30 14:36:35,945 INFO:root:Successfully enriched item F0121.
+2023-05-30 14:36:35,946 INFO:root:Successfully enriched item F0122.
+2023-05-30 14:36:35,947 INFO:root:Successfully enriched item F0123.
+2023-05-30 14:36:35,948 INFO:root:Successfully enriched item F0124.
+2023-05-30 14:36:35,949 INFO:root:Successfully enriched item F0125.
+2023-05-30 14:36:35,950 INFO:root:Successfully enriched item F0126.
+2023-05-30 14:36:35,951 INFO:root:Successfully enriched item F0127.
+2023-05-30 14:36:35,952 INFO:root:Successfully enriched item F0128.
+2023-05-30 14:36:35,953 INFO:root:Successfully enriched item F0129.
+2023-05-30 14:36:35,954 INFO:root:Successfully enriched item F0130.
+2023-05-30 14:36:35,955 INFO:root:Successfully enriched item F0131.
+2023-05-30 14:36:35,958 INFO:root:Successfully enriched item F0132.
+2023-05-30 14:36:35,959 INFO:root:Successfully enriched item F0133.
+2023-05-30 14:36:35,961 INFO:root:Successfully enriched item F0134.
+2023-05-30 14:36:35,962 INFO:root:Successfully enriched item F0135.
+2023-05-30 14:36:35,964 INFO:root:Successfully enriched item F0136.
+2023-05-30 14:36:35,965 INFO:root:Successfully enriched item F0137.
+2023-05-30 14:36:35,966 INFO:root:Successfully enriched item F0138.
+2023-05-30 14:36:35,967 INFO:root:Successfully enriched item F0139.
+2023-05-30 14:36:35,967 ERROR:root:Item F0140 has no result, previous processing or download failed.
+Traceback (most recent call last):
+  File "C:\Users\hinder0000\PycharmProjects\metagrapho-tropy\metagrapho_tropy\client.py", line 378, in enrich_tropy
+    text = download[parsed_item.identifier][2]["content"]["text"]  # TODO: add metadata for transcription
+KeyError: 'content'
+2023-05-30 14:36:35,977 INFO:root:Successfully enriched item F0141.
+2023-05-30 14:36:35,978 INFO:root:Successfully enriched item F0142.
+2023-05-30 14:36:35,979 INFO:root:Successfully enriched item F0143.
+2023-05-30 14:36:35,980 INFO:root:Successfully enriched item F0144.
+2023-05-30 14:36:35,982 INFO:root:Successfully enriched item F0145.
+2023-05-30 14:36:35,983 INFO:root:Successfully enriched item F0146.
+2023-05-30 14:36:35,984 INFO:root:Successfully enriched item F0147.
+2023-05-30 14:36:35,986 INFO:root:Successfully enriched item F0148.
+2023-05-30 14:36:35,989 INFO:root:Successfully enriched item F0149.
+2023-05-30 14:36:35,989 ERROR:root:Item F0150 has no result, previous processing or download failed.
+Traceback (most recent call last):
+  File "C:\Users\hinder0000\PycharmProjects\metagrapho-tropy\metagrapho_tropy\client.py", line 378, in enrich_tropy
+    text = download[parsed_item.identifier][2]["content"]["text"]  # TODO: add metadata for transcription
+KeyError: 'content'
+2023-05-30 14:36:35,991 INFO:root:Successfully enriched item F0151.
+2023-05-30 14:36:35,992 INFO:root:Successfully enriched item F0152.
+2023-05-30 14:36:35,993 INFO:root:Successfully enriched item F0153.
+2023-05-30 14:36:35,995 INFO:root:Successfully enriched item F0154.
+2023-05-30 14:36:35,998 INFO:root:Successfully enriched item F0155.
+2023-05-30 14:36:35,999 INFO:root:Successfully enriched item F0156.
+2023-05-30 14:36:36,000 INFO:root:Successfully enriched item F0157.
+2023-05-30 14:36:36,001 INFO:root:Successfully enriched item F0158.
+2023-05-30 14:36:36,001 INFO:root:Successfully enriched item F0159.
+2023-05-30 14:36:36,002 INFO:root:Successfully enriched item F0160.
+2023-05-30 14:36:36,003 INFO:root:Successfully enriched item F0161.
+2023-05-30 14:36:36,003 ERROR:root:Item F0162 has no result, previous processing or download failed.
+Traceback (most recent call last):
+  File "C:\Users\hinder0000\PycharmProjects\metagrapho-tropy\metagrapho_tropy\client.py", line 378, in enrich_tropy
+    text = download[parsed_item.identifier][2]["content"]["text"]  # TODO: add metadata for transcription
+KeyError: 'content'
+2023-05-30 14:36:36,003 INFO:root:Item F0164 not enriched, empty transcription.
+2023-05-30 14:36:36,003 INFO:root:Item F0165 not enriched, empty transcription.
+2023-05-30 14:36:36,004 INFO:root:Successfully enriched item F0166.
+2023-05-30 14:36:36,004 INFO:root:Successfully enriched item F0167.
+2023-05-30 14:36:36,006 INFO:root:Successfully enriched item F0168.
+2023-05-30 14:36:36,006 INFO:root:Successfully enriched item F0169.
+2023-05-30 14:36:36,007 INFO:root:Successfully enriched item F0170.
+2023-05-30 14:36:36,007 INFO:root:Item F0171 not enriched, empty transcription.
+2023-05-30 14:36:36,007 INFO:root:Successfully enriched item F0172.
+2023-05-30 14:36:36,007 INFO:root:Item F0173 not enriched, empty transcription.
+2023-05-30 14:36:36,008 INFO:root:Successfully enriched item F0174.
+2023-05-30 14:36:36,009 INFO:root:Successfully enriched item F0175.
+2023-05-30 14:36:36,010 INFO:root:Successfully enriched item F0176.
+2023-05-30 14:36:36,011 INFO:root:Successfully enriched item F0177.
+2023-05-30 14:36:36,014 INFO:root:Successfully enriched item F0178.
+2023-05-30 14:36:36,016 INFO:root:Successfully enriched item F0179.
+2023-05-30 14:36:36,019 INFO:root:Successfully enriched item F0180.
+2023-05-30 14:36:36,021 INFO:root:Successfully enriched item F0181.
+2023-05-30 14:36:36,022 INFO:root:Successfully enriched item F0182.
+2023-05-30 14:36:36,023 INFO:root:Successfully enriched item F0183.
+2023-05-30 14:36:36,024 INFO:root:Successfully enriched item F0184.
+2023-05-30 14:36:36,026 INFO:root:Successfully enriched item F0185.
+2023-05-30 14:36:36,026 INFO:root:Successfully enriched item F0186.
+2023-05-30 14:36:36,026 INFO:root:Item F0187 not enriched, empty transcription.
+2023-05-30 14:36:36,026 ERROR:root:Item F0188 has no result, previous processing or download failed.
+Traceback (most recent call last):
+  File "C:\Users\hinder0000\PycharmProjects\metagrapho-tropy\metagrapho_tropy\client.py", line 378, in enrich_tropy
+    text = download[parsed_item.identifier][2]["content"]["text"]  # TODO: add metadata for transcription
+KeyError: 'content'
+2023-05-30 14:36:36,026 INFO:root:Item F0189 not enriched, empty transcription.
+2023-05-30 14:36:36,026 INFO:root:Item F0190 not enriched, empty transcription.
+2023-05-30 14:36:36,026 INFO:root:Item F0191 not enriched, empty transcription.
+2023-05-30 14:36:36,027 INFO:root:Successfully enriched item F0192.
+2023-05-30 14:36:36,028 INFO:root:Successfully enriched item F0193.
+2023-05-30 14:36:36,028 INFO:root:Successfully enriched item F0194.
+2023-05-30 14:36:36,029 INFO:root:Successfully enriched item F0195.
+2023-05-30 14:36:36,030 INFO:root:Item F0196 not enriched, empty transcription.
+2023-05-30 14:36:36,030 INFO:root:Successfully enriched item F0197.
+2023-05-30 14:36:36,031 INFO:root:Successfully enriched item F0198.
+2023-05-30 14:36:36,031 INFO:root:Successfully enriched item F0199.
+2023-05-30 14:36:36,032 INFO:root:Successfully enriched item F0200.
+2023-05-30 14:36:36,032 INFO:root:Successfully enriched item F0201.
+2023-05-30 14:36:36,033 INFO:root:Successfully enriched item F0202.
+2023-05-30 14:36:36,033 INFO:root:Item F0203 not enriched, empty transcription.
+2023-05-30 14:36:36,034 INFO:root:Successfully enriched item F0204.
+2023-05-30 14:36:36,034 INFO:root:Successfully enriched item F0205.
+2023-05-30 14:36:36,034 INFO:root:Item F0206 not enriched, empty transcription.
+2023-05-30 14:36:36,034 INFO:root:Item F0207 not enriched, empty transcription.
+2023-05-30 14:36:36,034 INFO:root:Item F0208 not enriched, empty transcription.
+2023-05-30 14:36:36,035 INFO:root:Successfully enriched item F0209.
+2023-05-30 14:36:36,035 INFO:root:Item F0210 not enriched, empty transcription.
+2023-05-30 14:36:36,035 INFO:root:Item F0211 not enriched, empty transcription.
+2023-05-30 14:36:36,035 INFO:root:Item F0212 not enriched, empty transcription.
+2023-05-30 14:36:36,035 INFO:root:Item F0213 not enriched, empty transcription.
+2023-05-30 14:36:36,035 INFO:root:Item F0214 not enriched, empty transcription.
+2023-05-30 14:36:36,035 INFO:root:Successfully enriched item F0215.
+2023-05-30 14:36:36,036 INFO:root:Successfully enriched item F0216.
+2023-05-30 14:36:36,036 INFO:root:Item F0217 not enriched, empty transcription.
+2023-05-30 14:36:36,037 INFO:root:Successfully enriched item F0218.
+2023-05-30 14:36:36,037 INFO:root:Successfully enriched item F0219.
+2023-05-30 14:36:36,038 INFO:root:Successfully enriched item F0220.
+2023-05-30 14:36:36,038 INFO:root:Successfully enriched item F0221.
+2023-05-30 14:36:36,039 INFO:root:Successfully enriched item F0222.
+2023-05-30 14:36:36,039 INFO:root:Item F0223 not enriched, empty transcription.
+2023-05-30 14:36:36,039 INFO:root:Item F0224 not enriched, empty transcription.
+2023-05-30 14:36:36,039 INFO:root:Item F0225 not enriched, empty transcription.
+2023-05-30 14:36:36,039 INFO:root:Item F0226 not enriched, empty transcription.
+2023-05-30 14:36:36,039 INFO:root:Item F0227 not enriched, empty transcription.
+2023-05-30 14:36:36,039 ERROR:root:Item F0228 has no result, previous processing or download failed.
+Traceback (most recent call last):
+  File "C:\Users\hinder0000\PycharmProjects\metagrapho-tropy\metagrapho_tropy\client.py", line 378, in enrich_tropy
+    text = download[parsed_item.identifier][2]["content"]["text"]  # TODO: add metadata for transcription
+KeyError: 'content'
+2023-05-30 14:36:36,040 INFO:root:Successfully enriched item F0229.
+2023-05-30 14:36:36,040 INFO:root:Successfully enriched item F0230.
+2023-05-30 14:36:36,041 INFO:root:Successfully enriched item F0231.
+2023-05-30 14:36:36,041 INFO:root:Successfully enriched item F0232.
+2023-05-30 14:36:36,042 INFO:root:Successfully enriched item F0233.
+2023-05-30 14:36:36,043 INFO:root:Successfully enriched item F0234.
+2023-05-30 14:36:36,044 INFO:root:Successfully enriched item F0235.
+2023-05-30 14:36:36,045 INFO:root:Successfully enriched item F0236.
+2023-05-30 14:36:36,045 INFO:root:Successfully enriched item F0237.
+2023-05-30 14:36:36,047 INFO:root:Successfully enriched item F0238.
+2023-05-30 14:36:36,048 INFO:root:Successfully enriched item F0239.
+2023-05-30 14:36:36,066 INFO:root:Successfully enriched item F0240.
+2023-05-30 14:36:36,067 INFO:root:Successfully enriched item F0241.
+2023-05-30 14:36:36,068 INFO:root:Successfully enriched item F0242.
+2023-05-30 14:36:36,069 INFO:root:Successfully enriched item F0243.
+2023-05-30 14:36:36,071 INFO:root:Successfully enriched item F0244.
+2023-05-30 14:36:36,071 INFO:root:Successfully enriched item F0245.
+2023-05-30 14:36:36,071 INFO:root:Successfully enriched item F0246.
+2023-05-30 14:36:36,072 INFO:root:Successfully enriched item F0247.
+2023-05-30 14:36:36,073 INFO:root:Successfully enriched item F0248.
+2023-05-30 14:36:36,340 INFO:root:Enriched Tropy export JSON-LD file saved to C:\Users\hinder0000\PycharmProjects\metagrapho-tropy/_2023-05-30/export_master_enriched.json.
+2023-05-30 14:36:36,340 INFO:root:Finished Client.enrich_tropy.
